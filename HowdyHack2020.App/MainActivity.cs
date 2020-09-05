@@ -5,6 +5,9 @@ using Android.Support.Design.Widget;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
+using System;
+using System.Threading.Tasks;
+using Xamarin.Essentials;
 
 namespace HowdyHack2020.App
 {
@@ -34,7 +37,7 @@ namespace HowdyHack2020.App
             switch (item.ItemId)
             {
                 case Resource.Id.navigation_home:
-                    textMessage.SetText(Resource.String.title_home);
+                    SetHomeText();
                     return true;
                 case Resource.Id.navigation_dashboard:
                     textMessage.SetText(Resource.String.title_dashboard);
@@ -44,6 +47,49 @@ namespace HowdyHack2020.App
                     return true;
             }
             return false;
+        }
+
+        public async Task<Location> GetLocation()
+		{
+            try
+            {
+                var request = new GeolocationRequest(GeolocationAccuracy.Medium);
+                var location = await Geolocation.GetLocationAsync(request);
+
+                if (location != null)
+                {
+                    return location;
+                    Console.WriteLine($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
+                }
+                return null;
+            }
+            catch (FeatureNotSupportedException fnsEx)
+            {
+                // Handle not supported on device exception
+                return null;
+            }
+            catch (FeatureNotEnabledException fneEx)
+            {
+                // Handle not enabled on device exception
+                return null;
+            }
+            catch (PermissionException pEx)
+            {
+                // Handle permission exception
+                return null;
+            }
+            catch (Exception ex)
+            {
+                // Unable to get location
+                return null;
+            }
+        }
+
+        private async void SetHomeText()
+		{
+            var loc = await GetLocation();
+            textMessage.SetText($"({loc.Latitude} , {loc.Longitude})", TextView.BufferType.Normal);
+            //textMessage.SetText(Resource.String.title_home);
         }
     }
 }
