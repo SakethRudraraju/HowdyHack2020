@@ -13,7 +13,6 @@ using Esri.ArcGISRuntime.UI;
 using Esri.ArcGISRuntime.UI.Controls;
 using System;
 using System.Threading.Tasks;
-//using Xamarin.Essentials;
 
 namespace HowdyHack2020.App
 {
@@ -33,6 +32,7 @@ namespace HowdyHack2020.App
             mainMapView = FindViewById<MapView>(Resource.Id.mainMapView);
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
             navigation.SetOnNavigationItemSelectedListener(this);
+            SetHomeText();
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
@@ -101,10 +101,9 @@ namespace HowdyHack2020.App
                 MapGraphics
             };
             mainMapView.Map = new Map(
-                BasemapType.ImageryWithLabels,
-                lat,
-                lon,
-                12
+                BasemapType.Imagery,
+                lat, lon,
+                18
             );
 
             // Now draw a point where the stop is
