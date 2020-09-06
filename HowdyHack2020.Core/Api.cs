@@ -8,7 +8,7 @@ namespace HowdyHack2020.Core
 {
 	public static class Api
 	{
-		public const string HOST = "http://45.63.0.107:3000/";
+		public const string HOST = "https://salty-savannah-27004.herokuapp.com/";
 
 		public static async Task<System.Net.HttpStatusCode> CreateUser(string deviceId)
 		{

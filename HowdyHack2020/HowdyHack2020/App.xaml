@@ -14,6 +14,11 @@
                 <Setter Property="BarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
                 <Setter Property="BarTextColor" Value="White" />
             </Style>
+            <OnPlatform x:Key="MaterialFontFamily" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="Material Design Icons" />
+                <On Platform="Android" Value="Material-Design.ttf#Material-Design-Iconic-Font" />
+                <On Platform="UWP" Value="Assets/Fonts/Material-Design.ttf#Material-Design-Iconic-Font" />
+            </OnPlatform>
         </ResourceDictionary>
     </Application.Resources>
     

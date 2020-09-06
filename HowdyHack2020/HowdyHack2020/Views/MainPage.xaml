@@ -8,23 +8,28 @@
             x:Class="HowdyHack2020.Views.MainPage">
 
     <TabbedPage.Children>
-        <NavigationPage Title="Browse">
+        <NavigationPage Title="Investigate">
             <NavigationPage.IconImageSource>
-                <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="iOS" Value="tab_feed.png"/>
-                </OnPlatform>
+                <FontImageSource Glyph="&#xF1C3;" FontFamily="{StaticResource MaterialFontFamily}"/>
             </NavigationPage.IconImageSource>
             <x:Arguments>
                 <views:ItemsPage />
             </x:Arguments>
         </NavigationPage>
         
+        <NavigationPage Title="Visited">
+            <NavigationPage.IconImageSource>
+                <FontImageSource Glyph="&#xF336;" FontFamily="{StaticResource MaterialFontFamily}"/>
+            </NavigationPage.IconImageSource>
+            <x:Arguments>
+                <views:AboutPage />
+            </x:Arguments>
+        </NavigationPage>
+        
         <NavigationPage Title="About">
-            <NavigationPage.Icon>
-                <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="iOS" Value="tab_about.png"/>
-                </OnPlatform>
-            </NavigationPage.Icon>
+            <NavigationPage.IconImageSource>
+                <FontImageSource Glyph="&#xF1F0;" FontFamily="{StaticResource MaterialFontFamily}"/>
+            </NavigationPage.IconImageSource>
             <x:Arguments>
                 <views:AboutPage />
             </x:Arguments>

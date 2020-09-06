@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="HowdyHack2020.Views.AboutPage"
              xmlns:vm="clr-namespace:HowdyHack2020.ViewModels"
-             Title="{Binding Title}">
+             Title="{Binding Name}">
     
     <ContentPage.BindingContext>
         <vm:AboutViewModel />

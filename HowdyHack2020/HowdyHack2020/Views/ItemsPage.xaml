@@ -6,7 +6,7 @@
              xmlns:core="clr-namespace:HowdyHack2020.Core;assembly=HowdyHack2020.Core"
 			 mc:Ignorable="d"
              x:Class="HowdyHack2020.Views.ItemsPage"
-             Title="{Binding Title}"
+             Title="{Binding Name}"
              x:Name="BrowseItemsPage">
 
     <!--<ContentPage.ToolbarItems>
