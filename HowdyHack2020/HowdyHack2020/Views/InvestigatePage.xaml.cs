@@ -128,10 +128,28 @@ namespace HowdyHack2020.Views
         private async void UpdateUserLocation(object state)
         {
             var loc = await GetLocation();
+
             UserPoint = DrawPoint(
                 loc.Latitude, loc.Longitude,
                 System.Drawing.Color.Red
             );
+
+            var status = await Api.CheckNearby(loc.Latitude, loc.Longitude, SettingsManager.DeviceId);
+            if (status == null)
+			{
+                Xamarin.Forms.Device.BeginInvokeOnMainThread(() =>
+                Message.Text = $"You're not near anything, are you on campus?");
+            }
+            else if (status.Place != null)
+			{
+                Xamarin.Forms.Device.BeginInvokeOnMainThread(() =>
+                Message.Text = $"You found {status.Place.Name}!");
+            }
+            else if (status.Distance.HasValue)
+			{
+                Xamarin.Forms.Device.BeginInvokeOnMainThread(() =>
+                Message.Text = $"You are {status.Distance.Value:0.##} miles away");
+			}
         }
     }
 }

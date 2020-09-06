@@ -26,7 +26,8 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <Label Text="Hello world!"/>
+        <Label x:Name="Message" Text="You're not near anything, are you on campus?"
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
         <esriUI:MapView x:Name="MainMapView" Grid.Row="1"/>
     </Grid>
 
