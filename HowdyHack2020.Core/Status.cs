@@ -8,6 +8,6 @@ namespace HowdyHack2020.Core
 		public double? Distance { get; set; }
 
 		[JsonProperty("place")]
-		public int? Place { get; set; }
+		public Place Place { get; set; }
 	}
 }

@@ -17,6 +17,7 @@ using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Map = Esri.ArcGISRuntime.Mapping.Map;
 using HowdyHack2020.Core;
+using System.Collections.Generic;
 
 namespace HowdyHack2020.App
 {
@@ -67,16 +68,26 @@ namespace HowdyHack2020.App
         Graphic UserPoint;
         System.Threading.Timer HomeTimer;
 
-        private async void InitHome()
+        private async Task InitHome()
         {
             HomeTimer = new System.Threading.Timer(UpdateUserLocation, null, 0, 1000);
 
-            AppDataManager.ResetDeviceId();
             string deviceId = await AppDataManager.EnsureAndGetDeviceId();
 
             var loc = await GetLocation();
             Status dist = await Api.CheckNearby(loc.Latitude, loc.Longitude, deviceId);
-            textMessage.SetText($"You're {10:0.#} miles away", TextView.BufferType.Normal);
+            if (dist == null)
+			{
+                textMessage.SetText($"You're not close to anything", TextView.BufferType.Normal);
+            }
+            else if (dist.Distance != null)
+			{
+                textMessage.SetText($"You're {dist.Distance:0.#} miles away", TextView.BufferType.Normal);
+            }
+            else if (dist.Place != null)
+			{
+                textMessage.SetText($"You've discovered {dist.Place.Name}!", TextView.BufferType.Normal);
+            }
             LoadMap(loc.Latitude, loc.Longitude);
             //textMessage.SetText(Resource.String.title_home);
         }

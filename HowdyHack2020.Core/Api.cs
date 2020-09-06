@@ -34,15 +34,26 @@ namespace HowdyHack2020.Core
 		/// </summary>
 		public static async Task<Status> CheckNearby(double lat, double lon, string deviceId)
 		{
-			var response = await HOST
-				.AppendPathSegments("checkNearby")
-				.PostJsonAsync(new {
-					coordinates = new double[] { lat, lon },
-					deviceID = deviceId
-				});
-			if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
-				return null;
-			return JsonConvert.DeserializeObject<Status>(await response.Content.ReadAsStringAsync());
+			try
+			{
+				var response = await HOST
+					.AppendPathSegments("checkNearby")
+					.PostJsonAsync(new
+					{
+						coordinates = new double[] { lat, lon },
+						deviceID = deviceId
+					});
+				return JsonConvert.DeserializeObject<Status>(await response.Content.ReadAsStringAsync());
+			}
+			catch (FlurlHttpException ex)
+			{
+				switch (ex.Call.HttpStatus)
+				{
+					default:
+					case System.Net.HttpStatusCode.NotFound:
+						return null;
+				}
+			}
 		}
 
 		/// <summary>

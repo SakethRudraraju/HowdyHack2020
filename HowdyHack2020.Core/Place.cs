@@ -16,5 +16,8 @@ namespace HowdyHack2020.Core
 
 		[JsonProperty("clues")]
 		public List<string> Clues { get; set; }
+
+		[JsonProperty("index")]
+		public int Index { get; set; }
 	}
 }
