@@ -5,14 +5,14 @@ using System.Runtime.CompilerServices;
 
 using Xamarin.Forms;
 
-using HowdyHack2020.Models;
 using HowdyHack2020.Services;
+using HowdyHack2020.Core;
 
 namespace HowdyHack2020.ViewModels
 {
 	public class BaseViewModel : INotifyPropertyChanged
 	{
-		public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
+		public IDataStore<Place> DataStore => DependencyService.Get<IDataStore<Place>>();
 
 		bool isBusy = false;
 		public bool IsBusy
@@ -22,7 +22,7 @@ namespace HowdyHack2020.ViewModels
 		}
 
 		string title = string.Empty;
-		public string Title
+		public string Name
 		{
 			get { return title; }
 			set { SetProperty(ref title, value); }

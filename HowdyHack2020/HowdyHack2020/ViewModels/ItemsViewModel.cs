@@ -5,28 +5,28 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-using HowdyHack2020.Models;
 using HowdyHack2020.Views;
+using HowdyHack2020.Core;
 
 namespace HowdyHack2020.ViewModels
 {
 	public class ItemsViewModel : BaseViewModel
 	{
-		public ObservableCollection<Item> Items { get; set; }
+		public ObservableCollection<Place> Items { get; set; }
 		public Command LoadItemsCommand { get; set; }
 
 		public ItemsViewModel()
 		{
-			Title = "Browse";
-			Items = new ObservableCollection<Item>();
+			Name = "Browse";
+			Items = new ObservableCollection<Place>();
 			LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
-			MessagingCenter.Subscribe<NewItemPage, Item>(this, "AddItem", async (obj, item) =>
-			{
-				var newItem = item as Item;
-				Items.Add(newItem);
-				await DataStore.AddItemAsync(newItem);
-			});
+			//MessagingCenter.Subscribe<NewItemPage, Place>(this, "AddItem", async (obj, item) =>
+			//{
+			//	var newItem = item as Place;
+			//	Items.Add(newItem);
+			//	await DataStore.AddItemAsync(newItem);
+			//});
 		}
 
 		async Task ExecuteLoadItemsCommand()
@@ -36,7 +36,7 @@ namespace HowdyHack2020.ViewModels
 			try
 			{
 				Items.Clear();
-				var items = await DataStore.GetItemsAsync(true);
+				var items = await Api.GetPlaces();
 				foreach (var item in items)
 				{
 					Items.Add(item);

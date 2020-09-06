@@ -1,15 +1,15 @@
 ﻿using System;
 
-using HowdyHack2020.Models;
+using HowdyHack2020.Core;
 
 namespace HowdyHack2020.ViewModels
 {
 	public class ItemDetailViewModel : BaseViewModel
 	{
-		public Item Item { get; set; }
-		public ItemDetailViewModel(Item item = null)
+		public Place Item { get; set; }
+		public ItemDetailViewModel(Place item = null)
 		{
-			Title = item?.Text;
+			Name = item?.Name;
 			Item = item;
 		}
 	}

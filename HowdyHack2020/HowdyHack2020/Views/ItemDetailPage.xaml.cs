@@ -3,7 +3,7 @@ using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using HowdyHack2020.Models;
+using HowdyHack2020.Core;
 using HowdyHack2020.ViewModels;
 
 namespace HowdyHack2020.Views
@@ -26,9 +26,9 @@ namespace HowdyHack2020.Views
 		{
 			InitializeComponent();
 
-			var item = new Item
+			var item = new Place
 			{
-				Text = "Item 1",
+				Name = "Item 1",
 				Description = "This is an item description."
 			};
 

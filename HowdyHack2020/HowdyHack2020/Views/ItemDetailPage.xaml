@@ -5,11 +5,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="HowdyHack2020.Views.ItemDetailPage"
-             Title="{Binding Title}">
+             Title="{Binding Name}">
 
     <StackLayout Spacing="20" Padding="15">
         <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Item.Text}" d:Text="Item name" FontSize="Small"/>
+        <Label Text="{Binding Item.Name}" d:Text="Item name" FontSize="Small"/>
         <Label Text="Description:" FontSize="Medium" />
         <Label Text="{Binding Item.Description}" d:Text="Item description" FontSize="Small"/>
     </StackLayout>

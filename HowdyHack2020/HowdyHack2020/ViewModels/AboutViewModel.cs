@@ -9,7 +9,7 @@ namespace HowdyHack2020.ViewModels
 	{
 		public AboutViewModel()
 		{
-			Title = "About";
+			Name = "About";
 			OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://xamarin.com"));
 		}
 
