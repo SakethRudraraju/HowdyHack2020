@@ -8,17 +8,25 @@ namespace HowdyHack2020.Core
 {
 	public static class Api
 	{
-		public const string HOST = "https://salty-savannah-27004.herokuapp.com/";
+		public const string HOST = "http://45.63.0.107:3000/";
 
 		public static async Task<System.Net.HttpStatusCode> CreateUser(string deviceId)
 		{
-			var response = await HOST
-				.AppendPathSegment("newuser")
-				.PostJsonAsync(new {
-					deviceID = deviceId,
-					username = "Dummy"
-				});
-			return response.StatusCode;
+			try
+			{
+				var response = await HOST
+					.AppendPathSegment("newuser")
+					.PostJsonAsync(new
+					{
+						deviceID = deviceId,
+						username = "Dummy2"
+					});
+				return response.StatusCode;
+			}
+			catch (FlurlHttpException ex)
+			{
+				return ex.Call.HttpStatus.GetValueOrDefault();
+			}
 		}
 
 		public static async Task<List<Place>> GetPlaces()

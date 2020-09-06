@@ -12,13 +12,13 @@ namespace HowdyHack2020.ViewModels
 {
 	public class ItemsViewModel : BaseViewModel
 	{
-		public ObservableCollection<Place> Items { get; set; }
+		public ObservableCollection<Place> Visited { get; set; }
 		public Command LoadItemsCommand { get; set; }
 
 		public ItemsViewModel()
 		{
-			Name = "Browse";
-			Items = new ObservableCollection<Place>();
+			Name = "Visited";
+			Visited = new ObservableCollection<Place>();
 			LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
 			//MessagingCenter.Subscribe<NewItemPage, Place>(this, "AddItem", async (obj, item) =>
@@ -35,11 +35,15 @@ namespace HowdyHack2020.ViewModels
 
 			try
 			{
-				Items.Clear();
-				var items = await Api.GetPlaces();
-				foreach (var item in items)
+				Visited.Clear();
+
+				string deviceId = await SettingsManager.EnsureAndGetDeviceId();
+
+				var places = await Api.GetPlaces();
+				var visited = await Api.GetVisitedPlaces(deviceId);
+				foreach (int i in visited)
 				{
-					Items.Add(item);
+					Visited.Add(places[i]);
 				}
 			}
 			catch (Exception ex)

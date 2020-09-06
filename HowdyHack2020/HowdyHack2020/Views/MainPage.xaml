@@ -13,7 +13,7 @@
                 <FontImageSource Glyph="&#xF1C3;" FontFamily="{StaticResource MaterialFontFamily}"/>
             </NavigationPage.IconImageSource>
             <x:Arguments>
-                <views:ItemsPage />
+                <views:InvestigatePage />
             </x:Arguments>
         </NavigationPage>
         
@@ -22,7 +22,7 @@
                 <FontImageSource Glyph="&#xF336;" FontFamily="{StaticResource MaterialFontFamily}"/>
             </NavigationPage.IconImageSource>
             <x:Arguments>
-                <views:AboutPage />
+                <views:ItemsPage />
             </x:Arguments>
         </NavigationPage>
         

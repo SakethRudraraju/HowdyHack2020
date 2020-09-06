@@ -43,7 +43,7 @@ namespace HowdyHack2020.Views
 		{
 			base.OnAppearing();
 
-			if (viewModel.Items.Count == 0)
+			if (viewModel.Visited.Count == 0)
 				viewModel.IsBusy = true;
 		}
 	}
