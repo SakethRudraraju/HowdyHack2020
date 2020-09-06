@@ -11,11 +11,11 @@ namespace HowdyHack2020.ViewModels
 	{
 		public string Message { get; set; }
 
-		public InvestigateViewModel()
+        public Command InitializeCommand { get; set; }
+
+        public InvestigateViewModel()
 		{
 			Name = "Investigate";
-		}
-
-
-	}
+        }
+    }
 }

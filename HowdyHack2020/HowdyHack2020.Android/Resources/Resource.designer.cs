@@ -25,6 +25,2590 @@ namespace HowdyHack2020.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Esri.ArcGISRuntime.AndroidResources.Resource.Drawable.esri = global::HowdyHack2020.Droid.Resource.Drawable.esri;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.abc_fade_in = global::HowdyHack2020.Droid.Resource.Animation.abc_fade_in;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.abc_fade_out = global::HowdyHack2020.Droid.Resource.Animation.abc_fade_out;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.abc_grow_fade_in_from_bottom = global::HowdyHack2020.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.abc_popup_enter = global::HowdyHack2020.Droid.Resource.Animation.abc_popup_enter;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.abc_popup_exit = global::HowdyHack2020.Droid.Resource.Animation.abc_popup_exit;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.abc_shrink_fade_out_from_bottom = global::HowdyHack2020.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.abc_slide_in_bottom = global::HowdyHack2020.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.abc_slide_in_top = global::HowdyHack2020.Droid.Resource.Animation.abc_slide_in_top;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.abc_slide_out_bottom = global::HowdyHack2020.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.abc_slide_out_top = global::HowdyHack2020.Droid.Resource.Animation.abc_slide_out_top;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.abc_tooltip_enter = global::HowdyHack2020.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.abc_tooltip_exit = global::HowdyHack2020.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.design_bottom_sheet_slide_in = global::HowdyHack2020.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.design_bottom_sheet_slide_out = global::HowdyHack2020.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.design_snackbar_in = global::HowdyHack2020.Droid.Resource.Animation.design_snackbar_in;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.design_snackbar_out = global::HowdyHack2020.Droid.Resource.Animation.design_snackbar_out;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.EnterFromLeft = global::HowdyHack2020.Droid.Resource.Animation.EnterFromLeft;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.EnterFromRight = global::HowdyHack2020.Droid.Resource.Animation.EnterFromRight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.ExitToLeft = global::HowdyHack2020.Droid.Resource.Animation.ExitToLeft;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animation.ExitToRight = global::HowdyHack2020.Droid.Resource.Animation.ExitToRight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animator.design_appbar_state_list_animator = global::HowdyHack2020.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animator.design_fab_hide_motion_spec = global::HowdyHack2020.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animator.design_fab_show_motion_spec = global::HowdyHack2020.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animator.mtrl_btn_state_list_anim = global::HowdyHack2020.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::HowdyHack2020.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animator.mtrl_chip_state_list_anim = global::HowdyHack2020.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animator.mtrl_fab_hide_motion_spec = global::HowdyHack2020.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animator.mtrl_fab_show_motion_spec = global::HowdyHack2020.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::HowdyHack2020.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::HowdyHack2020.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionBarDivider = global::HowdyHack2020.Droid.Resource.Attribute.actionBarDivider;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionBarItemBackground = global::HowdyHack2020.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionBarPopupTheme = global::HowdyHack2020.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionBarSize = global::HowdyHack2020.Droid.Resource.Attribute.actionBarSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionBarSplitStyle = global::HowdyHack2020.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionBarStyle = global::HowdyHack2020.Droid.Resource.Attribute.actionBarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionBarTabBarStyle = global::HowdyHack2020.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionBarTabStyle = global::HowdyHack2020.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionBarTabTextStyle = global::HowdyHack2020.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionBarTheme = global::HowdyHack2020.Droid.Resource.Attribute.actionBarTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionBarWidgetTheme = global::HowdyHack2020.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionButtonStyle = global::HowdyHack2020.Droid.Resource.Attribute.actionButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionDropDownStyle = global::HowdyHack2020.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionLayout = global::HowdyHack2020.Droid.Resource.Attribute.actionLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionMenuTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionMenuTextColor = global::HowdyHack2020.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionModeBackground = global::HowdyHack2020.Droid.Resource.Attribute.actionModeBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionModeCloseButtonStyle = global::HowdyHack2020.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionModeCloseDrawable = global::HowdyHack2020.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionModeCopyDrawable = global::HowdyHack2020.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionModeCutDrawable = global::HowdyHack2020.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionModeFindDrawable = global::HowdyHack2020.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionModePasteDrawable = global::HowdyHack2020.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionModePopupWindowStyle = global::HowdyHack2020.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionModeSelectAllDrawable = global::HowdyHack2020.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionModeShareDrawable = global::HowdyHack2020.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionModeSplitBackground = global::HowdyHack2020.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionModeStyle = global::HowdyHack2020.Droid.Resource.Attribute.actionModeStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionModeWebSearchDrawable = global::HowdyHack2020.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionOverflowButtonStyle = global::HowdyHack2020.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionOverflowMenuStyle = global::HowdyHack2020.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionProviderClass = global::HowdyHack2020.Droid.Resource.Attribute.actionProviderClass;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.actionViewClass = global::HowdyHack2020.Droid.Resource.Attribute.actionViewClass;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.activityChooserViewStyle = global::HowdyHack2020.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.alertDialogButtonGroupStyle = global::HowdyHack2020.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.alertDialogCenterButtons = global::HowdyHack2020.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.alertDialogStyle = global::HowdyHack2020.Droid.Resource.Attribute.alertDialogStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.alertDialogTheme = global::HowdyHack2020.Droid.Resource.Attribute.alertDialogTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.allowStacking = global::HowdyHack2020.Droid.Resource.Attribute.allowStacking;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.alpha = global::HowdyHack2020.Droid.Resource.Attribute.alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.alphabeticModifiers = global::HowdyHack2020.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.arrowHeadLength = global::HowdyHack2020.Droid.Resource.Attribute.arrowHeadLength;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.arrowShaftLength = global::HowdyHack2020.Droid.Resource.Attribute.arrowShaftLength;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.autoCompleteTextViewStyle = global::HowdyHack2020.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.autoSizeMaxTextSize = global::HowdyHack2020.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.autoSizeMinTextSize = global::HowdyHack2020.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.autoSizePresetSizes = global::HowdyHack2020.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.autoSizeStepGranularity = global::HowdyHack2020.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.autoSizeTextType = global::HowdyHack2020.Droid.Resource.Attribute.autoSizeTextType;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.background = global::HowdyHack2020.Droid.Resource.Attribute.background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.backgroundSplit = global::HowdyHack2020.Droid.Resource.Attribute.backgroundSplit;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.backgroundStacked = global::HowdyHack2020.Droid.Resource.Attribute.backgroundStacked;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.backgroundTint = global::HowdyHack2020.Droid.Resource.Attribute.backgroundTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.backgroundTintMode = global::HowdyHack2020.Droid.Resource.Attribute.backgroundTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.barLength = global::HowdyHack2020.Droid.Resource.Attribute.barLength;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.behavior_autoHide = global::HowdyHack2020.Droid.Resource.Attribute.behavior_autoHide;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.behavior_fitToContents = global::HowdyHack2020.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.behavior_hideable = global::HowdyHack2020.Droid.Resource.Attribute.behavior_hideable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.behavior_overlapTop = global::HowdyHack2020.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.behavior_peekHeight = global::HowdyHack2020.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.behavior_skipCollapsed = global::HowdyHack2020.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.borderlessButtonStyle = global::HowdyHack2020.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.borderWidth = global::HowdyHack2020.Droid.Resource.Attribute.borderWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.bottomAppBarStyle = global::HowdyHack2020.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.bottomNavigationStyle = global::HowdyHack2020.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.bottomSheetDialogTheme = global::HowdyHack2020.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.bottomSheetStyle = global::HowdyHack2020.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.boxBackgroundColor = global::HowdyHack2020.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.boxBackgroundMode = global::HowdyHack2020.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.boxCollapsedPaddingTop = global::HowdyHack2020.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.boxCornerRadiusBottomEnd = global::HowdyHack2020.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.boxCornerRadiusBottomStart = global::HowdyHack2020.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.boxCornerRadiusTopEnd = global::HowdyHack2020.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.boxCornerRadiusTopStart = global::HowdyHack2020.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.boxStrokeColor = global::HowdyHack2020.Droid.Resource.Attribute.boxStrokeColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.boxStrokeWidth = global::HowdyHack2020.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.buttonBarButtonStyle = global::HowdyHack2020.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.buttonBarNegativeButtonStyle = global::HowdyHack2020.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.buttonBarNeutralButtonStyle = global::HowdyHack2020.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.buttonBarPositiveButtonStyle = global::HowdyHack2020.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.buttonBarStyle = global::HowdyHack2020.Droid.Resource.Attribute.buttonBarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.buttonGravity = global::HowdyHack2020.Droid.Resource.Attribute.buttonGravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.buttonIconDimen = global::HowdyHack2020.Droid.Resource.Attribute.buttonIconDimen;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.buttonPanelSideLayout = global::HowdyHack2020.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.buttonStyle = global::HowdyHack2020.Droid.Resource.Attribute.buttonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.buttonStyleSmall = global::HowdyHack2020.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.buttonTint = global::HowdyHack2020.Droid.Resource.Attribute.buttonTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.buttonTintMode = global::HowdyHack2020.Droid.Resource.Attribute.buttonTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.cardBackgroundColor = global::HowdyHack2020.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.cardCornerRadius = global::HowdyHack2020.Droid.Resource.Attribute.cardCornerRadius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.cardElevation = global::HowdyHack2020.Droid.Resource.Attribute.cardElevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.cardMaxElevation = global::HowdyHack2020.Droid.Resource.Attribute.cardMaxElevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.cardPreventCornerOverlap = global::HowdyHack2020.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.cardUseCompatPadding = global::HowdyHack2020.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.cardViewStyle = global::HowdyHack2020.Droid.Resource.Attribute.cardViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.checkboxStyle = global::HowdyHack2020.Droid.Resource.Attribute.checkboxStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.checkedChip = global::HowdyHack2020.Droid.Resource.Attribute.checkedChip;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.checkedIcon = global::HowdyHack2020.Droid.Resource.Attribute.checkedIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.checkedIconEnabled = global::HowdyHack2020.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.checkedIconVisible = global::HowdyHack2020.Droid.Resource.Attribute.checkedIconVisible;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.checkedTextViewStyle = global::HowdyHack2020.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipBackgroundColor = global::HowdyHack2020.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipCornerRadius = global::HowdyHack2020.Droid.Resource.Attribute.chipCornerRadius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipEndPadding = global::HowdyHack2020.Droid.Resource.Attribute.chipEndPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipGroupStyle = global::HowdyHack2020.Droid.Resource.Attribute.chipGroupStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipIcon = global::HowdyHack2020.Droid.Resource.Attribute.chipIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipIconEnabled = global::HowdyHack2020.Droid.Resource.Attribute.chipIconEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipIconSize = global::HowdyHack2020.Droid.Resource.Attribute.chipIconSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipIconTint = global::HowdyHack2020.Droid.Resource.Attribute.chipIconTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipIconVisible = global::HowdyHack2020.Droid.Resource.Attribute.chipIconVisible;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipMinHeight = global::HowdyHack2020.Droid.Resource.Attribute.chipMinHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipSpacing = global::HowdyHack2020.Droid.Resource.Attribute.chipSpacing;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipSpacingHorizontal = global::HowdyHack2020.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipSpacingVertical = global::HowdyHack2020.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipStandaloneStyle = global::HowdyHack2020.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipStartPadding = global::HowdyHack2020.Droid.Resource.Attribute.chipStartPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipStrokeColor = global::HowdyHack2020.Droid.Resource.Attribute.chipStrokeColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipStrokeWidth = global::HowdyHack2020.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.chipStyle = global::HowdyHack2020.Droid.Resource.Attribute.chipStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.closeIcon = global::HowdyHack2020.Droid.Resource.Attribute.closeIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.closeIconEnabled = global::HowdyHack2020.Droid.Resource.Attribute.closeIconEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.closeIconEndPadding = global::HowdyHack2020.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.closeIconSize = global::HowdyHack2020.Droid.Resource.Attribute.closeIconSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.closeIconStartPadding = global::HowdyHack2020.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.closeIconTint = global::HowdyHack2020.Droid.Resource.Attribute.closeIconTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.closeIconVisible = global::HowdyHack2020.Droid.Resource.Attribute.closeIconVisible;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.closeItemLayout = global::HowdyHack2020.Droid.Resource.Attribute.closeItemLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.collapseContentDescription = global::HowdyHack2020.Droid.Resource.Attribute.collapseContentDescription;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.collapsedTitleGravity = global::HowdyHack2020.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.collapsedTitleTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.collapseIcon = global::HowdyHack2020.Droid.Resource.Attribute.collapseIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.collectionViewStyle = global::HowdyHack2020.Droid.Resource.Attribute.collectionViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.color = global::HowdyHack2020.Droid.Resource.Attribute.color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.colorAccent = global::HowdyHack2020.Droid.Resource.Attribute.colorAccent;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.colorBackgroundFloating = global::HowdyHack2020.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.colorButtonNormal = global::HowdyHack2020.Droid.Resource.Attribute.colorButtonNormal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.colorControlActivated = global::HowdyHack2020.Droid.Resource.Attribute.colorControlActivated;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.colorControlHighlight = global::HowdyHack2020.Droid.Resource.Attribute.colorControlHighlight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.colorControlNormal = global::HowdyHack2020.Droid.Resource.Attribute.colorControlNormal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.colorError = global::HowdyHack2020.Droid.Resource.Attribute.colorError;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.colorPrimary = global::HowdyHack2020.Droid.Resource.Attribute.colorPrimary;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.colorPrimaryDark = global::HowdyHack2020.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.colorSecondary = global::HowdyHack2020.Droid.Resource.Attribute.colorSecondary;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.colorSwitchThumbNormal = global::HowdyHack2020.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.commitIcon = global::HowdyHack2020.Droid.Resource.Attribute.commitIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.contentDescription = global::HowdyHack2020.Droid.Resource.Attribute.contentDescription;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.contentInsetEnd = global::HowdyHack2020.Droid.Resource.Attribute.contentInsetEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.contentInsetEndWithActions = global::HowdyHack2020.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.contentInsetLeft = global::HowdyHack2020.Droid.Resource.Attribute.contentInsetLeft;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.contentInsetRight = global::HowdyHack2020.Droid.Resource.Attribute.contentInsetRight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.contentInsetStart = global::HowdyHack2020.Droid.Resource.Attribute.contentInsetStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.contentInsetStartWithNavigation = global::HowdyHack2020.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.contentPadding = global::HowdyHack2020.Droid.Resource.Attribute.contentPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.contentPaddingBottom = global::HowdyHack2020.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.contentPaddingLeft = global::HowdyHack2020.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.contentPaddingRight = global::HowdyHack2020.Droid.Resource.Attribute.contentPaddingRight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.contentPaddingTop = global::HowdyHack2020.Droid.Resource.Attribute.contentPaddingTop;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.contentScrim = global::HowdyHack2020.Droid.Resource.Attribute.contentScrim;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.controlBackground = global::HowdyHack2020.Droid.Resource.Attribute.controlBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.coordinatorLayoutStyle = global::HowdyHack2020.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.cornerRadius = global::HowdyHack2020.Droid.Resource.Attribute.cornerRadius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.counterEnabled = global::HowdyHack2020.Droid.Resource.Attribute.counterEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.counterMaxLength = global::HowdyHack2020.Droid.Resource.Attribute.counterMaxLength;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.counterOverflowTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.counterTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.counterTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.customNavigationLayout = global::HowdyHack2020.Droid.Resource.Attribute.customNavigationLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.defaultQueryHint = global::HowdyHack2020.Droid.Resource.Attribute.defaultQueryHint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.dialogCornerRadius = global::HowdyHack2020.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.dialogPreferredPadding = global::HowdyHack2020.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.dialogTheme = global::HowdyHack2020.Droid.Resource.Attribute.dialogTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.displayOptions = global::HowdyHack2020.Droid.Resource.Attribute.displayOptions;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.divider = global::HowdyHack2020.Droid.Resource.Attribute.divider;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.dividerHorizontal = global::HowdyHack2020.Droid.Resource.Attribute.dividerHorizontal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.dividerPadding = global::HowdyHack2020.Droid.Resource.Attribute.dividerPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.dividerVertical = global::HowdyHack2020.Droid.Resource.Attribute.dividerVertical;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.drawableSize = global::HowdyHack2020.Droid.Resource.Attribute.drawableSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.drawerArrowStyle = global::HowdyHack2020.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.dropdownListPreferredItemHeight = global::HowdyHack2020.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.dropDownListViewStyle = global::HowdyHack2020.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.editTextBackground = global::HowdyHack2020.Droid.Resource.Attribute.editTextBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.editTextColor = global::HowdyHack2020.Droid.Resource.Attribute.editTextColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.editTextStyle = global::HowdyHack2020.Droid.Resource.Attribute.editTextStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.elevation = global::HowdyHack2020.Droid.Resource.Attribute.elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.enforceMaterialTheme = global::HowdyHack2020.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.enforceTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.errorEnabled = global::HowdyHack2020.Droid.Resource.Attribute.errorEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.errorTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.errorTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.expandActivityOverflowButtonDrawable = global::HowdyHack2020.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.expanded = global::HowdyHack2020.Droid.Resource.Attribute.expanded;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.expandedTitleGravity = global::HowdyHack2020.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.expandedTitleMargin = global::HowdyHack2020.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.expandedTitleMarginBottom = global::HowdyHack2020.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.expandedTitleMarginEnd = global::HowdyHack2020.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.expandedTitleMarginStart = global::HowdyHack2020.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.expandedTitleMarginTop = global::HowdyHack2020.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.expandedTitleTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fabAlignmentMode = global::HowdyHack2020.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fabCradleMargin = global::HowdyHack2020.Droid.Resource.Attribute.fabCradleMargin;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fabCradleRoundedCornerRadius = global::HowdyHack2020.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fabCradleVerticalOffset = global::HowdyHack2020.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fabCustomSize = global::HowdyHack2020.Droid.Resource.Attribute.fabCustomSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fabSize = global::HowdyHack2020.Droid.Resource.Attribute.fabSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fastScrollEnabled = global::HowdyHack2020.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::HowdyHack2020.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::HowdyHack2020.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fastScrollVerticalThumbDrawable = global::HowdyHack2020.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fastScrollVerticalTrackDrawable = global::HowdyHack2020.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.firstBaselineToTopHeight = global::HowdyHack2020.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.floatingActionButtonStyle = global::HowdyHack2020.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.font = global::HowdyHack2020.Droid.Resource.Attribute.font;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fontFamily = global::HowdyHack2020.Droid.Resource.Attribute.fontFamily;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fontProviderAuthority = global::HowdyHack2020.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fontProviderCerts = global::HowdyHack2020.Droid.Resource.Attribute.fontProviderCerts;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fontProviderFetchStrategy = global::HowdyHack2020.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fontProviderFetchTimeout = global::HowdyHack2020.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fontProviderPackage = global::HowdyHack2020.Droid.Resource.Attribute.fontProviderPackage;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fontProviderQuery = global::HowdyHack2020.Droid.Resource.Attribute.fontProviderQuery;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fontStyle = global::HowdyHack2020.Droid.Resource.Attribute.fontStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fontVariationSettings = global::HowdyHack2020.Droid.Resource.Attribute.fontVariationSettings;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.fontWeight = global::HowdyHack2020.Droid.Resource.Attribute.fontWeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.foregroundInsidePadding = global::HowdyHack2020.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.gapBetweenBars = global::HowdyHack2020.Droid.Resource.Attribute.gapBetweenBars;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.goIcon = global::HowdyHack2020.Droid.Resource.Attribute.goIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.headerLayout = global::HowdyHack2020.Droid.Resource.Attribute.headerLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.height = global::HowdyHack2020.Droid.Resource.Attribute.height;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.helperText = global::HowdyHack2020.Droid.Resource.Attribute.helperText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.helperTextEnabled = global::HowdyHack2020.Droid.Resource.Attribute.helperTextEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.helperTextTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.hideMotionSpec = global::HowdyHack2020.Droid.Resource.Attribute.hideMotionSpec;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.hideOnContentScroll = global::HowdyHack2020.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.hideOnScroll = global::HowdyHack2020.Droid.Resource.Attribute.hideOnScroll;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.hintAnimationEnabled = global::HowdyHack2020.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.hintEnabled = global::HowdyHack2020.Droid.Resource.Attribute.hintEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.hintTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.hintTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.homeAsUpIndicator = global::HowdyHack2020.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.homeLayout = global::HowdyHack2020.Droid.Resource.Attribute.homeLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.hoveredFocusedTranslationZ = global::HowdyHack2020.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.icon = global::HowdyHack2020.Droid.Resource.Attribute.icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.iconEndPadding = global::HowdyHack2020.Droid.Resource.Attribute.iconEndPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.iconGravity = global::HowdyHack2020.Droid.Resource.Attribute.iconGravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.iconifiedByDefault = global::HowdyHack2020.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.iconPadding = global::HowdyHack2020.Droid.Resource.Attribute.iconPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.iconSize = global::HowdyHack2020.Droid.Resource.Attribute.iconSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.iconStartPadding = global::HowdyHack2020.Droid.Resource.Attribute.iconStartPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.iconTint = global::HowdyHack2020.Droid.Resource.Attribute.iconTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.iconTintMode = global::HowdyHack2020.Droid.Resource.Attribute.iconTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.imageButtonStyle = global::HowdyHack2020.Droid.Resource.Attribute.imageButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.indeterminateProgressStyle = global::HowdyHack2020.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.initialActivityCount = global::HowdyHack2020.Droid.Resource.Attribute.initialActivityCount;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.insetForeground = global::HowdyHack2020.Droid.Resource.Attribute.insetForeground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.isLightTheme = global::HowdyHack2020.Droid.Resource.Attribute.isLightTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.itemBackground = global::HowdyHack2020.Droid.Resource.Attribute.itemBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.itemHorizontalPadding = global::HowdyHack2020.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.itemHorizontalTranslationEnabled = global::HowdyHack2020.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.itemIconPadding = global::HowdyHack2020.Droid.Resource.Attribute.itemIconPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.itemIconSize = global::HowdyHack2020.Droid.Resource.Attribute.itemIconSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.itemIconTint = global::HowdyHack2020.Droid.Resource.Attribute.itemIconTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.itemPadding = global::HowdyHack2020.Droid.Resource.Attribute.itemPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.itemSpacing = global::HowdyHack2020.Droid.Resource.Attribute.itemSpacing;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.itemTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.itemTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.itemTextAppearanceActive = global::HowdyHack2020.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.itemTextAppearanceInactive = global::HowdyHack2020.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.itemTextColor = global::HowdyHack2020.Droid.Resource.Attribute.itemTextColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.keylines = global::HowdyHack2020.Droid.Resource.Attribute.keylines;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.labelVisibilityMode = global::HowdyHack2020.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.lastBaselineToBottomHeight = global::HowdyHack2020.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.layout = global::HowdyHack2020.Droid.Resource.Attribute.layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.layoutManager = global::HowdyHack2020.Droid.Resource.Attribute.layoutManager;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.layout_anchor = global::HowdyHack2020.Droid.Resource.Attribute.layout_anchor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.layout_anchorGravity = global::HowdyHack2020.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.layout_behavior = global::HowdyHack2020.Droid.Resource.Attribute.layout_behavior;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.layout_collapseMode = global::HowdyHack2020.Droid.Resource.Attribute.layout_collapseMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.layout_collapseParallaxMultiplier = global::HowdyHack2020.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.layout_dodgeInsetEdges = global::HowdyHack2020.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.layout_insetEdge = global::HowdyHack2020.Droid.Resource.Attribute.layout_insetEdge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.layout_keyline = global::HowdyHack2020.Droid.Resource.Attribute.layout_keyline;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.layout_scrollFlags = global::HowdyHack2020.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.layout_scrollInterpolator = global::HowdyHack2020.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.liftOnScroll = global::HowdyHack2020.Droid.Resource.Attribute.liftOnScroll;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.lineHeight = global::HowdyHack2020.Droid.Resource.Attribute.lineHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.lineSpacing = global::HowdyHack2020.Droid.Resource.Attribute.lineSpacing;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.listChoiceBackgroundIndicator = global::HowdyHack2020.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.listDividerAlertDialog = global::HowdyHack2020.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.listItemLayout = global::HowdyHack2020.Droid.Resource.Attribute.listItemLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.listLayout = global::HowdyHack2020.Droid.Resource.Attribute.listLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.listMenuViewStyle = global::HowdyHack2020.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.listPopupWindowStyle = global::HowdyHack2020.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.listPreferredItemHeight = global::HowdyHack2020.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.listPreferredItemHeightLarge = global::HowdyHack2020.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.listPreferredItemHeightSmall = global::HowdyHack2020.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.listPreferredItemPaddingLeft = global::HowdyHack2020.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.listPreferredItemPaddingRight = global::HowdyHack2020.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.logo = global::HowdyHack2020.Droid.Resource.Attribute.logo;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.logoDescription = global::HowdyHack2020.Droid.Resource.Attribute.logoDescription;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.materialButtonStyle = global::HowdyHack2020.Droid.Resource.Attribute.materialButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.materialCardViewStyle = global::HowdyHack2020.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.maxActionInlineWidth = global::HowdyHack2020.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.maxButtonHeight = global::HowdyHack2020.Droid.Resource.Attribute.maxButtonHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.maxImageSize = global::HowdyHack2020.Droid.Resource.Attribute.maxImageSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.measureWithLargestChild = global::HowdyHack2020.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.menu = global::HowdyHack2020.Droid.Resource.Attribute.menu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.multiChoiceItemLayout = global::HowdyHack2020.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.navigationContentDescription = global::HowdyHack2020.Droid.Resource.Attribute.navigationContentDescription;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.navigationIcon = global::HowdyHack2020.Droid.Resource.Attribute.navigationIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.navigationMode = global::HowdyHack2020.Droid.Resource.Attribute.navigationMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.navigationViewStyle = global::HowdyHack2020.Droid.Resource.Attribute.navigationViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.numericModifiers = global::HowdyHack2020.Droid.Resource.Attribute.numericModifiers;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.overlapAnchor = global::HowdyHack2020.Droid.Resource.Attribute.overlapAnchor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.paddingBottomNoButtons = global::HowdyHack2020.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.paddingEnd = global::HowdyHack2020.Droid.Resource.Attribute.paddingEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.paddingStart = global::HowdyHack2020.Droid.Resource.Attribute.paddingStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.paddingTopNoTitle = global::HowdyHack2020.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.panelBackground = global::HowdyHack2020.Droid.Resource.Attribute.panelBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.panelMenuListTheme = global::HowdyHack2020.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.panelMenuListWidth = global::HowdyHack2020.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.passwordToggleContentDescription = global::HowdyHack2020.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.passwordToggleDrawable = global::HowdyHack2020.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.passwordToggleEnabled = global::HowdyHack2020.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.passwordToggleTint = global::HowdyHack2020.Droid.Resource.Attribute.passwordToggleTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.passwordToggleTintMode = global::HowdyHack2020.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.popupMenuStyle = global::HowdyHack2020.Droid.Resource.Attribute.popupMenuStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.popupTheme = global::HowdyHack2020.Droid.Resource.Attribute.popupTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.popupWindowStyle = global::HowdyHack2020.Droid.Resource.Attribute.popupWindowStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.preserveIconSpacing = global::HowdyHack2020.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.pressedTranslationZ = global::HowdyHack2020.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.progressBarPadding = global::HowdyHack2020.Droid.Resource.Attribute.progressBarPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.progressBarStyle = global::HowdyHack2020.Droid.Resource.Attribute.progressBarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.queryBackground = global::HowdyHack2020.Droid.Resource.Attribute.queryBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.queryHint = global::HowdyHack2020.Droid.Resource.Attribute.queryHint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.radioButtonStyle = global::HowdyHack2020.Droid.Resource.Attribute.radioButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.ratingBarStyle = global::HowdyHack2020.Droid.Resource.Attribute.ratingBarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.ratingBarStyleIndicator = global::HowdyHack2020.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.ratingBarStyleSmall = global::HowdyHack2020.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.reverseLayout = global::HowdyHack2020.Droid.Resource.Attribute.reverseLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.rippleColor = global::HowdyHack2020.Droid.Resource.Attribute.rippleColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.scrimAnimationDuration = global::HowdyHack2020.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.scrimBackground = global::HowdyHack2020.Droid.Resource.Attribute.scrimBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.scrimVisibleHeightTrigger = global::HowdyHack2020.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.searchHintIcon = global::HowdyHack2020.Droid.Resource.Attribute.searchHintIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.searchIcon = global::HowdyHack2020.Droid.Resource.Attribute.searchIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.searchViewStyle = global::HowdyHack2020.Droid.Resource.Attribute.searchViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.seekBarStyle = global::HowdyHack2020.Droid.Resource.Attribute.seekBarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.selectableItemBackground = global::HowdyHack2020.Droid.Resource.Attribute.selectableItemBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.selectableItemBackgroundBorderless = global::HowdyHack2020.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.showAsAction = global::HowdyHack2020.Droid.Resource.Attribute.showAsAction;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.showDividers = global::HowdyHack2020.Droid.Resource.Attribute.showDividers;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.showMotionSpec = global::HowdyHack2020.Droid.Resource.Attribute.showMotionSpec;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.showText = global::HowdyHack2020.Droid.Resource.Attribute.showText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.showTitle = global::HowdyHack2020.Droid.Resource.Attribute.showTitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.singleChoiceItemLayout = global::HowdyHack2020.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.singleLine = global::HowdyHack2020.Droid.Resource.Attribute.singleLine;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.singleSelection = global::HowdyHack2020.Droid.Resource.Attribute.singleSelection;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.snackbarButtonStyle = global::HowdyHack2020.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.snackbarStyle = global::HowdyHack2020.Droid.Resource.Attribute.snackbarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.spanCount = global::HowdyHack2020.Droid.Resource.Attribute.spanCount;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.spinBars = global::HowdyHack2020.Droid.Resource.Attribute.spinBars;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.spinnerDropDownItemStyle = global::HowdyHack2020.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.spinnerStyle = global::HowdyHack2020.Droid.Resource.Attribute.spinnerStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.splitTrack = global::HowdyHack2020.Droid.Resource.Attribute.splitTrack;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.srcCompat = global::HowdyHack2020.Droid.Resource.Attribute.srcCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.stackFromEnd = global::HowdyHack2020.Droid.Resource.Attribute.stackFromEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.state_above_anchor = global::HowdyHack2020.Droid.Resource.Attribute.state_above_anchor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.state_collapsed = global::HowdyHack2020.Droid.Resource.Attribute.state_collapsed;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.state_collapsible = global::HowdyHack2020.Droid.Resource.Attribute.state_collapsible;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.state_liftable = global::HowdyHack2020.Droid.Resource.Attribute.state_liftable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.state_lifted = global::HowdyHack2020.Droid.Resource.Attribute.state_lifted;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.statusBarBackground = global::HowdyHack2020.Droid.Resource.Attribute.statusBarBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.statusBarScrim = global::HowdyHack2020.Droid.Resource.Attribute.statusBarScrim;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.strokeColor = global::HowdyHack2020.Droid.Resource.Attribute.strokeColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.strokeWidth = global::HowdyHack2020.Droid.Resource.Attribute.strokeWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.subMenuArrow = global::HowdyHack2020.Droid.Resource.Attribute.subMenuArrow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.submitBackground = global::HowdyHack2020.Droid.Resource.Attribute.submitBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.subtitle = global::HowdyHack2020.Droid.Resource.Attribute.subtitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.subtitleTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.subtitleTextColor = global::HowdyHack2020.Droid.Resource.Attribute.subtitleTextColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.subtitleTextStyle = global::HowdyHack2020.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.suggestionRowLayout = global::HowdyHack2020.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.switchMinWidth = global::HowdyHack2020.Droid.Resource.Attribute.switchMinWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.switchPadding = global::HowdyHack2020.Droid.Resource.Attribute.switchPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.switchStyle = global::HowdyHack2020.Droid.Resource.Attribute.switchStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.switchTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.switchTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabBackground = global::HowdyHack2020.Droid.Resource.Attribute.tabBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabContentStart = global::HowdyHack2020.Droid.Resource.Attribute.tabContentStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabGravity = global::HowdyHack2020.Droid.Resource.Attribute.tabGravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabIconTint = global::HowdyHack2020.Droid.Resource.Attribute.tabIconTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabIconTintMode = global::HowdyHack2020.Droid.Resource.Attribute.tabIconTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabIndicator = global::HowdyHack2020.Droid.Resource.Attribute.tabIndicator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabIndicatorAnimationDuration = global::HowdyHack2020.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabIndicatorColor = global::HowdyHack2020.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabIndicatorFullWidth = global::HowdyHack2020.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabIndicatorGravity = global::HowdyHack2020.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabIndicatorHeight = global::HowdyHack2020.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabInlineLabel = global::HowdyHack2020.Droid.Resource.Attribute.tabInlineLabel;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabMaxWidth = global::HowdyHack2020.Droid.Resource.Attribute.tabMaxWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabMinWidth = global::HowdyHack2020.Droid.Resource.Attribute.tabMinWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabMode = global::HowdyHack2020.Droid.Resource.Attribute.tabMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabPadding = global::HowdyHack2020.Droid.Resource.Attribute.tabPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabPaddingBottom = global::HowdyHack2020.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabPaddingEnd = global::HowdyHack2020.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabPaddingStart = global::HowdyHack2020.Droid.Resource.Attribute.tabPaddingStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabPaddingTop = global::HowdyHack2020.Droid.Resource.Attribute.tabPaddingTop;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabRippleColor = global::HowdyHack2020.Droid.Resource.Attribute.tabRippleColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabSelectedTextColor = global::HowdyHack2020.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabStyle = global::HowdyHack2020.Droid.Resource.Attribute.tabStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.tabTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabTextColor = global::HowdyHack2020.Droid.Resource.Attribute.tabTextColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tabUnboundedRipple = global::HowdyHack2020.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAllCaps = global::HowdyHack2020.Droid.Resource.Attribute.textAllCaps;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceBody1 = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceBody2 = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceButton = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceCaption = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceHeadline1 = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceHeadline2 = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceHeadline3 = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceHeadline4 = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceHeadline5 = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceHeadline6 = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceLargePopupMenu = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceListItem = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceListItemSecondary = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceListItemSmall = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceOverline = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearancePopupMenuHeader = global::HowdyHack2020.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceSearchResultSubtitle = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceSearchResultTitle = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceSmallPopupMenu = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceSubtitle1 = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textAppearanceSubtitle2 = global::HowdyHack2020.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textColorAlertDialogListItem = global::HowdyHack2020.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textColorSearchUrl = global::HowdyHack2020.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textEndPadding = global::HowdyHack2020.Droid.Resource.Attribute.textEndPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textInputStyle = global::HowdyHack2020.Droid.Resource.Attribute.textInputStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.textStartPadding = global::HowdyHack2020.Droid.Resource.Attribute.textStartPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.theme = global::HowdyHack2020.Droid.Resource.Attribute.theme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.thickness = global::HowdyHack2020.Droid.Resource.Attribute.thickness;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.thumbTextPadding = global::HowdyHack2020.Droid.Resource.Attribute.thumbTextPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.thumbTint = global::HowdyHack2020.Droid.Resource.Attribute.thumbTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.thumbTintMode = global::HowdyHack2020.Droid.Resource.Attribute.thumbTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tickMark = global::HowdyHack2020.Droid.Resource.Attribute.tickMark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tickMarkTint = global::HowdyHack2020.Droid.Resource.Attribute.tickMarkTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tickMarkTintMode = global::HowdyHack2020.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tint = global::HowdyHack2020.Droid.Resource.Attribute.tint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tintMode = global::HowdyHack2020.Droid.Resource.Attribute.tintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.title = global::HowdyHack2020.Droid.Resource.Attribute.title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.titleEnabled = global::HowdyHack2020.Droid.Resource.Attribute.titleEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.titleMargin = global::HowdyHack2020.Droid.Resource.Attribute.titleMargin;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.titleMarginBottom = global::HowdyHack2020.Droid.Resource.Attribute.titleMarginBottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.titleMarginEnd = global::HowdyHack2020.Droid.Resource.Attribute.titleMarginEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.titleMargins = global::HowdyHack2020.Droid.Resource.Attribute.titleMargins;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.titleMarginStart = global::HowdyHack2020.Droid.Resource.Attribute.titleMarginStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.titleMarginTop = global::HowdyHack2020.Droid.Resource.Attribute.titleMarginTop;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.titleTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.titleTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.titleTextColor = global::HowdyHack2020.Droid.Resource.Attribute.titleTextColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.titleTextStyle = global::HowdyHack2020.Droid.Resource.Attribute.titleTextStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.toolbarId = global::HowdyHack2020.Droid.Resource.Attribute.toolbarId;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.toolbarNavigationButtonStyle = global::HowdyHack2020.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.toolbarStyle = global::HowdyHack2020.Droid.Resource.Attribute.toolbarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tooltipForegroundColor = global::HowdyHack2020.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tooltipFrameBackground = global::HowdyHack2020.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.tooltipText = global::HowdyHack2020.Droid.Resource.Attribute.tooltipText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.track = global::HowdyHack2020.Droid.Resource.Attribute.track;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.trackTint = global::HowdyHack2020.Droid.Resource.Attribute.trackTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.trackTintMode = global::HowdyHack2020.Droid.Resource.Attribute.trackTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.ttcIndex = global::HowdyHack2020.Droid.Resource.Attribute.ttcIndex;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.useCompatPadding = global::HowdyHack2020.Droid.Resource.Attribute.useCompatPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.viewInflaterClass = global::HowdyHack2020.Droid.Resource.Attribute.viewInflaterClass;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.voiceIcon = global::HowdyHack2020.Droid.Resource.Attribute.voiceIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.windowActionBar = global::HowdyHack2020.Droid.Resource.Attribute.windowActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.windowActionBarOverlay = global::HowdyHack2020.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.windowActionModeOverlay = global::HowdyHack2020.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.windowFixedHeightMajor = global::HowdyHack2020.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.windowFixedHeightMinor = global::HowdyHack2020.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.windowFixedWidthMajor = global::HowdyHack2020.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.windowFixedWidthMinor = global::HowdyHack2020.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.windowMinWidthMajor = global::HowdyHack2020.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.windowMinWidthMinor = global::HowdyHack2020.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Attribute.windowNoTitle = global::HowdyHack2020.Droid.Resource.Attribute.windowNoTitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Boolean.abc_action_bar_embed_tabs = global::HowdyHack2020.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Boolean.abc_allow_stacked_button_bar = global::HowdyHack2020.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::HowdyHack2020.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::HowdyHack2020.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_background_cache_hint_selector_material_dark = global::HowdyHack2020.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_background_cache_hint_selector_material_light = global::HowdyHack2020.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_btn_colored_borderless_text_material = global::HowdyHack2020.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_btn_colored_text_material = global::HowdyHack2020.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_color_highlight_material = global::HowdyHack2020.Droid.Resource.Color.abc_color_highlight_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_hint_foreground_material_dark = global::HowdyHack2020.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_hint_foreground_material_light = global::HowdyHack2020.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_input_method_navigation_guard = global::HowdyHack2020.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_primary_text_disable_only_material_dark = global::HowdyHack2020.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_primary_text_disable_only_material_light = global::HowdyHack2020.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_primary_text_material_dark = global::HowdyHack2020.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_primary_text_material_light = global::HowdyHack2020.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_search_url_text = global::HowdyHack2020.Droid.Resource.Color.abc_search_url_text;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_search_url_text_normal = global::HowdyHack2020.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_search_url_text_pressed = global::HowdyHack2020.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_search_url_text_selected = global::HowdyHack2020.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_secondary_text_material_dark = global::HowdyHack2020.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_secondary_text_material_light = global::HowdyHack2020.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_tint_btn_checkable = global::HowdyHack2020.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_tint_default = global::HowdyHack2020.Droid.Resource.Color.abc_tint_default;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_tint_edittext = global::HowdyHack2020.Droid.Resource.Color.abc_tint_edittext;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_tint_seek_thumb = global::HowdyHack2020.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_tint_spinner = global::HowdyHack2020.Droid.Resource.Color.abc_tint_spinner;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.abc_tint_switch_track = global::HowdyHack2020.Droid.Resource.Color.abc_tint_switch_track;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.accent_material_dark = global::HowdyHack2020.Droid.Resource.Color.accent_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.accent_material_light = global::HowdyHack2020.Droid.Resource.Color.accent_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.background_floating_material_dark = global::HowdyHack2020.Droid.Resource.Color.background_floating_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.background_floating_material_light = global::HowdyHack2020.Droid.Resource.Color.background_floating_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.background_material_dark = global::HowdyHack2020.Droid.Resource.Color.background_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.background_material_light = global::HowdyHack2020.Droid.Resource.Color.background_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.bright_foreground_disabled_material_dark = global::HowdyHack2020.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.bright_foreground_disabled_material_light = global::HowdyHack2020.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.bright_foreground_inverse_material_dark = global::HowdyHack2020.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.bright_foreground_inverse_material_light = global::HowdyHack2020.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.bright_foreground_material_dark = global::HowdyHack2020.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.bright_foreground_material_light = global::HowdyHack2020.Droid.Resource.Color.bright_foreground_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.browser_actions_bg_grey = global::HowdyHack2020.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.browser_actions_divider_color = global::HowdyHack2020.Droid.Resource.Color.browser_actions_divider_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.browser_actions_text_color = global::HowdyHack2020.Droid.Resource.Color.browser_actions_text_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.browser_actions_title_color = global::HowdyHack2020.Droid.Resource.Color.browser_actions_title_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.button_material_dark = global::HowdyHack2020.Droid.Resource.Color.button_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.button_material_light = global::HowdyHack2020.Droid.Resource.Color.button_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.cardview_dark_background = global::HowdyHack2020.Droid.Resource.Color.cardview_dark_background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.cardview_light_background = global::HowdyHack2020.Droid.Resource.Color.cardview_light_background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.cardview_shadow_end_color = global::HowdyHack2020.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.cardview_shadow_start_color = global::HowdyHack2020.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.design_bottom_navigation_shadow_color = global::HowdyHack2020.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.design_default_color_primary = global::HowdyHack2020.Droid.Resource.Color.design_default_color_primary;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.design_default_color_primary_dark = global::HowdyHack2020.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.design_error = global::HowdyHack2020.Droid.Resource.Color.design_error;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.design_fab_shadow_end_color = global::HowdyHack2020.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.design_fab_shadow_mid_color = global::HowdyHack2020.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.design_fab_shadow_start_color = global::HowdyHack2020.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.design_fab_stroke_end_inner_color = global::HowdyHack2020.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.design_fab_stroke_end_outer_color = global::HowdyHack2020.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.design_fab_stroke_top_inner_color = global::HowdyHack2020.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.design_fab_stroke_top_outer_color = global::HowdyHack2020.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.design_snackbar_background_color = global::HowdyHack2020.Droid.Resource.Color.design_snackbar_background_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.design_tint_password_toggle = global::HowdyHack2020.Droid.Resource.Color.design_tint_password_toggle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.dim_foreground_disabled_material_dark = global::HowdyHack2020.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.dim_foreground_disabled_material_light = global::HowdyHack2020.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.dim_foreground_material_dark = global::HowdyHack2020.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.dim_foreground_material_light = global::HowdyHack2020.Droid.Resource.Color.dim_foreground_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.error_color_material_dark = global::HowdyHack2020.Droid.Resource.Color.error_color_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.error_color_material_light = global::HowdyHack2020.Droid.Resource.Color.error_color_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.foreground_material_dark = global::HowdyHack2020.Droid.Resource.Color.foreground_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.foreground_material_light = global::HowdyHack2020.Droid.Resource.Color.foreground_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.highlighted_text_material_dark = global::HowdyHack2020.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.highlighted_text_material_light = global::HowdyHack2020.Droid.Resource.Color.highlighted_text_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.material_blue_grey_800 = global::HowdyHack2020.Droid.Resource.Color.material_blue_grey_800;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.material_blue_grey_900 = global::HowdyHack2020.Droid.Resource.Color.material_blue_grey_900;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.material_blue_grey_950 = global::HowdyHack2020.Droid.Resource.Color.material_blue_grey_950;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.material_deep_teal_200 = global::HowdyHack2020.Droid.Resource.Color.material_deep_teal_200;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.material_deep_teal_500 = global::HowdyHack2020.Droid.Resource.Color.material_deep_teal_500;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.material_grey_100 = global::HowdyHack2020.Droid.Resource.Color.material_grey_100;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.material_grey_300 = global::HowdyHack2020.Droid.Resource.Color.material_grey_300;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.material_grey_50 = global::HowdyHack2020.Droid.Resource.Color.material_grey_50;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.material_grey_600 = global::HowdyHack2020.Droid.Resource.Color.material_grey_600;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.material_grey_800 = global::HowdyHack2020.Droid.Resource.Color.material_grey_800;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.material_grey_850 = global::HowdyHack2020.Droid.Resource.Color.material_grey_850;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.material_grey_900 = global::HowdyHack2020.Droid.Resource.Color.material_grey_900;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::HowdyHack2020.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_bottom_nav_item_tint = global::HowdyHack2020.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_btn_bg_color_disabled = global::HowdyHack2020.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_btn_bg_color_selector = global::HowdyHack2020.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_btn_ripple_color = global::HowdyHack2020.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_btn_stroke_color_selector = global::HowdyHack2020.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_btn_text_btn_ripple_color = global::HowdyHack2020.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_btn_text_color_disabled = global::HowdyHack2020.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_btn_text_color_selector = global::HowdyHack2020.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_btn_transparent_bg_color = global::HowdyHack2020.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_chip_background_color = global::HowdyHack2020.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_chip_close_icon_tint = global::HowdyHack2020.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_chip_ripple_color = global::HowdyHack2020.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_chip_text_color = global::HowdyHack2020.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_fab_ripple_color = global::HowdyHack2020.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_scrim_color = global::HowdyHack2020.Droid.Resource.Color.mtrl_scrim_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_tabs_colored_ripple_color = global::HowdyHack2020.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_tabs_icon_color_selector = global::HowdyHack2020.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::HowdyHack2020.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::HowdyHack2020.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_tabs_ripple_color = global::HowdyHack2020.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_textinput_default_box_stroke_color = global::HowdyHack2020.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_textinput_disabled_color = global::HowdyHack2020.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::HowdyHack2020.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::HowdyHack2020.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.mtrl_text_btn_text_color_selector = global::HowdyHack2020.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.notification_action_color_filter = global::HowdyHack2020.Droid.Resource.Color.notification_action_color_filter;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.notification_icon_bg_color = global::HowdyHack2020.Droid.Resource.Color.notification_icon_bg_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.notification_material_background_media_default_color = global::HowdyHack2020.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.primary_dark_material_dark = global::HowdyHack2020.Droid.Resource.Color.primary_dark_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.primary_dark_material_light = global::HowdyHack2020.Droid.Resource.Color.primary_dark_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.primary_material_dark = global::HowdyHack2020.Droid.Resource.Color.primary_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.primary_material_light = global::HowdyHack2020.Droid.Resource.Color.primary_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.primary_text_default_material_dark = global::HowdyHack2020.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.primary_text_default_material_light = global::HowdyHack2020.Droid.Resource.Color.primary_text_default_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.primary_text_disabled_material_dark = global::HowdyHack2020.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.primary_text_disabled_material_light = global::HowdyHack2020.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.ripple_material_dark = global::HowdyHack2020.Droid.Resource.Color.ripple_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.ripple_material_light = global::HowdyHack2020.Droid.Resource.Color.ripple_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.secondary_text_default_material_dark = global::HowdyHack2020.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.secondary_text_default_material_light = global::HowdyHack2020.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.secondary_text_disabled_material_dark = global::HowdyHack2020.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.secondary_text_disabled_material_light = global::HowdyHack2020.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.switch_thumb_disabled_material_dark = global::HowdyHack2020.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.switch_thumb_disabled_material_light = global::HowdyHack2020.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.switch_thumb_material_dark = global::HowdyHack2020.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.switch_thumb_material_light = global::HowdyHack2020.Droid.Resource.Color.switch_thumb_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.switch_thumb_normal_material_dark = global::HowdyHack2020.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.switch_thumb_normal_material_light = global::HowdyHack2020.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.tooltip_background_dark = global::HowdyHack2020.Droid.Resource.Color.tooltip_background_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Color.tooltip_background_light = global::HowdyHack2020.Droid.Resource.Color.tooltip_background_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_bar_content_inset_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_bar_default_height_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_bar_default_padding_end_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_bar_default_padding_start_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_bar_elevation_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_bar_stacked_max_height = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_button_min_height_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_button_min_width_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_action_button_min_width_overflow_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_alert_dialog_button_bar_height = global::HowdyHack2020.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_alert_dialog_button_dimen = global::HowdyHack2020.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_button_inset_horizontal_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_button_inset_vertical_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_button_padding_horizontal_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_button_padding_vertical_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::HowdyHack2020.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_config_prefDialogWidth = global::HowdyHack2020.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_control_corner_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_control_inset_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_control_padding_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_dialog_corner_radius_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_dialog_fixed_height_major = global::HowdyHack2020.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_dialog_fixed_height_minor = global::HowdyHack2020.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_dialog_fixed_width_major = global::HowdyHack2020.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_dialog_fixed_width_minor = global::HowdyHack2020.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::HowdyHack2020.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::HowdyHack2020.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_dialog_min_width_major = global::HowdyHack2020.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_dialog_min_width_minor = global::HowdyHack2020.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_dialog_padding_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_dialog_padding_top_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_dialog_title_divider_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_disabled_alpha_material_dark = global::HowdyHack2020.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_disabled_alpha_material_light = global::HowdyHack2020.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_dropdownitem_icon_width = global::HowdyHack2020.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_dropdownitem_text_padding_left = global::HowdyHack2020.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_dropdownitem_text_padding_right = global::HowdyHack2020.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_edit_text_inset_bottom_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_edit_text_inset_top_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_floating_window_z = global::HowdyHack2020.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_list_item_padding_horizontal_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_panel_menu_list_width = global::HowdyHack2020.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_progress_bar_height_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_search_view_preferred_height = global::HowdyHack2020.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_search_view_preferred_width = global::HowdyHack2020.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_seekbar_track_background_height_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_seekbar_track_progress_height_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_select_dialog_padding_start_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_switch_padding = global::HowdyHack2020.Droid.Resource.Dimension.abc_switch_padding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_body_1_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_body_2_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_button_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_caption_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_display_1_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_display_2_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_display_3_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_display_4_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_headline_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_large_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_medium_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_menu_header_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_menu_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_small_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_subhead_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_title_material = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.abc_text_size_title_material_toolbar = global::HowdyHack2020.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.browser_actions_context_menu_max_width = global::HowdyHack2020.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.browser_actions_context_menu_min_padding = global::HowdyHack2020.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.cardview_compat_inset_shadow = global::HowdyHack2020.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.cardview_default_elevation = global::HowdyHack2020.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.cardview_default_radius = global::HowdyHack2020.Droid.Resource.Dimension.cardview_default_radius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.compat_button_inset_horizontal_material = global::HowdyHack2020.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.compat_button_inset_vertical_material = global::HowdyHack2020.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.compat_button_padding_horizontal_material = global::HowdyHack2020.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.compat_button_padding_vertical_material = global::HowdyHack2020.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.compat_control_corner_material = global::HowdyHack2020.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.compat_notification_large_icon_max_height = global::HowdyHack2020.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.compat_notification_large_icon_max_width = global::HowdyHack2020.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_appbar_elevation = global::HowdyHack2020.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::HowdyHack2020.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::HowdyHack2020.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_active_text_size = global::HowdyHack2020.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_elevation = global::HowdyHack2020.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_height = global::HowdyHack2020.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_icon_size = global::HowdyHack2020.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_item_max_width = global::HowdyHack2020.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_item_min_width = global::HowdyHack2020.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_margin = global::HowdyHack2020.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_shadow_height = global::HowdyHack2020.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_bottom_navigation_text_size = global::HowdyHack2020.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_bottom_sheet_modal_elevation = global::HowdyHack2020.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_bottom_sheet_peek_height_min = global::HowdyHack2020.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_fab_border_width = global::HowdyHack2020.Droid.Resource.Dimension.design_fab_border_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_fab_elevation = global::HowdyHack2020.Droid.Resource.Dimension.design_fab_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_fab_image_size = global::HowdyHack2020.Droid.Resource.Dimension.design_fab_image_size;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_fab_size_mini = global::HowdyHack2020.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_fab_size_normal = global::HowdyHack2020.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_fab_translation_z_hovered_focused = global::HowdyHack2020.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_fab_translation_z_pressed = global::HowdyHack2020.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_navigation_elevation = global::HowdyHack2020.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_navigation_icon_padding = global::HowdyHack2020.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_navigation_icon_size = global::HowdyHack2020.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_navigation_item_horizontal_padding = global::HowdyHack2020.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_navigation_item_icon_padding = global::HowdyHack2020.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_navigation_max_width = global::HowdyHack2020.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_navigation_padding_bottom = global::HowdyHack2020.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_navigation_separator_vertical_padding = global::HowdyHack2020.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_snackbar_action_inline_max_width = global::HowdyHack2020.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_snackbar_background_corner_radius = global::HowdyHack2020.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_snackbar_elevation = global::HowdyHack2020.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::HowdyHack2020.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_snackbar_max_width = global::HowdyHack2020.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_snackbar_min_width = global::HowdyHack2020.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_snackbar_padding_horizontal = global::HowdyHack2020.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_snackbar_padding_vertical = global::HowdyHack2020.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::HowdyHack2020.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_snackbar_text_size = global::HowdyHack2020.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_tab_max_width = global::HowdyHack2020.Droid.Resource.Dimension.design_tab_max_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_tab_scrollable_min_width = global::HowdyHack2020.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_tab_text_size = global::HowdyHack2020.Droid.Resource.Dimension.design_tab_text_size;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_tab_text_size_2line = global::HowdyHack2020.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.design_textinput_caption_translate_y = global::HowdyHack2020.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.disabled_alpha_material_dark = global::HowdyHack2020.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.disabled_alpha_material_light = global::HowdyHack2020.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.fastscroll_default_thickness = global::HowdyHack2020.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.fastscroll_margin = global::HowdyHack2020.Droid.Resource.Dimension.fastscroll_margin;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.fastscroll_minimum_range = global::HowdyHack2020.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.highlight_alpha_material_colored = global::HowdyHack2020.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.highlight_alpha_material_dark = global::HowdyHack2020.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.highlight_alpha_material_light = global::HowdyHack2020.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.hint_alpha_material_dark = global::HowdyHack2020.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.hint_alpha_material_light = global::HowdyHack2020.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.hint_pressed_alpha_material_dark = global::HowdyHack2020.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.hint_pressed_alpha_material_light = global::HowdyHack2020.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::HowdyHack2020.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::HowdyHack2020.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::HowdyHack2020.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_bottomappbar_height = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_corner_radius = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_disabled_elevation = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_disabled_z = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_elevation = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_focused_z = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_hovered_z = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_icon_padding = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_inset = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_letter_spacing = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_padding_bottom = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_padding_left = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_padding_right = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_padding_top = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_pressed_z = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_stroke_size = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_text_size = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_btn_z = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_card_elevation = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_card_spacing = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_chip_pressed_translation_z = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_chip_text_size = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_fab_elevation = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_fab_translation_z_pressed = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_navigation_elevation = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_navigation_item_icon_padding = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_snackbar_margin = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_textinput_box_padding_end = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.mtrl_toolbar_default_height = global::HowdyHack2020.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.notification_action_icon_size = global::HowdyHack2020.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.notification_action_text_size = global::HowdyHack2020.Droid.Resource.Dimension.notification_action_text_size;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.notification_big_circle_margin = global::HowdyHack2020.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.notification_content_margin_start = global::HowdyHack2020.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.notification_large_icon_height = global::HowdyHack2020.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.notification_large_icon_width = global::HowdyHack2020.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.notification_main_column_padding_top = global::HowdyHack2020.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.notification_media_narrow_margin = global::HowdyHack2020.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.notification_right_icon_size = global::HowdyHack2020.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.notification_right_side_padding_top = global::HowdyHack2020.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.notification_small_icon_background_padding = global::HowdyHack2020.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.notification_small_icon_size_as_large = global::HowdyHack2020.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.notification_subtext_size = global::HowdyHack2020.Droid.Resource.Dimension.notification_subtext_size;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.notification_top_pad = global::HowdyHack2020.Droid.Resource.Dimension.notification_top_pad;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.notification_top_pad_large_text = global::HowdyHack2020.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.subtitle_corner_radius = global::HowdyHack2020.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.subtitle_outline_width = global::HowdyHack2020.Droid.Resource.Dimension.subtitle_outline_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.subtitle_shadow_offset = global::HowdyHack2020.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.subtitle_shadow_radius = global::HowdyHack2020.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.tooltip_corner_radius = global::HowdyHack2020.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.tooltip_horizontal_padding = global::HowdyHack2020.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.tooltip_margin = global::HowdyHack2020.Droid.Resource.Dimension.tooltip_margin;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::HowdyHack2020.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.tooltip_precise_anchor_threshold = global::HowdyHack2020.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.tooltip_vertical_padding = global::HowdyHack2020.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.tooltip_y_offset_non_touch = global::HowdyHack2020.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Dimension.tooltip_y_offset_touch = global::HowdyHack2020.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_action_bar_item_background_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_btn_borderless_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_btn_check_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::HowdyHack2020.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::HowdyHack2020.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_btn_colored_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_btn_default_mtrl_shape = global::HowdyHack2020.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_btn_radio_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::HowdyHack2020.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::HowdyHack2020.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::HowdyHack2020.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::HowdyHack2020.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_cab_background_internal_bg = global::HowdyHack2020.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_cab_background_top_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_control_background_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_control_background_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_dialog_material_background = global::HowdyHack2020.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_edit_text_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_ab_back_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_clear_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_go_search_api_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_menu_overflow_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_search_api_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_star_black_16dp = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_star_black_36dp = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_star_black_48dp = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_star_half_black_16dp = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_star_half_black_36dp = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_star_half_black_48dp = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ic_voice_search_api_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_item_background_holo_dark = global::HowdyHack2020.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_item_background_holo_light = global::HowdyHack2020.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_list_divider_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_list_divider_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_list_focused_holo = global::HowdyHack2020.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_list_longpressed_holo = global::HowdyHack2020.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_list_pressed_holo_dark = global::HowdyHack2020.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_list_pressed_holo_light = global::HowdyHack2020.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::HowdyHack2020.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::HowdyHack2020.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::HowdyHack2020.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_list_selector_disabled_holo_light = global::HowdyHack2020.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_list_selector_holo_dark = global::HowdyHack2020.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_list_selector_holo_light = global::HowdyHack2020.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::HowdyHack2020.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_popup_background_mtrl_mult = global::HowdyHack2020.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ratingbar_indicator_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ratingbar_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_ratingbar_small_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::HowdyHack2020.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::HowdyHack2020.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_seekbar_thumb_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_seekbar_tick_mark_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_seekbar_track_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_spinner_textfield_background_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_switch_thumb_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_switch_track_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_tab_indicator_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::HowdyHack2020.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_textfield_search_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_text_cursor_material = global::HowdyHack2020.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::HowdyHack2020.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::HowdyHack2020.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::HowdyHack2020.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::HowdyHack2020.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::HowdyHack2020.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::HowdyHack2020.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.abc_vector_test = global::HowdyHack2020.Droid.Resource.Drawable.abc_vector_test;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.avd_hide_password = global::HowdyHack2020.Droid.Resource.Drawable.avd_hide_password;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.avd_show_password = global::HowdyHack2020.Droid.Resource.Drawable.avd_show_password;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.design_bottom_navigation_item_background = global::HowdyHack2020.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.design_fab_background = global::HowdyHack2020.Droid.Resource.Drawable.design_fab_background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.design_ic_visibility = global::HowdyHack2020.Droid.Resource.Drawable.design_ic_visibility;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.design_ic_visibility_off = global::HowdyHack2020.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.design_password_eye = global::HowdyHack2020.Droid.Resource.Drawable.design_password_eye;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.design_snackbar_background = global::HowdyHack2020.Droid.Resource.Drawable.design_snackbar_background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.esri = global::HowdyHack2020.Droid.Resource.Drawable.esri;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.ic_mtrl_chip_checked_black = global::HowdyHack2020.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.ic_mtrl_chip_checked_circle = global::HowdyHack2020.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.ic_mtrl_chip_close_circle = global::HowdyHack2020.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.mtrl_snackbar_background = global::HowdyHack2020.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.mtrl_tabs_default_indicator = global::HowdyHack2020.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.navigation_empty_icon = global::HowdyHack2020.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.notification_action_background = global::HowdyHack2020.Droid.Resource.Drawable.notification_action_background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.notification_bg = global::HowdyHack2020.Droid.Resource.Drawable.notification_bg;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.notification_bg_low = global::HowdyHack2020.Droid.Resource.Drawable.notification_bg_low;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.notification_bg_low_normal = global::HowdyHack2020.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.notification_bg_low_pressed = global::HowdyHack2020.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.notification_bg_normal = global::HowdyHack2020.Droid.Resource.Drawable.notification_bg_normal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.notification_bg_normal_pressed = global::HowdyHack2020.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.notification_icon_background = global::HowdyHack2020.Droid.Resource.Drawable.notification_icon_background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.notification_template_icon_bg = global::HowdyHack2020.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.notification_template_icon_low_bg = global::HowdyHack2020.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.notification_tile_bg = global::HowdyHack2020.Droid.Resource.Drawable.notification_tile_bg;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.notify_panel_notification_icon_bg = global::HowdyHack2020.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.tooltip_frame_dark = global::HowdyHack2020.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Drawable.tooltip_frame_light = global::HowdyHack2020.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action0 = global::HowdyHack2020.Droid.Resource.Id.action0;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.actions = global::HowdyHack2020.Droid.Resource.Id.actions;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_bar = global::HowdyHack2020.Droid.Resource.Id.action_bar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_bar_activity_content = global::HowdyHack2020.Droid.Resource.Id.action_bar_activity_content;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_bar_container = global::HowdyHack2020.Droid.Resource.Id.action_bar_container;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_bar_root = global::HowdyHack2020.Droid.Resource.Id.action_bar_root;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_bar_spinner = global::HowdyHack2020.Droid.Resource.Id.action_bar_spinner;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_bar_subtitle = global::HowdyHack2020.Droid.Resource.Id.action_bar_subtitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_bar_title = global::HowdyHack2020.Droid.Resource.Id.action_bar_title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_container = global::HowdyHack2020.Droid.Resource.Id.action_container;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_context_bar = global::HowdyHack2020.Droid.Resource.Id.action_context_bar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_divider = global::HowdyHack2020.Droid.Resource.Id.action_divider;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_image = global::HowdyHack2020.Droid.Resource.Id.action_image;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_menu_divider = global::HowdyHack2020.Droid.Resource.Id.action_menu_divider;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_menu_presenter = global::HowdyHack2020.Droid.Resource.Id.action_menu_presenter;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_mode_bar = global::HowdyHack2020.Droid.Resource.Id.action_mode_bar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_mode_bar_stub = global::HowdyHack2020.Droid.Resource.Id.action_mode_bar_stub;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_mode_close_button = global::HowdyHack2020.Droid.Resource.Id.action_mode_close_button;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.action_text = global::HowdyHack2020.Droid.Resource.Id.action_text;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.activity_chooser_view_content = global::HowdyHack2020.Droid.Resource.Id.activity_chooser_view_content;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.add = global::HowdyHack2020.Droid.Resource.Id.add;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.alertTitle = global::HowdyHack2020.Droid.Resource.Id.alertTitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.all = global::HowdyHack2020.Droid.Resource.Id.all;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.ALT = global::HowdyHack2020.Droid.Resource.Id.ALT;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.always = global::HowdyHack2020.Droid.Resource.Id.always;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.async = global::HowdyHack2020.Droid.Resource.Id.async;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.auto = global::HowdyHack2020.Droid.Resource.Id.auto;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.beginning = global::HowdyHack2020.Droid.Resource.Id.beginning;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.blocking = global::HowdyHack2020.Droid.Resource.Id.blocking;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.bottom = global::HowdyHack2020.Droid.Resource.Id.bottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.bottomtab_navarea = global::HowdyHack2020.Droid.Resource.Id.bottomtab_navarea;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.bottomtab_tabbar = global::HowdyHack2020.Droid.Resource.Id.bottomtab_tabbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.browser_actions_header_text = global::HowdyHack2020.Droid.Resource.Id.browser_actions_header_text;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.browser_actions_menu_items = global::HowdyHack2020.Droid.Resource.Id.browser_actions_menu_items;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.browser_actions_menu_item_icon = global::HowdyHack2020.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.browser_actions_menu_item_text = global::HowdyHack2020.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.browser_actions_menu_view = global::HowdyHack2020.Droid.Resource.Id.browser_actions_menu_view;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.buttonPanel = global::HowdyHack2020.Droid.Resource.Id.buttonPanel;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.cancel_action = global::HowdyHack2020.Droid.Resource.Id.cancel_action;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.center = global::HowdyHack2020.Droid.Resource.Id.center;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.center_horizontal = global::HowdyHack2020.Droid.Resource.Id.center_horizontal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.center_vertical = global::HowdyHack2020.Droid.Resource.Id.center_vertical;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.checkbox = global::HowdyHack2020.Droid.Resource.Id.checkbox;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.chronometer = global::HowdyHack2020.Droid.Resource.Id.chronometer;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.clip_horizontal = global::HowdyHack2020.Droid.Resource.Id.clip_horizontal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.clip_vertical = global::HowdyHack2020.Droid.Resource.Id.clip_vertical;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.collapseActionView = global::HowdyHack2020.Droid.Resource.Id.collapseActionView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.container = global::HowdyHack2020.Droid.Resource.Id.container;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.content = global::HowdyHack2020.Droid.Resource.Id.content;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.contentPanel = global::HowdyHack2020.Droid.Resource.Id.contentPanel;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.coordinator = global::HowdyHack2020.Droid.Resource.Id.coordinator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.CTRL = global::HowdyHack2020.Droid.Resource.Id.CTRL;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.custom = global::HowdyHack2020.Droid.Resource.Id.custom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.customPanel = global::HowdyHack2020.Droid.Resource.Id.customPanel;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.decor_content_parent = global::HowdyHack2020.Droid.Resource.Id.decor_content_parent;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.default_activity_button = global::HowdyHack2020.Droid.Resource.Id.default_activity_button;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.design_bottom_sheet = global::HowdyHack2020.Droid.Resource.Id.design_bottom_sheet;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.design_menu_item_action_area = global::HowdyHack2020.Droid.Resource.Id.design_menu_item_action_area;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.design_menu_item_action_area_stub = global::HowdyHack2020.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.design_menu_item_text = global::HowdyHack2020.Droid.Resource.Id.design_menu_item_text;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.design_navigation_view = global::HowdyHack2020.Droid.Resource.Id.design_navigation_view;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.disableHome = global::HowdyHack2020.Droid.Resource.Id.disableHome;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.edit_query = global::HowdyHack2020.Droid.Resource.Id.edit_query;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.end = global::HowdyHack2020.Droid.Resource.Id.end;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.end_padder = global::HowdyHack2020.Droid.Resource.Id.end_padder;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.enterAlways = global::HowdyHack2020.Droid.Resource.Id.enterAlways;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.enterAlwaysCollapsed = global::HowdyHack2020.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.exitUntilCollapsed = global::HowdyHack2020.Droid.Resource.Id.exitUntilCollapsed;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.expanded_menu = global::HowdyHack2020.Droid.Resource.Id.expanded_menu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.expand_activities_button = global::HowdyHack2020.Droid.Resource.Id.expand_activities_button;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.fill = global::HowdyHack2020.Droid.Resource.Id.fill;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.filled = global::HowdyHack2020.Droid.Resource.Id.filled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.fill_horizontal = global::HowdyHack2020.Droid.Resource.Id.fill_horizontal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.fill_vertical = global::HowdyHack2020.Droid.Resource.Id.fill_vertical;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.@fixed = global::HowdyHack2020.Droid.Resource.Id.@fixed;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.flyoutcontent_appbar = global::HowdyHack2020.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.flyoutcontent_recycler = global::HowdyHack2020.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.forever = global::HowdyHack2020.Droid.Resource.Id.forever;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.FUNCTION = global::HowdyHack2020.Droid.Resource.Id.FUNCTION;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.ghost_view = global::HowdyHack2020.Droid.Resource.Id.ghost_view;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.group_divider = global::HowdyHack2020.Droid.Resource.Id.group_divider;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.home = global::HowdyHack2020.Droid.Resource.Id.home;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.homeAsUp = global::HowdyHack2020.Droid.Resource.Id.homeAsUp;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.icon = global::HowdyHack2020.Droid.Resource.Id.icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.icon_group = global::HowdyHack2020.Droid.Resource.Id.icon_group;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.ifRoom = global::HowdyHack2020.Droid.Resource.Id.ifRoom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.image = global::HowdyHack2020.Droid.Resource.Id.image;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.info = global::HowdyHack2020.Droid.Resource.Id.info;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.italic = global::HowdyHack2020.Droid.Resource.Id.italic;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.item_touch_helper_previous_elevation = global::HowdyHack2020.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.labeled = global::HowdyHack2020.Droid.Resource.Id.labeled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.largeLabel = global::HowdyHack2020.Droid.Resource.Id.largeLabel;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.left = global::HowdyHack2020.Droid.Resource.Id.left;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.line1 = global::HowdyHack2020.Droid.Resource.Id.line1;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.line3 = global::HowdyHack2020.Droid.Resource.Id.line3;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.listMode = global::HowdyHack2020.Droid.Resource.Id.listMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.list_item = global::HowdyHack2020.Droid.Resource.Id.list_item;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.main_appbar = global::HowdyHack2020.Droid.Resource.Id.main_appbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.main_tablayout = global::HowdyHack2020.Droid.Resource.Id.main_tablayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.main_toolbar = global::HowdyHack2020.Droid.Resource.Id.main_toolbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.main_viewpager = global::HowdyHack2020.Droid.Resource.Id.main_viewpager;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.masked = global::HowdyHack2020.Droid.Resource.Id.masked;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.media_actions = global::HowdyHack2020.Droid.Resource.Id.media_actions;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.message = global::HowdyHack2020.Droid.Resource.Id.message;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.META = global::HowdyHack2020.Droid.Resource.Id.META;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.middle = global::HowdyHack2020.Droid.Resource.Id.middle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.mini = global::HowdyHack2020.Droid.Resource.Id.mini;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.mtrl_child_content_container = global::HowdyHack2020.Droid.Resource.Id.mtrl_child_content_container;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.mtrl_internal_children_alpha_tag = global::HowdyHack2020.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.multiply = global::HowdyHack2020.Droid.Resource.Id.multiply;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.navigation_header_container = global::HowdyHack2020.Droid.Resource.Id.navigation_header_container;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.never = global::HowdyHack2020.Droid.Resource.Id.never;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.none = global::HowdyHack2020.Droid.Resource.Id.none;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.normal = global::HowdyHack2020.Droid.Resource.Id.normal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.notification_background = global::HowdyHack2020.Droid.Resource.Id.notification_background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.notification_main_column = global::HowdyHack2020.Droid.Resource.Id.notification_main_column;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.notification_main_column_container = global::HowdyHack2020.Droid.Resource.Id.notification_main_column_container;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.outline = global::HowdyHack2020.Droid.Resource.Id.outline;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.parallax = global::HowdyHack2020.Droid.Resource.Id.parallax;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.parentPanel = global::HowdyHack2020.Droid.Resource.Id.parentPanel;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.parent_matrix = global::HowdyHack2020.Droid.Resource.Id.parent_matrix;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.pin = global::HowdyHack2020.Droid.Resource.Id.pin;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.progress_circular = global::HowdyHack2020.Droid.Resource.Id.progress_circular;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.progress_horizontal = global::HowdyHack2020.Droid.Resource.Id.progress_horizontal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.radio = global::HowdyHack2020.Droid.Resource.Id.radio;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.right = global::HowdyHack2020.Droid.Resource.Id.right;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.right_icon = global::HowdyHack2020.Droid.Resource.Id.right_icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.right_side = global::HowdyHack2020.Droid.Resource.Id.right_side;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.save_image_matrix = global::HowdyHack2020.Droid.Resource.Id.save_image_matrix;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.save_non_transition_alpha = global::HowdyHack2020.Droid.Resource.Id.save_non_transition_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.save_scale_type = global::HowdyHack2020.Droid.Resource.Id.save_scale_type;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.screen = global::HowdyHack2020.Droid.Resource.Id.screen;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.scroll = global::HowdyHack2020.Droid.Resource.Id.scroll;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.scrollable = global::HowdyHack2020.Droid.Resource.Id.scrollable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.scrollIndicatorDown = global::HowdyHack2020.Droid.Resource.Id.scrollIndicatorDown;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.scrollIndicatorUp = global::HowdyHack2020.Droid.Resource.Id.scrollIndicatorUp;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.scrollView = global::HowdyHack2020.Droid.Resource.Id.scrollView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.search_badge = global::HowdyHack2020.Droid.Resource.Id.search_badge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.search_bar = global::HowdyHack2020.Droid.Resource.Id.search_bar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.search_button = global::HowdyHack2020.Droid.Resource.Id.search_button;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.search_close_btn = global::HowdyHack2020.Droid.Resource.Id.search_close_btn;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.search_edit_frame = global::HowdyHack2020.Droid.Resource.Id.search_edit_frame;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.search_go_btn = global::HowdyHack2020.Droid.Resource.Id.search_go_btn;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.search_mag_icon = global::HowdyHack2020.Droid.Resource.Id.search_mag_icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.search_plate = global::HowdyHack2020.Droid.Resource.Id.search_plate;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.search_src_text = global::HowdyHack2020.Droid.Resource.Id.search_src_text;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.search_voice_btn = global::HowdyHack2020.Droid.Resource.Id.search_voice_btn;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.selected = global::HowdyHack2020.Droid.Resource.Id.selected;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.select_dialog_listview = global::HowdyHack2020.Droid.Resource.Id.select_dialog_listview;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.shellcontent_appbar = global::HowdyHack2020.Droid.Resource.Id.shellcontent_appbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.shellcontent_toolbar = global::HowdyHack2020.Droid.Resource.Id.shellcontent_toolbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.SHIFT = global::HowdyHack2020.Droid.Resource.Id.SHIFT;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.shortcut = global::HowdyHack2020.Droid.Resource.Id.shortcut;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.showCustom = global::HowdyHack2020.Droid.Resource.Id.showCustom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.showHome = global::HowdyHack2020.Droid.Resource.Id.showHome;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.showTitle = global::HowdyHack2020.Droid.Resource.Id.showTitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.smallLabel = global::HowdyHack2020.Droid.Resource.Id.smallLabel;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.snackbar_action = global::HowdyHack2020.Droid.Resource.Id.snackbar_action;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.snackbar_text = global::HowdyHack2020.Droid.Resource.Id.snackbar_text;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.snap = global::HowdyHack2020.Droid.Resource.Id.snap;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.snapMargins = global::HowdyHack2020.Droid.Resource.Id.snapMargins;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.spacer = global::HowdyHack2020.Droid.Resource.Id.spacer;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.split_action_bar = global::HowdyHack2020.Droid.Resource.Id.split_action_bar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.src_atop = global::HowdyHack2020.Droid.Resource.Id.src_atop;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.src_in = global::HowdyHack2020.Droid.Resource.Id.src_in;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.src_over = global::HowdyHack2020.Droid.Resource.Id.src_over;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.start = global::HowdyHack2020.Droid.Resource.Id.start;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.status_bar_latest_event_content = global::HowdyHack2020.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.stretch = global::HowdyHack2020.Droid.Resource.Id.stretch;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.submenuarrow = global::HowdyHack2020.Droid.Resource.Id.submenuarrow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.submit_area = global::HowdyHack2020.Droid.Resource.Id.submit_area;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.SYM = global::HowdyHack2020.Droid.Resource.Id.SYM;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.tabMode = global::HowdyHack2020.Droid.Resource.Id.tabMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.tag_transition_group = global::HowdyHack2020.Droid.Resource.Id.tag_transition_group;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.tag_unhandled_key_event_manager = global::HowdyHack2020.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.tag_unhandled_key_listeners = global::HowdyHack2020.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.text = global::HowdyHack2020.Droid.Resource.Id.text;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.text2 = global::HowdyHack2020.Droid.Resource.Id.text2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.textinput_counter = global::HowdyHack2020.Droid.Resource.Id.textinput_counter;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.textinput_error = global::HowdyHack2020.Droid.Resource.Id.textinput_error;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.textinput_helper_text = global::HowdyHack2020.Droid.Resource.Id.textinput_helper_text;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.textSpacerNoButtons = global::HowdyHack2020.Droid.Resource.Id.textSpacerNoButtons;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.textSpacerNoTitle = global::HowdyHack2020.Droid.Resource.Id.textSpacerNoTitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.textStart = global::HowdyHack2020.Droid.Resource.Id.textStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.text_input_password_toggle = global::HowdyHack2020.Droid.Resource.Id.text_input_password_toggle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.time = global::HowdyHack2020.Droid.Resource.Id.time;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.title = global::HowdyHack2020.Droid.Resource.Id.title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.titleDividerNoCustom = global::HowdyHack2020.Droid.Resource.Id.titleDividerNoCustom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.title_template = global::HowdyHack2020.Droid.Resource.Id.title_template;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.top = global::HowdyHack2020.Droid.Resource.Id.top;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.topPanel = global::HowdyHack2020.Droid.Resource.Id.topPanel;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.touch_outside = global::HowdyHack2020.Droid.Resource.Id.touch_outside;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.transition_current_scene = global::HowdyHack2020.Droid.Resource.Id.transition_current_scene;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.transition_layout_save = global::HowdyHack2020.Droid.Resource.Id.transition_layout_save;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.transition_position = global::HowdyHack2020.Droid.Resource.Id.transition_position;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.transition_scene_layoutid_cache = global::HowdyHack2020.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.transition_transform = global::HowdyHack2020.Droid.Resource.Id.transition_transform;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.uniform = global::HowdyHack2020.Droid.Resource.Id.uniform;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.unlabeled = global::HowdyHack2020.Droid.Resource.Id.unlabeled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.up = global::HowdyHack2020.Droid.Resource.Id.up;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.useLogo = global::HowdyHack2020.Droid.Resource.Id.useLogo;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.view_offset_helper = global::HowdyHack2020.Droid.Resource.Id.view_offset_helper;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.visible = global::HowdyHack2020.Droid.Resource.Id.visible;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.withText = global::HowdyHack2020.Droid.Resource.Id.withText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Id.wrap_content = global::HowdyHack2020.Droid.Resource.Id.wrap_content;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Integer.abc_config_activityDefaultDur = global::HowdyHack2020.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Integer.abc_config_activityShortDur = global::HowdyHack2020.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Integer.app_bar_elevation_anim_duration = global::HowdyHack2020.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Integer.bottom_sheet_slide_duration = global::HowdyHack2020.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Integer.cancel_button_image_alpha = global::HowdyHack2020.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Integer.config_tooltipAnimTime = global::HowdyHack2020.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Integer.design_snackbar_text_max_lines = global::HowdyHack2020.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Integer.design_tab_indicator_anim_duration_ms = global::HowdyHack2020.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Integer.hide_password_duration = global::HowdyHack2020.Droid.Resource.Integer.hide_password_duration;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Integer.mtrl_btn_anim_delay_ms = global::HowdyHack2020.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Integer.mtrl_btn_anim_duration_ms = global::HowdyHack2020.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Integer.mtrl_chip_anim_duration = global::HowdyHack2020.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::HowdyHack2020.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Integer.show_password_duration = global::HowdyHack2020.Droid.Resource.Integer.show_password_duration;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Integer.status_bar_notification_info_maxnum = global::HowdyHack2020.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Interpolator.mtrl_fast_out_linear_in = global::HowdyHack2020.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Interpolator.mtrl_fast_out_slow_in = global::HowdyHack2020.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Interpolator.mtrl_linear = global::HowdyHack2020.Droid.Resource.Interpolator.mtrl_linear;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Interpolator.mtrl_linear_out_slow_in = global::HowdyHack2020.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_action_bar_title_item = global::HowdyHack2020.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_action_bar_up_container = global::HowdyHack2020.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_action_menu_item_layout = global::HowdyHack2020.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_action_menu_layout = global::HowdyHack2020.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_action_mode_bar = global::HowdyHack2020.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_action_mode_close_item_material = global::HowdyHack2020.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_activity_chooser_view = global::HowdyHack2020.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_activity_chooser_view_list_item = global::HowdyHack2020.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_alert_dialog_button_bar_material = global::HowdyHack2020.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_alert_dialog_material = global::HowdyHack2020.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_alert_dialog_title_material = global::HowdyHack2020.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_cascading_menu_item_layout = global::HowdyHack2020.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_dialog_title_material = global::HowdyHack2020.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_expanded_menu_layout = global::HowdyHack2020.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_list_menu_item_checkbox = global::HowdyHack2020.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_list_menu_item_icon = global::HowdyHack2020.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_list_menu_item_layout = global::HowdyHack2020.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_list_menu_item_radio = global::HowdyHack2020.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_popup_menu_header_item_layout = global::HowdyHack2020.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_popup_menu_item_layout = global::HowdyHack2020.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_screen_content_include = global::HowdyHack2020.Droid.Resource.Layout.abc_screen_content_include;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_screen_simple = global::HowdyHack2020.Droid.Resource.Layout.abc_screen_simple;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_screen_simple_overlay_action_mode = global::HowdyHack2020.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_screen_toolbar = global::HowdyHack2020.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_search_dropdown_item_icons_2line = global::HowdyHack2020.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_search_view = global::HowdyHack2020.Droid.Resource.Layout.abc_search_view;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_select_dialog_material = global::HowdyHack2020.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.abc_tooltip = global::HowdyHack2020.Droid.Resource.Layout.abc_tooltip;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.BottomTabLayout = global::HowdyHack2020.Droid.Resource.Layout.BottomTabLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.browser_actions_context_menu_page = global::HowdyHack2020.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.browser_actions_context_menu_row = global::HowdyHack2020.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.design_bottom_navigation_item = global::HowdyHack2020.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.design_bottom_sheet_dialog = global::HowdyHack2020.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.design_layout_snackbar = global::HowdyHack2020.Droid.Resource.Layout.design_layout_snackbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.design_layout_snackbar_include = global::HowdyHack2020.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.design_layout_tab_icon = global::HowdyHack2020.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.design_layout_tab_text = global::HowdyHack2020.Droid.Resource.Layout.design_layout_tab_text;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.design_menu_item_action_area = global::HowdyHack2020.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.design_navigation_item = global::HowdyHack2020.Droid.Resource.Layout.design_navigation_item;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.design_navigation_item_header = global::HowdyHack2020.Droid.Resource.Layout.design_navigation_item_header;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.design_navigation_item_separator = global::HowdyHack2020.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.design_navigation_item_subheader = global::HowdyHack2020.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.design_navigation_menu = global::HowdyHack2020.Droid.Resource.Layout.design_navigation_menu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.design_navigation_menu_item = global::HowdyHack2020.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.design_text_input_password_icon = global::HowdyHack2020.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.FlyoutContent = global::HowdyHack2020.Droid.Resource.Layout.FlyoutContent;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.mtrl_layout_snackbar = global::HowdyHack2020.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.mtrl_layout_snackbar_include = global::HowdyHack2020.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.notification_action = global::HowdyHack2020.Droid.Resource.Layout.notification_action;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.notification_action_tombstone = global::HowdyHack2020.Droid.Resource.Layout.notification_action_tombstone;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.notification_media_action = global::HowdyHack2020.Droid.Resource.Layout.notification_media_action;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.notification_media_cancel_action = global::HowdyHack2020.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.notification_template_big_media = global::HowdyHack2020.Droid.Resource.Layout.notification_template_big_media;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.notification_template_big_media_custom = global::HowdyHack2020.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.notification_template_big_media_narrow = global::HowdyHack2020.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.notification_template_big_media_narrow_custom = global::HowdyHack2020.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.notification_template_custom_big = global::HowdyHack2020.Droid.Resource.Layout.notification_template_custom_big;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.notification_template_icon_group = global::HowdyHack2020.Droid.Resource.Layout.notification_template_icon_group;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.notification_template_lines_media = global::HowdyHack2020.Droid.Resource.Layout.notification_template_lines_media;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.notification_template_media = global::HowdyHack2020.Droid.Resource.Layout.notification_template_media;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.notification_template_media_custom = global::HowdyHack2020.Droid.Resource.Layout.notification_template_media_custom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.notification_template_part_chronometer = global::HowdyHack2020.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.notification_template_part_time = global::HowdyHack2020.Droid.Resource.Layout.notification_template_part_time;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.RootLayout = global::HowdyHack2020.Droid.Resource.Layout.RootLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.select_dialog_item_material = global::HowdyHack2020.Droid.Resource.Layout.select_dialog_item_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.select_dialog_multichoice_material = global::HowdyHack2020.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.select_dialog_singlechoice_material = global::HowdyHack2020.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.ShellContent = global::HowdyHack2020.Droid.Resource.Layout.ShellContent;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Layout.support_simple_spinner_dropdown_item = global::HowdyHack2020.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_action_bar_home_description = global::HowdyHack2020.Droid.Resource.String.abc_action_bar_home_description;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_action_bar_up_description = global::HowdyHack2020.Droid.Resource.String.abc_action_bar_up_description;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_action_menu_overflow_description = global::HowdyHack2020.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_action_mode_done = global::HowdyHack2020.Droid.Resource.String.abc_action_mode_done;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_activitychooserview_choose_application = global::HowdyHack2020.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_activity_chooser_view_see_all = global::HowdyHack2020.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_capital_off = global::HowdyHack2020.Droid.Resource.String.abc_capital_off;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_capital_on = global::HowdyHack2020.Droid.Resource.String.abc_capital_on;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_font_family_body_1_material = global::HowdyHack2020.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_font_family_body_2_material = global::HowdyHack2020.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_font_family_button_material = global::HowdyHack2020.Droid.Resource.String.abc_font_family_button_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_font_family_caption_material = global::HowdyHack2020.Droid.Resource.String.abc_font_family_caption_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_font_family_display_1_material = global::HowdyHack2020.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_font_family_display_2_material = global::HowdyHack2020.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_font_family_display_3_material = global::HowdyHack2020.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_font_family_display_4_material = global::HowdyHack2020.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_font_family_headline_material = global::HowdyHack2020.Droid.Resource.String.abc_font_family_headline_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_font_family_menu_material = global::HowdyHack2020.Droid.Resource.String.abc_font_family_menu_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_font_family_subhead_material = global::HowdyHack2020.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_font_family_title_material = global::HowdyHack2020.Droid.Resource.String.abc_font_family_title_material;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_menu_alt_shortcut_label = global::HowdyHack2020.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_menu_ctrl_shortcut_label = global::HowdyHack2020.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_menu_delete_shortcut_label = global::HowdyHack2020.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_menu_enter_shortcut_label = global::HowdyHack2020.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_menu_function_shortcut_label = global::HowdyHack2020.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_menu_meta_shortcut_label = global::HowdyHack2020.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_menu_shift_shortcut_label = global::HowdyHack2020.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_menu_space_shortcut_label = global::HowdyHack2020.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_menu_sym_shortcut_label = global::HowdyHack2020.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_prepend_shortcut_label = global::HowdyHack2020.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_searchview_description_clear = global::HowdyHack2020.Droid.Resource.String.abc_searchview_description_clear;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_searchview_description_query = global::HowdyHack2020.Droid.Resource.String.abc_searchview_description_query;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_searchview_description_search = global::HowdyHack2020.Droid.Resource.String.abc_searchview_description_search;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_searchview_description_submit = global::HowdyHack2020.Droid.Resource.String.abc_searchview_description_submit;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_searchview_description_voice = global::HowdyHack2020.Droid.Resource.String.abc_searchview_description_voice;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_search_hint = global::HowdyHack2020.Droid.Resource.String.abc_search_hint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_shareactionprovider_share_with = global::HowdyHack2020.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_shareactionprovider_share_with_application = global::HowdyHack2020.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.abc_toolbar_collapse_description = global::HowdyHack2020.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.appbar_scrolling_view_behavior = global::HowdyHack2020.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.bottom_sheet_behavior = global::HowdyHack2020.Droid.Resource.String.bottom_sheet_behavior;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.character_counter_content_description = global::HowdyHack2020.Droid.Resource.String.character_counter_content_description;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.character_counter_pattern = global::HowdyHack2020.Droid.Resource.String.character_counter_pattern;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.fab_transformation_scrim_behavior = global::HowdyHack2020.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.fab_transformation_sheet_behavior = global::HowdyHack2020.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.hide_bottom_view_on_scroll_behavior = global::HowdyHack2020.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.mtrl_chip_close_icon_content_description = global::HowdyHack2020.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.password_toggle_content_description = global::HowdyHack2020.Droid.Resource.String.password_toggle_content_description;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.path_password_eye = global::HowdyHack2020.Droid.Resource.String.path_password_eye;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.path_password_eye_mask_strike_through = global::HowdyHack2020.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.path_password_eye_mask_visible = global::HowdyHack2020.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.path_password_strike_through = global::HowdyHack2020.Droid.Resource.String.path_password_strike_through;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.search_menu_title = global::HowdyHack2020.Droid.Resource.String.search_menu_title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.String.status_bar_notification_info_overflow = global::HowdyHack2020.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.AlertDialog_AppCompat = global::HowdyHack2020.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.AlertDialog_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Animation_AppCompat_Dialog = global::HowdyHack2020.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Animation_AppCompat_DropDownUp = global::HowdyHack2020.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Animation_AppCompat_Tooltip = global::HowdyHack2020.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Animation_Design_BottomSheetDialog = global::HowdyHack2020.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.AppCompatDialogStyle = global::HowdyHack2020.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_AlertDialog_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_AlertDialog_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Animation_AppCompat_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::HowdyHack2020.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Animation_AppCompat_Tooltip = global::HowdyHack2020.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_CardView = global::HowdyHack2020.Droid.Resource.Style.Base_CardView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_DialogWindowTitle_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Button = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Large = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Small = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Title = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::HowdyHack2020.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::HowdyHack2020.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::HowdyHack2020.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::HowdyHack2020.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::HowdyHack2020.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::HowdyHack2020.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::HowdyHack2020.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::HowdyHack2020.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents = global::HowdyHack2020.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::HowdyHack2020.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::HowdyHack2020.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::HowdyHack2020.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::HowdyHack2020.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V21_Theme_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V21_Theme_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V22_Theme_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V22_Theme_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V23_Theme_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V23_Theme_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V26_Theme_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V26_Theme_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::HowdyHack2020.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V28_Theme_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V28_Theme_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V7_Theme_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V7_Theme_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::HowdyHack2020.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::HowdyHack2020.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::HowdyHack2020.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActionMode = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Button = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Button_Small = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_EditText = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ImageButton = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ListView = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_SearchView = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_SeekBar = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Spinner = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Toolbar = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_Design_TabLayout = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_MaterialComponents_Chip = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::HowdyHack2020.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.CardView = global::HowdyHack2020.Droid.Resource.Style.CardView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.CardView_Dark = global::HowdyHack2020.Droid.Resource.Style.CardView_Dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.CardView_Light = global::HowdyHack2020.Droid.Resource.Style.CardView_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.collectionViewScrollBars = global::HowdyHack2020.Droid.Resource.Style.collectionViewScrollBars;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.collectionViewTheme = global::HowdyHack2020.Droid.Resource.Style.collectionViewTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.MainTheme = global::HowdyHack2020.Droid.Resource.Style.MainTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.MainTheme_Base = global::HowdyHack2020.Droid.Resource.Style.MainTheme_Base;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Platform_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Platform_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Platform_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Platform_MaterialComponents = global::HowdyHack2020.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Platform_MaterialComponents_Dialog = global::HowdyHack2020.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Platform_MaterialComponents_Light = global::HowdyHack2020.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::HowdyHack2020.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::HowdyHack2020.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Platform_V21_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Platform_V21_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Platform_V25_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Platform_V25_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Platform_Widget_AppCompat_Spinner = global::HowdyHack2020.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::HowdyHack2020.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::HowdyHack2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::HowdyHack2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::HowdyHack2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::HowdyHack2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::HowdyHack2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::HowdyHack2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::HowdyHack2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::HowdyHack2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::HowdyHack2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::HowdyHack2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::HowdyHack2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::HowdyHack2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::HowdyHack2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::HowdyHack2020.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::HowdyHack2020.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::HowdyHack2020.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Body1 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Body2 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Button = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Caption = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Display1 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Display2 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Display3 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Display4 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Headline = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Inverse = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Large = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Medium = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Menu = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Small = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Subhead = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Title = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Tooltip = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Info = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Media = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Time = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Title = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Design_Counter = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Design_Counter_Overflow = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Design_Error = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Design_HelperText = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Design_Hint = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Design_Snackbar_Message = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Design_Tab = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Button = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Caption = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Chip = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Overline = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_MaterialComponents_Tab = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::HowdyHack2020.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat_Dark = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::HowdyHack2020.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_CompactMenu = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_DayNight = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_Dialog = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_Dialog_Alert = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_Light_Dialog = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_AppCompat_NoActionBar = global::HowdyHack2020.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_Design = global::HowdyHack2020.Droid.Resource.Style.Theme_Design;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_Design_BottomSheetDialog = global::HowdyHack2020.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_Design_Light = global::HowdyHack2020.Droid.Resource.Style.Theme_Design_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::HowdyHack2020.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_Design_Light_NoActionBar = global::HowdyHack2020.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_Design_NoActionBar = global::HowdyHack2020.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Bridge = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_CompactMenu = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Dialog = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_NoActionBar = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::HowdyHack2020.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionBar = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionButton = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActionMode = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ActivityChooserView = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Button = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ButtonBar = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Button_Borderless = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Button_Colored = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Button_Small = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_EditText = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ImageButton = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_SearchView = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ListMenuView = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ListPopupWindow = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ListView = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ListView_DropDown = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ListView_Menu = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_PopupMenu = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_PopupWindow = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ProgressBar = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_RatingBar = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_RatingBar_Small = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_SearchView = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_SeekBar = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Spinner = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Toolbar = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::HowdyHack2020.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_Compat_NotificationActionContainer = global::HowdyHack2020.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_Compat_NotificationActionText = global::HowdyHack2020.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_Design_AppBarLayout = global::HowdyHack2020.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_Design_BottomNavigationView = global::HowdyHack2020.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_Design_BottomSheet_Modal = global::HowdyHack2020.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_Design_CollapsingToolbar = global::HowdyHack2020.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_Design_FloatingActionButton = global::HowdyHack2020.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_Design_NavigationView = global::HowdyHack2020.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::HowdyHack2020.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_Design_Snackbar = global::HowdyHack2020.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_Design_TabLayout = global::HowdyHack2020.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_Design_TextInputLayout = global::HowdyHack2020.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_Icon = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_CardView = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_ChipGroup = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Chip_Action = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_NavigationView = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Snackbar = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TabLayout = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_MaterialComponents_Toolbar = global::HowdyHack2020.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Style.Widget_Support_CoordinatorLayout = global::HowdyHack2020.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBarLayout = global::HowdyHack2020.Droid.Resource.Styleable.ActionBarLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::HowdyHack2020.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_background = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_backgroundSplit = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_backgroundStacked = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_contentInsetEnd = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_contentInsetLeft = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_contentInsetRight = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_contentInsetStart = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_customNavigationLayout = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_displayOptions = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_divider = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_divider;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_elevation = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_height = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_height;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_hideOnContentScroll = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_homeAsUpIndicator = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_homeLayout = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_icon = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_itemPadding = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_logo = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_logo;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_navigationMode = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_popupTheme = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_progressBarPadding = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_progressBarStyle = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_subtitle = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_subtitleTextStyle = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_title = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionBar_titleTextStyle = global::HowdyHack2020.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionMenuItemView = global::HowdyHack2020.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionMenuItemView_android_minWidth = global::HowdyHack2020.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionMenuView = global::HowdyHack2020.Droid.Resource.Styleable.ActionMenuView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionMode = global::HowdyHack2020.Droid.Resource.Styleable.ActionMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionMode_background = global::HowdyHack2020.Droid.Resource.Styleable.ActionMode_background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionMode_backgroundSplit = global::HowdyHack2020.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionMode_closeItemLayout = global::HowdyHack2020.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionMode_height = global::HowdyHack2020.Droid.Resource.Styleable.ActionMode_height;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionMode_subtitleTextStyle = global::HowdyHack2020.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActionMode_titleTextStyle = global::HowdyHack2020.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActivityChooserView = global::HowdyHack2020.Droid.Resource.Styleable.ActivityChooserView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::HowdyHack2020.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ActivityChooserView_initialActivityCount = global::HowdyHack2020.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AlertDialog = global::HowdyHack2020.Droid.Resource.Styleable.AlertDialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AlertDialog_android_layout = global::HowdyHack2020.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AlertDialog_buttonIconDimen = global::HowdyHack2020.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::HowdyHack2020.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AlertDialog_listItemLayout = global::HowdyHack2020.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AlertDialog_listLayout = global::HowdyHack2020.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::HowdyHack2020.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AlertDialog_showTitle = global::HowdyHack2020.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::HowdyHack2020.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableCompat = global::HowdyHack2020.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::HowdyHack2020.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::HowdyHack2020.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::HowdyHack2020.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::HowdyHack2020.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::HowdyHack2020.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::HowdyHack2020.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableItem = global::HowdyHack2020.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::HowdyHack2020.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::HowdyHack2020.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableTransition = global::HowdyHack2020.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::HowdyHack2020.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::HowdyHack2020.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::HowdyHack2020.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::HowdyHack2020.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppBarLayout = global::HowdyHack2020.Droid.Resource.Styleable.AppBarLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppBarLayoutStates = global::HowdyHack2020.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::HowdyHack2020.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::HowdyHack2020.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppBarLayoutStates_state_liftable = global::HowdyHack2020.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppBarLayoutStates_state_lifted = global::HowdyHack2020.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppBarLayout_android_background = global::HowdyHack2020.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::HowdyHack2020.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::HowdyHack2020.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppBarLayout_elevation = global::HowdyHack2020.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppBarLayout_expanded = global::HowdyHack2020.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppBarLayout_Layout = global::HowdyHack2020.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::HowdyHack2020.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::HowdyHack2020.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppBarLayout_liftOnScroll = global::HowdyHack2020.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatImageView = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatImageView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatImageView_android_src = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatImageView_srcCompat = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatImageView_tint = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatImageView_tintMode = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatSeekBar = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatSeekBar_android_thumb = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatSeekBar_tickMark = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextView = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextView_android_textAppearance = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextView_fontFamily = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextView_lineHeight = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTextView_textAllCaps = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarDivider = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarSize = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarTheme = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeBackground = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_buttonStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_checkboxStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorAccent = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorControlActivated = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorControlNormal = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorError = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorPrimary = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_controlBackground = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_dialogTheme = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_dividerVertical = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_editTextBackground = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_editTextColor = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_editTextStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_panelBackground = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_searchViewStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_seekBarStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_spinnerStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_switchStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_toolbarStyle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowActionBar = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.AppCompatTheme_windowNoTitle = global::HowdyHack2020.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomAppBar = global::HowdyHack2020.Droid.Resource.Styleable.BottomAppBar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomAppBar_backgroundTint = global::HowdyHack2020.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::HowdyHack2020.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomAppBar_fabCradleMargin = global::HowdyHack2020.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::HowdyHack2020.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::HowdyHack2020.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomAppBar_hideOnScroll = global::HowdyHack2020.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomNavigationView = global::HowdyHack2020.Droid.Resource.Styleable.BottomNavigationView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomNavigationView_elevation = global::HowdyHack2020.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomNavigationView_itemBackground = global::HowdyHack2020.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::HowdyHack2020.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomNavigationView_itemIconSize = global::HowdyHack2020.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomNavigationView_itemIconTint = global::HowdyHack2020.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::HowdyHack2020.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::HowdyHack2020.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomNavigationView_itemTextColor = global::HowdyHack2020.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::HowdyHack2020.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomNavigationView_menu = global::HowdyHack2020.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout = global::HowdyHack2020.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::HowdyHack2020.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::HowdyHack2020.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::HowdyHack2020.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::HowdyHack2020.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ButtonBarLayout = global::HowdyHack2020.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ButtonBarLayout_allowStacking = global::HowdyHack2020.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CardView = global::HowdyHack2020.Droid.Resource.Styleable.CardView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CardView_android_minHeight = global::HowdyHack2020.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CardView_android_minWidth = global::HowdyHack2020.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CardView_cardBackgroundColor = global::HowdyHack2020.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CardView_cardCornerRadius = global::HowdyHack2020.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CardView_cardElevation = global::HowdyHack2020.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CardView_cardMaxElevation = global::HowdyHack2020.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CardView_cardPreventCornerOverlap = global::HowdyHack2020.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CardView_cardUseCompatPadding = global::HowdyHack2020.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CardView_contentPadding = global::HowdyHack2020.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CardView_contentPaddingBottom = global::HowdyHack2020.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CardView_contentPaddingLeft = global::HowdyHack2020.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CardView_contentPaddingRight = global::HowdyHack2020.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CardView_contentPaddingTop = global::HowdyHack2020.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip = global::HowdyHack2020.Droid.Resource.Styleable.Chip;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ChipGroup = global::HowdyHack2020.Droid.Resource.Styleable.ChipGroup;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ChipGroup_checkedChip = global::HowdyHack2020.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ChipGroup_chipSpacing = global::HowdyHack2020.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::HowdyHack2020.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ChipGroup_chipSpacingVertical = global::HowdyHack2020.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ChipGroup_singleLine = global::HowdyHack2020.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ChipGroup_singleSelection = global::HowdyHack2020.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_android_checkable = global::HowdyHack2020.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_android_ellipsize = global::HowdyHack2020.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_android_maxWidth = global::HowdyHack2020.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_android_text = global::HowdyHack2020.Droid.Resource.Styleable.Chip_android_text;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_android_textAppearance = global::HowdyHack2020.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_checkedIcon = global::HowdyHack2020.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_checkedIconEnabled = global::HowdyHack2020.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_checkedIconVisible = global::HowdyHack2020.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_chipBackgroundColor = global::HowdyHack2020.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_chipCornerRadius = global::HowdyHack2020.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_chipEndPadding = global::HowdyHack2020.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_chipIcon = global::HowdyHack2020.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_chipIconEnabled = global::HowdyHack2020.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_chipIconSize = global::HowdyHack2020.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_chipIconTint = global::HowdyHack2020.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_chipIconVisible = global::HowdyHack2020.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_chipMinHeight = global::HowdyHack2020.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_chipStartPadding = global::HowdyHack2020.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_chipStrokeColor = global::HowdyHack2020.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_chipStrokeWidth = global::HowdyHack2020.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_closeIcon = global::HowdyHack2020.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_closeIconEnabled = global::HowdyHack2020.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_closeIconEndPadding = global::HowdyHack2020.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_closeIconSize = global::HowdyHack2020.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_closeIconStartPadding = global::HowdyHack2020.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_closeIconTint = global::HowdyHack2020.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_closeIconVisible = global::HowdyHack2020.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_hideMotionSpec = global::HowdyHack2020.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_iconEndPadding = global::HowdyHack2020.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_iconStartPadding = global::HowdyHack2020.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_rippleColor = global::HowdyHack2020.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_showMotionSpec = global::HowdyHack2020.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_textEndPadding = global::HowdyHack2020.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Chip_textStartPadding = global::HowdyHack2020.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_Layout = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_title = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::HowdyHack2020.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ColorStateListItem = global::HowdyHack2020.Droid.Resource.Styleable.ColorStateListItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ColorStateListItem_alpha = global::HowdyHack2020.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ColorStateListItem_android_alpha = global::HowdyHack2020.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ColorStateListItem_android_color = global::HowdyHack2020.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CompoundButton = global::HowdyHack2020.Droid.Resource.Styleable.CompoundButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CompoundButton_android_button = global::HowdyHack2020.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CompoundButton_buttonTint = global::HowdyHack2020.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CompoundButton_buttonTintMode = global::HowdyHack2020.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CoordinatorLayout = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_keylines = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.DesignTheme = global::HowdyHack2020.Droid.Resource.Styleable.DesignTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::HowdyHack2020.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.DesignTheme_bottomSheetStyle = global::HowdyHack2020.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle = global::HowdyHack2020.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::HowdyHack2020.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::HowdyHack2020.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_barLength = global::HowdyHack2020.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_color = global::HowdyHack2020.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_drawableSize = global::HowdyHack2020.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::HowdyHack2020.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_spinBars = global::HowdyHack2020.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.DrawerArrowToggle_thickness = global::HowdyHack2020.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton_backgroundTint = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton_borderWidth = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton_elevation = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton_fabCustomSize = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton_fabSize = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton_maxImageSize = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton_rippleColor = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton_showMotionSpec = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FloatingActionButton_useCompatPadding = global::HowdyHack2020.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FlowLayout = global::HowdyHack2020.Droid.Resource.Styleable.FlowLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FlowLayout_itemSpacing = global::HowdyHack2020.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FlowLayout_lineSpacing = global::HowdyHack2020.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamily = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamilyFont = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamilyFont_android_font = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamilyFont_android_fontStyle = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamilyFont_android_fontWeight = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamilyFont_font = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamilyFont_fontStyle = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamilyFont_fontWeight = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamilyFont_ttcIndex = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamily_fontProviderAuthority = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamily_fontProviderCerts = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamily_fontProviderPackage = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.FontFamily_fontProviderQuery = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ForegroundLinearLayout = global::HowdyHack2020.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::HowdyHack2020.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::HowdyHack2020.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::HowdyHack2020.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColor = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColorItem = global::HowdyHack2020.Droid.Resource.Styleable.GradientColorItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColorItem_android_color = global::HowdyHack2020.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColorItem_android_offset = global::HowdyHack2020.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColor_android_centerColor = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColor_android_centerX = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColor_android_centerY = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColor_android_endColor = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColor_android_endX = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColor_android_endY = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColor_android_gradientRadius = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColor_android_startColor = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColor_android_startX = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColor_android_startY = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColor_android_tileMode = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.GradientColor_android_type = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ItemsViewRendererTheme = global::HowdyHack2020.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::HowdyHack2020.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_android_gravity = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_android_orientation = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_divider = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_Layout = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.LinearLayoutCompat_showDividers = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ListPopupWindow = global::HowdyHack2020.Droid.Resource.Styleable.ListPopupWindow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::HowdyHack2020.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::HowdyHack2020.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_android_insetBottom = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_android_insetLeft = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_android_insetRight = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_android_insetTop = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_backgroundTint = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_backgroundTintMode = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_cornerRadius = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_icon = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_iconGravity = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_iconPadding = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_iconSize = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_iconTint = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_iconTintMode = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_rippleColor = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_strokeColor = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialButton_strokeWidth = global::HowdyHack2020.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialCardView = global::HowdyHack2020.Droid.Resource.Styleable.MaterialCardView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialCardView_strokeColor = global::HowdyHack2020.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialCardView_strokeWidth = global::HowdyHack2020.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::HowdyHack2020.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuGroup = global::HowdyHack2020.Droid.Resource.Styleable.MenuGroup;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuGroup_android_checkableBehavior = global::HowdyHack2020.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuGroup_android_enabled = global::HowdyHack2020.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuGroup_android_id = global::HowdyHack2020.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuGroup_android_menuCategory = global::HowdyHack2020.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuGroup_android_orderInCategory = global::HowdyHack2020.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuGroup_android_visible = global::HowdyHack2020.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_actionLayout = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_actionProviderClass = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_actionViewClass = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_alphabeticModifiers = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_android_checkable = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_android_checked = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_android_enabled = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_android_icon = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_android_id = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_android_menuCategory = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_android_numericShortcut = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_android_onClick = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_android_orderInCategory = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_android_title = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_android_titleCondensed = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_android_visible = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_contentDescription = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_iconTint = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_iconTintMode = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_numericModifiers = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_showAsAction = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuItem_tooltipText = global::HowdyHack2020.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuView = global::HowdyHack2020.Droid.Resource.Styleable.MenuView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuView_android_headerBackground = global::HowdyHack2020.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuView_android_horizontalDivider = global::HowdyHack2020.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuView_android_itemBackground = global::HowdyHack2020.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::HowdyHack2020.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuView_android_itemTextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuView_android_verticalDivider = global::HowdyHack2020.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuView_android_windowAnimationStyle = global::HowdyHack2020.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuView_preserveIconSpacing = global::HowdyHack2020.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.MenuView_subMenuArrow = global::HowdyHack2020.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.NavigationView = global::HowdyHack2020.Droid.Resource.Styleable.NavigationView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.NavigationView_android_background = global::HowdyHack2020.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::HowdyHack2020.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.NavigationView_android_maxWidth = global::HowdyHack2020.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.NavigationView_elevation = global::HowdyHack2020.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.NavigationView_headerLayout = global::HowdyHack2020.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.NavigationView_itemBackground = global::HowdyHack2020.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.NavigationView_itemHorizontalPadding = global::HowdyHack2020.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.NavigationView_itemIconPadding = global::HowdyHack2020.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.NavigationView_itemIconTint = global::HowdyHack2020.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.NavigationView_itemTextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.NavigationView_itemTextColor = global::HowdyHack2020.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.NavigationView_menu = global::HowdyHack2020.Droid.Resource.Styleable.NavigationView_menu;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.PopupWindow = global::HowdyHack2020.Droid.Resource.Styleable.PopupWindow;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.PopupWindowBackgroundState = global::HowdyHack2020.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::HowdyHack2020.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::HowdyHack2020.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.PopupWindow_android_popupBackground = global::HowdyHack2020.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.PopupWindow_overlapAnchor = global::HowdyHack2020.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.RecycleListView = global::HowdyHack2020.Droid.Resource.Styleable.RecycleListView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::HowdyHack2020.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::HowdyHack2020.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.RecyclerView = global::HowdyHack2020.Droid.Resource.Styleable.RecyclerView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.RecyclerView_android_descendantFocusability = global::HowdyHack2020.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.RecyclerView_android_orientation = global::HowdyHack2020.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.RecyclerView_fastScrollEnabled = global::HowdyHack2020.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::HowdyHack2020.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::HowdyHack2020.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::HowdyHack2020.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::HowdyHack2020.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.RecyclerView_layoutManager = global::HowdyHack2020.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.RecyclerView_reverseLayout = global::HowdyHack2020.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.RecyclerView_spanCount = global::HowdyHack2020.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.RecyclerView_stackFromEnd = global::HowdyHack2020.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ScrimInsetsFrameLayout = global::HowdyHack2020.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::HowdyHack2020.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ScrollingViewBehavior_Layout = global::HowdyHack2020.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::HowdyHack2020.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView = global::HowdyHack2020.Droid.Resource.Styleable.SearchView;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_android_focusable = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_android_imeOptions = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_android_inputType = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_android_maxWidth = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_closeIcon = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_commitIcon = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_defaultQueryHint = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_goIcon = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_iconifiedByDefault = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_layout = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_queryBackground = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_queryHint = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_searchHintIcon = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_searchIcon = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_submitBackground = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_suggestionRowLayout = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SearchView_voiceIcon = global::HowdyHack2020.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Snackbar = global::HowdyHack2020.Droid.Resource.Styleable.Snackbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SnackbarLayout = global::HowdyHack2020.Droid.Resource.Styleable.SnackbarLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SnackbarLayout_android_maxWidth = global::HowdyHack2020.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SnackbarLayout_elevation = global::HowdyHack2020.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::HowdyHack2020.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Snackbar_snackbarButtonStyle = global::HowdyHack2020.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Snackbar_snackbarStyle = global::HowdyHack2020.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Spinner = global::HowdyHack2020.Droid.Resource.Styleable.Spinner;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Spinner_android_dropDownWidth = global::HowdyHack2020.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Spinner_android_entries = global::HowdyHack2020.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Spinner_android_popupBackground = global::HowdyHack2020.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Spinner_android_prompt = global::HowdyHack2020.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Spinner_popupTheme = global::HowdyHack2020.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.StateListDrawable = global::HowdyHack2020.Droid.Resource.Styleable.StateListDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.StateListDrawableItem = global::HowdyHack2020.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.StateListDrawableItem_android_drawable = global::HowdyHack2020.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.StateListDrawable_android_constantSize = global::HowdyHack2020.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.StateListDrawable_android_dither = global::HowdyHack2020.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::HowdyHack2020.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::HowdyHack2020.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.StateListDrawable_android_variablePadding = global::HowdyHack2020.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.StateListDrawable_android_visible = global::HowdyHack2020.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SwitchCompat = global::HowdyHack2020.Droid.Resource.Styleable.SwitchCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SwitchCompat_android_textOff = global::HowdyHack2020.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SwitchCompat_android_textOn = global::HowdyHack2020.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SwitchCompat_android_thumb = global::HowdyHack2020.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SwitchCompat_showText = global::HowdyHack2020.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SwitchCompat_splitTrack = global::HowdyHack2020.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SwitchCompat_switchMinWidth = global::HowdyHack2020.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SwitchCompat_switchPadding = global::HowdyHack2020.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SwitchCompat_switchTextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SwitchCompat_thumbTextPadding = global::HowdyHack2020.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SwitchCompat_thumbTint = global::HowdyHack2020.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SwitchCompat_thumbTintMode = global::HowdyHack2020.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SwitchCompat_track = global::HowdyHack2020.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SwitchCompat_trackTint = global::HowdyHack2020.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.SwitchCompat_trackTintMode = global::HowdyHack2020.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabItem = global::HowdyHack2020.Droid.Resource.Styleable.TabItem;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabItem_android_icon = global::HowdyHack2020.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabItem_android_layout = global::HowdyHack2020.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabItem_android_text = global::HowdyHack2020.Droid.Resource.Styleable.TabItem_android_text;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabBackground = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabContentStart = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabGravity = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabIconTint = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabIconTintMode = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabIndicator = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabIndicatorColor = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabIndicatorGravity = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabIndicatorHeight = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabInlineLabel = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabMaxWidth = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabMinWidth = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabMode = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabPadding = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabPaddingBottom = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabPaddingEnd = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabPaddingStart = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabPaddingTop = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabRippleColor = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabSelectedTextColor = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabTextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabTextColor = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TabLayout_tabUnboundedRipple = global::HowdyHack2020.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.TextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextAppearance_android_fontFamily = global::HowdyHack2020.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextAppearance_android_shadowColor = global::HowdyHack2020.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextAppearance_android_shadowDx = global::HowdyHack2020.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextAppearance_android_shadowDy = global::HowdyHack2020.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextAppearance_android_shadowRadius = global::HowdyHack2020.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextAppearance_android_textColor = global::HowdyHack2020.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextAppearance_android_textColorHint = global::HowdyHack2020.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextAppearance_android_textColorLink = global::HowdyHack2020.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextAppearance_android_textSize = global::HowdyHack2020.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextAppearance_android_textStyle = global::HowdyHack2020.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextAppearance_android_typeface = global::HowdyHack2020.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextAppearance_fontFamily = global::HowdyHack2020.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextAppearance_textAllCaps = global::HowdyHack2020.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_android_hint = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_android_textColorHint = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxStrokeColor = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_counterEnabled = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_counterMaxLength = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_counterTextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_errorEnabled = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_errorTextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_helperText = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_helperTextEnabled = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_hintEnabled = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_hintTextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_passwordToggleTint = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::HowdyHack2020.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ThemeEnforcement = global::HowdyHack2020.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::HowdyHack2020.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::HowdyHack2020.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_android_gravity = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_android_minHeight = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_buttonGravity = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_collapseContentDescription = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_collapseIcon = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_contentInsetEnd = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_contentInsetLeft = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_contentInsetRight = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_contentInsetStart = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_logo = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_logo;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_logoDescription = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_maxButtonHeight = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_navigationContentDescription = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_navigationIcon = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_popupTheme = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_subtitle = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_subtitleTextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_subtitleTextColor = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_title = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_title;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_titleMargin = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_titleMarginBottom = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_titleMarginEnd = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_titleMargins = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_titleMarginStart = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_titleMarginTop = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_titleTextAppearance = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.Toolbar_titleTextColor = global::HowdyHack2020.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.View = global::HowdyHack2020.Droid.Resource.Styleable.View;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ViewBackgroundHelper = global::HowdyHack2020.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ViewBackgroundHelper_android_background = global::HowdyHack2020.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::HowdyHack2020.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::HowdyHack2020.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ViewStubCompat = global::HowdyHack2020.Droid.Resource.Styleable.ViewStubCompat;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ViewStubCompat_android_id = global::HowdyHack2020.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ViewStubCompat_android_inflatedId = global::HowdyHack2020.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.ViewStubCompat_android_layout = global::HowdyHack2020.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.View_android_focusable = global::HowdyHack2020.Droid.Resource.Styleable.View_android_focusable;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.View_android_theme = global::HowdyHack2020.Droid.Resource.Styleable.View_android_theme;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.View_paddingEnd = global::HowdyHack2020.Droid.Resource.Styleable.View_paddingEnd;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.View_paddingStart = global::HowdyHack2020.Droid.Resource.Styleable.View_paddingStart;
+			global::Esri.ArcGISRuntime.Xamarin.Forms.Resource.Styleable.View_theme = global::HowdyHack2020.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::HowdyHack2020.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::HowdyHack2020.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::HowdyHack2020.Droid.Resource.Attribute.font;
@@ -90,19 +2674,19 @@ namespace HowdyHack2020.Droid
 			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_low_bg = global::HowdyHack2020.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xamarin.Essentials.Resource.Drawable.notification_tile_bg = global::HowdyHack2020.Droid.Resource.Drawable.notification_tile_bg;
 			global::Xamarin.Essentials.Resource.Drawable.notify_panel_notification_icon_bg = global::HowdyHack2020.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Essentials.Resource.Id.actions = global::HowdyHack2020.Droid.Resource.Id.actions;
 			global::Xamarin.Essentials.Resource.Id.action_container = global::HowdyHack2020.Droid.Resource.Id.action_container;
 			global::Xamarin.Essentials.Resource.Id.action_divider = global::HowdyHack2020.Droid.Resource.Id.action_divider;
 			global::Xamarin.Essentials.Resource.Id.action_image = global::HowdyHack2020.Droid.Resource.Id.action_image;
 			global::Xamarin.Essentials.Resource.Id.action_text = global::HowdyHack2020.Droid.Resource.Id.action_text;
-			global::Xamarin.Essentials.Resource.Id.actions = global::HowdyHack2020.Droid.Resource.Id.actions;
 			global::Xamarin.Essentials.Resource.Id.all = global::HowdyHack2020.Droid.Resource.Id.all;
 			global::Xamarin.Essentials.Resource.Id.async = global::HowdyHack2020.Droid.Resource.Id.async;
 			global::Xamarin.Essentials.Resource.Id.blocking = global::HowdyHack2020.Droid.Resource.Id.blocking;
 			global::Xamarin.Essentials.Resource.Id.bottom = global::HowdyHack2020.Droid.Resource.Id.bottom;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_header_text = global::HowdyHack2020.Droid.Resource.Id.browser_actions_header_text;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_items = global::HowdyHack2020.Droid.Resource.Id.browser_actions_menu_items;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_icon = global::HowdyHack2020.Droid.Resource.Id.browser_actions_menu_item_icon;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_text = global::HowdyHack2020.Droid.Resource.Id.browser_actions_menu_item_text;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_items = global::HowdyHack2020.Droid.Resource.Id.browser_actions_menu_items;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_view = global::HowdyHack2020.Droid.Resource.Id.browser_actions_menu_view;
 			global::Xamarin.Essentials.Resource.Id.center = global::HowdyHack2020.Droid.Resource.Id.center;
 			global::Xamarin.Essentials.Resource.Id.center_horizontal = global::HowdyHack2020.Droid.Resource.Id.center_horizontal;
@@ -157,14 +2741,12 @@ namespace HowdyHack2020.Droid
 			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionContainer = global::HowdyHack2020.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
 			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionText = global::HowdyHack2020.Droid.Resource.Style.Widget_Compat_NotificationActionText;
 			global::Xamarin.Essentials.Resource.Style.Widget_Support_CoordinatorLayout = global::HowdyHack2020.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
-			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::HowdyHack2020.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem = global::HowdyHack2020.Droid.Resource.Styleable.ColorStateListItem;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_alpha = global::HowdyHack2020.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_alpha = global::HowdyHack2020.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_color = global::HowdyHack2020.Droid.Resource.Styleable.ColorStateListItem_android_color;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_keylines = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_Layout;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
@@ -173,13 +2755,8 @@ namespace HowdyHack2020.Droid
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::HowdyHack2020.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderAuthority = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderCerts = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont_android_font;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontStyle = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
@@ -191,7 +2768,16 @@ namespace HowdyHack2020.Droid
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontWeight = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_ttcIndex = global::HowdyHack2020.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderAuthority = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderCerts = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::HowdyHack2020.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem = global::HowdyHack2020.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_color = global::HowdyHack2020.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_offset = global::HowdyHack2020.Droid.Resource.Styleable.GradientColorItem_android_offset;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerColor = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_centerColor;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerX = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_centerX;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerY = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_centerY;
@@ -204,9 +2790,7 @@ namespace HowdyHack2020.Droid
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startY = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_type;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem = global::HowdyHack2020.Droid.Resource.Styleable.GradientColorItem;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_color = global::HowdyHack2020.Droid.Resource.Styleable.GradientColorItem_android_color;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_offset = global::HowdyHack2020.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::HowdyHack2020.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::HowdyHack2020.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::HowdyHack2020.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::HowdyHack2020.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -368,6 +2952,7 @@ namespace HowdyHack2020.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapsedTitleGravity = global::HowdyHack2020.Droid.Resource.Attribute.collapsedTitleGravity;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapsedTitleTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.collapsedTitleTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapseIcon = global::HowdyHack2020.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collectionViewStyle = global::HowdyHack2020.Droid.Resource.Attribute.collectionViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.color = global::HowdyHack2020.Droid.Resource.Attribute.color;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorAccent = global::HowdyHack2020.Droid.Resource.Attribute.colorAccent;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorBackgroundFloating = global::HowdyHack2020.Droid.Resource.Attribute.colorBackgroundFloating;
@@ -1510,6 +4095,7 @@ namespace HowdyHack2020.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.String.fab_transformation_sheet_behavior = global::HowdyHack2020.Droid.Resource.String.fab_transformation_sheet_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.hide_bottom_view_on_scroll_behavior = global::HowdyHack2020.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_chip_close_icon_content_description = global::HowdyHack2020.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.overflow_tab_title = global::HowdyHack2020.Droid.Resource.String.overflow_tab_title;
 			global::Xamarin.Forms.Platform.Android.Resource.String.password_toggle_content_description = global::HowdyHack2020.Droid.Resource.String.password_toggle_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_eye = global::HowdyHack2020.Droid.Resource.String.path_password_eye;
 			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_eye_mask_strike_through = global::HowdyHack2020.Droid.Resource.String.path_password_eye_mask_strike_through;
@@ -1523,6 +4109,7 @@ namespace HowdyHack2020.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::HowdyHack2020.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Tooltip = global::HowdyHack2020.Droid.Resource.Style.Animation_AppCompat_Tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::HowdyHack2020.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.AppCompatDialogStyle = global::HowdyHack2020.Droid.Resource.Style.AppCompatDialogStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
@@ -1714,8 +4301,10 @@ namespace HowdyHack2020.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView = global::HowdyHack2020.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Dark = global::HowdyHack2020.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Light = global::HowdyHack2020.Droid.Resource.Style.CardView_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewStyle = global::HowdyHack2020.Droid.Resource.Style.collectionViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.NestedScrollBarStyle = global::HowdyHack2020.Droid.Resource.Style.NestedScrollBarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewScrollBars = global::HowdyHack2020.Droid.Resource.Style.collectionViewScrollBars;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewTheme = global::HowdyHack2020.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme = global::HowdyHack2020.Droid.Resource.Style.MainTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme_Base = global::HowdyHack2020.Droid.Resource.Style.MainTheme_Base;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Platform_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_MaterialComponents = global::HowdyHack2020.Droid.Resource.Style.Platform_MaterialComponents;
@@ -2444,6 +5033,8 @@ namespace HowdyHack2020.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_startY = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_tileMode = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_type = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ItemsViewRendererTheme = global::HowdyHack2020.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::HowdyHack2020.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -2931,6 +5522,7 @@ namespace HowdyHack2020.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.collapsedTitleGravity = global::HowdyHack2020.Droid.Resource.Attribute.collapsedTitleGravity;
 			global::Xamarin.Forms.Platform.Resource.Attribute.collapsedTitleTextAppearance = global::HowdyHack2020.Droid.Resource.Attribute.collapsedTitleTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.collapseIcon = global::HowdyHack2020.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.Platform.Resource.Attribute.collectionViewStyle = global::HowdyHack2020.Droid.Resource.Attribute.collectionViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.color = global::HowdyHack2020.Droid.Resource.Attribute.color;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorAccent = global::HowdyHack2020.Droid.Resource.Attribute.colorAccent;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorBackgroundFloating = global::HowdyHack2020.Droid.Resource.Attribute.colorBackgroundFloating;
@@ -4073,6 +6665,7 @@ namespace HowdyHack2020.Droid
 			global::Xamarin.Forms.Platform.Resource.String.fab_transformation_sheet_behavior = global::HowdyHack2020.Droid.Resource.String.fab_transformation_sheet_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.hide_bottom_view_on_scroll_behavior = global::HowdyHack2020.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.mtrl_chip_close_icon_content_description = global::HowdyHack2020.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Forms.Platform.Resource.String.overflow_tab_title = global::HowdyHack2020.Droid.Resource.String.overflow_tab_title;
 			global::Xamarin.Forms.Platform.Resource.String.password_toggle_content_description = global::HowdyHack2020.Droid.Resource.String.password_toggle_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.path_password_eye = global::HowdyHack2020.Droid.Resource.String.path_password_eye;
 			global::Xamarin.Forms.Platform.Resource.String.path_password_eye_mask_strike_through = global::HowdyHack2020.Droid.Resource.String.path_password_eye_mask_strike_through;
@@ -4086,6 +6679,7 @@ namespace HowdyHack2020.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_DropDownUp = global::HowdyHack2020.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_Tooltip = global::HowdyHack2020.Droid.Resource.Style.Animation_AppCompat_Tooltip;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_Design_BottomSheetDialog = global::HowdyHack2020.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Resource.Style.AppCompatDialogStyle = global::HowdyHack2020.Droid.Resource.Style.AppCompatDialogStyle;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_AlertDialog_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_AlertDialog_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Animation_AppCompat_Dialog = global::HowdyHack2020.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
@@ -4277,8 +6871,10 @@ namespace HowdyHack2020.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.CardView = global::HowdyHack2020.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Dark = global::HowdyHack2020.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Light = global::HowdyHack2020.Droid.Resource.Style.CardView_Light;
-			global::Xamarin.Forms.Platform.Resource.Style.collectionViewStyle = global::HowdyHack2020.Droid.Resource.Style.collectionViewStyle;
-			global::Xamarin.Forms.Platform.Resource.Style.NestedScrollBarStyle = global::HowdyHack2020.Droid.Resource.Style.NestedScrollBarStyle;
+			global::Xamarin.Forms.Platform.Resource.Style.collectionViewScrollBars = global::HowdyHack2020.Droid.Resource.Style.collectionViewScrollBars;
+			global::Xamarin.Forms.Platform.Resource.Style.collectionViewTheme = global::HowdyHack2020.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Forms.Platform.Resource.Style.MainTheme = global::HowdyHack2020.Droid.Resource.Style.MainTheme;
+			global::Xamarin.Forms.Platform.Resource.Style.MainTheme_Base = global::HowdyHack2020.Droid.Resource.Style.MainTheme_Base;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_AppCompat = global::HowdyHack2020.Droid.Resource.Style.Platform_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_AppCompat_Light = global::HowdyHack2020.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_MaterialComponents = global::HowdyHack2020.Droid.Resource.Style.Platform_MaterialComponents;
@@ -5007,6 +7603,8 @@ namespace HowdyHack2020.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_startY = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_tileMode = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_type = global::HowdyHack2020.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ItemsViewRendererTheme = global::HowdyHack2020.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::HowdyHack2020.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::HowdyHack2020.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -5848,1042 +8446,1045 @@ namespace HowdyHack2020.Droid
 			public const int collapseIcon = 2130903168;
 			
 			// aapt resource value: 0x7F030083
-			public const int color = 2130903171;
+			public const int collectionViewStyle = 2130903171;
 			
 			// aapt resource value: 0x7F030084
-			public const int colorAccent = 2130903172;
+			public const int color = 2130903172;
 			
 			// aapt resource value: 0x7F030085
-			public const int colorBackgroundFloating = 2130903173;
+			public const int colorAccent = 2130903173;
 			
 			// aapt resource value: 0x7F030086
-			public const int colorButtonNormal = 2130903174;
+			public const int colorBackgroundFloating = 2130903174;
 			
 			// aapt resource value: 0x7F030087
-			public const int colorControlActivated = 2130903175;
+			public const int colorButtonNormal = 2130903175;
 			
 			// aapt resource value: 0x7F030088
-			public const int colorControlHighlight = 2130903176;
+			public const int colorControlActivated = 2130903176;
 			
 			// aapt resource value: 0x7F030089
-			public const int colorControlNormal = 2130903177;
+			public const int colorControlHighlight = 2130903177;
 			
 			// aapt resource value: 0x7F03008A
-			public const int colorError = 2130903178;
+			public const int colorControlNormal = 2130903178;
 			
 			// aapt resource value: 0x7F03008B
-			public const int colorPrimary = 2130903179;
+			public const int colorError = 2130903179;
 			
 			// aapt resource value: 0x7F03008C
-			public const int colorPrimaryDark = 2130903180;
+			public const int colorPrimary = 2130903180;
 			
 			// aapt resource value: 0x7F03008D
-			public const int colorSecondary = 2130903181;
+			public const int colorPrimaryDark = 2130903181;
 			
 			// aapt resource value: 0x7F03008E
-			public const int colorSwitchThumbNormal = 2130903182;
+			public const int colorSecondary = 2130903182;
 			
 			// aapt resource value: 0x7F03008F
-			public const int commitIcon = 2130903183;
+			public const int colorSwitchThumbNormal = 2130903183;
 			
 			// aapt resource value: 0x7F030090
-			public const int contentDescription = 2130903184;
+			public const int commitIcon = 2130903184;
 			
 			// aapt resource value: 0x7F030091
-			public const int contentInsetEnd = 2130903185;
+			public const int contentDescription = 2130903185;
 			
 			// aapt resource value: 0x7F030092
-			public const int contentInsetEndWithActions = 2130903186;
+			public const int contentInsetEnd = 2130903186;
 			
 			// aapt resource value: 0x7F030093
-			public const int contentInsetLeft = 2130903187;
+			public const int contentInsetEndWithActions = 2130903187;
 			
 			// aapt resource value: 0x7F030094
-			public const int contentInsetRight = 2130903188;
+			public const int contentInsetLeft = 2130903188;
 			
 			// aapt resource value: 0x7F030095
-			public const int contentInsetStart = 2130903189;
+			public const int contentInsetRight = 2130903189;
 			
 			// aapt resource value: 0x7F030096
-			public const int contentInsetStartWithNavigation = 2130903190;
+			public const int contentInsetStart = 2130903190;
 			
 			// aapt resource value: 0x7F030097
-			public const int contentPadding = 2130903191;
+			public const int contentInsetStartWithNavigation = 2130903191;
 			
 			// aapt resource value: 0x7F030098
-			public const int contentPaddingBottom = 2130903192;
+			public const int contentPadding = 2130903192;
 			
 			// aapt resource value: 0x7F030099
-			public const int contentPaddingLeft = 2130903193;
+			public const int contentPaddingBottom = 2130903193;
 			
 			// aapt resource value: 0x7F03009A
-			public const int contentPaddingRight = 2130903194;
+			public const int contentPaddingLeft = 2130903194;
 			
 			// aapt resource value: 0x7F03009B
-			public const int contentPaddingTop = 2130903195;
+			public const int contentPaddingRight = 2130903195;
 			
 			// aapt resource value: 0x7F03009C
-			public const int contentScrim = 2130903196;
+			public const int contentPaddingTop = 2130903196;
 			
 			// aapt resource value: 0x7F03009D
-			public const int controlBackground = 2130903197;
+			public const int contentScrim = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int coordinatorLayoutStyle = 2130903198;
+			public const int controlBackground = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int cornerRadius = 2130903199;
+			public const int coordinatorLayoutStyle = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int counterEnabled = 2130903200;
+			public const int cornerRadius = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int counterMaxLength = 2130903201;
+			public const int counterEnabled = 2130903201;
 			
 			// aapt resource value: 0x7F0300A2
-			public const int counterOverflowTextAppearance = 2130903202;
+			public const int counterMaxLength = 2130903202;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int counterTextAppearance = 2130903203;
+			public const int counterOverflowTextAppearance = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int customNavigationLayout = 2130903204;
+			public const int counterTextAppearance = 2130903204;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int defaultQueryHint = 2130903205;
+			public const int customNavigationLayout = 2130903205;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int dialogCornerRadius = 2130903206;
+			public const int defaultQueryHint = 2130903206;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int dialogPreferredPadding = 2130903207;
+			public const int dialogCornerRadius = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int dialogTheme = 2130903208;
+			public const int dialogPreferredPadding = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int displayOptions = 2130903209;
+			public const int dialogTheme = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int divider = 2130903210;
+			public const int displayOptions = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int dividerHorizontal = 2130903211;
+			public const int divider = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int dividerPadding = 2130903212;
+			public const int dividerHorizontal = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int dividerVertical = 2130903213;
+			public const int dividerPadding = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int drawableSize = 2130903214;
+			public const int dividerVertical = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int drawerArrowStyle = 2130903215;
-			
-			// aapt resource value: 0x7F0300B1
-			public const int dropdownListPreferredItemHeight = 2130903217;
+			public const int drawableSize = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int dropDownListViewStyle = 2130903216;
+			public const int drawerArrowStyle = 2130903216;
 			
 			// aapt resource value: 0x7F0300B2
-			public const int editTextBackground = 2130903218;
+			public const int dropdownListPreferredItemHeight = 2130903218;
+			
+			// aapt resource value: 0x7F0300B1
+			public const int dropDownListViewStyle = 2130903217;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int editTextColor = 2130903219;
+			public const int editTextBackground = 2130903219;
 			
 			// aapt resource value: 0x7F0300B4
-			public const int editTextStyle = 2130903220;
+			public const int editTextColor = 2130903220;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int elevation = 2130903221;
+			public const int editTextStyle = 2130903221;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int enforceMaterialTheme = 2130903222;
+			public const int elevation = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int enforceTextAppearance = 2130903223;
+			public const int enforceMaterialTheme = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int errorEnabled = 2130903224;
+			public const int enforceTextAppearance = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int errorTextAppearance = 2130903225;
+			public const int errorEnabled = 2130903225;
 			
 			// aapt resource value: 0x7F0300BA
-			public const int expandActivityOverflowButtonDrawable = 2130903226;
+			public const int errorTextAppearance = 2130903226;
 			
 			// aapt resource value: 0x7F0300BB
-			public const int expanded = 2130903227;
+			public const int expandActivityOverflowButtonDrawable = 2130903227;
 			
 			// aapt resource value: 0x7F0300BC
-			public const int expandedTitleGravity = 2130903228;
+			public const int expanded = 2130903228;
 			
 			// aapt resource value: 0x7F0300BD
-			public const int expandedTitleMargin = 2130903229;
+			public const int expandedTitleGravity = 2130903229;
 			
 			// aapt resource value: 0x7F0300BE
-			public const int expandedTitleMarginBottom = 2130903230;
+			public const int expandedTitleMargin = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int expandedTitleMarginEnd = 2130903231;
+			public const int expandedTitleMarginBottom = 2130903231;
 			
 			// aapt resource value: 0x7F0300C0
-			public const int expandedTitleMarginStart = 2130903232;
+			public const int expandedTitleMarginEnd = 2130903232;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int expandedTitleMarginTop = 2130903233;
+			public const int expandedTitleMarginStart = 2130903233;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int expandedTitleTextAppearance = 2130903234;
+			public const int expandedTitleMarginTop = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int fabAlignmentMode = 2130903235;
+			public const int expandedTitleTextAppearance = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int fabCradleMargin = 2130903236;
+			public const int fabAlignmentMode = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int fabCradleRoundedCornerRadius = 2130903237;
+			public const int fabCradleMargin = 2130903237;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int fabCradleVerticalOffset = 2130903238;
+			public const int fabCradleRoundedCornerRadius = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int fabCustomSize = 2130903239;
+			public const int fabCradleVerticalOffset = 2130903239;
 			
 			// aapt resource value: 0x7F0300C8
-			public const int fabSize = 2130903240;
+			public const int fabCustomSize = 2130903240;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int fastScrollEnabled = 2130903241;
+			public const int fabSize = 2130903241;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int fastScrollHorizontalThumbDrawable = 2130903242;
+			public const int fastScrollEnabled = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int fastScrollHorizontalTrackDrawable = 2130903243;
+			public const int fastScrollHorizontalThumbDrawable = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int fastScrollVerticalThumbDrawable = 2130903244;
+			public const int fastScrollHorizontalTrackDrawable = 2130903244;
 			
 			// aapt resource value: 0x7F0300CD
-			public const int fastScrollVerticalTrackDrawable = 2130903245;
+			public const int fastScrollVerticalThumbDrawable = 2130903245;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int firstBaselineToTopHeight = 2130903246;
+			public const int fastScrollVerticalTrackDrawable = 2130903246;
 			
 			// aapt resource value: 0x7F0300CF
-			public const int floatingActionButtonStyle = 2130903247;
+			public const int firstBaselineToTopHeight = 2130903247;
 			
 			// aapt resource value: 0x7F0300D0
-			public const int font = 2130903248;
+			public const int floatingActionButtonStyle = 2130903248;
 			
 			// aapt resource value: 0x7F0300D1
-			public const int fontFamily = 2130903249;
+			public const int font = 2130903249;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int fontProviderAuthority = 2130903250;
+			public const int fontFamily = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int fontProviderCerts = 2130903251;
+			public const int fontProviderAuthority = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int fontProviderFetchStrategy = 2130903252;
+			public const int fontProviderCerts = 2130903252;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int fontProviderFetchTimeout = 2130903253;
+			public const int fontProviderFetchStrategy = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int fontProviderPackage = 2130903254;
+			public const int fontProviderFetchTimeout = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int fontProviderQuery = 2130903255;
+			public const int fontProviderPackage = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int fontStyle = 2130903256;
+			public const int fontProviderQuery = 2130903256;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int fontVariationSettings = 2130903257;
+			public const int fontStyle = 2130903257;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int fontWeight = 2130903258;
+			public const int fontVariationSettings = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int foregroundInsidePadding = 2130903259;
+			public const int fontWeight = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int gapBetweenBars = 2130903260;
+			public const int foregroundInsidePadding = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int goIcon = 2130903261;
+			public const int gapBetweenBars = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int headerLayout = 2130903262;
+			public const int goIcon = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int height = 2130903263;
+			public const int headerLayout = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int helperText = 2130903264;
+			public const int height = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int helperTextEnabled = 2130903265;
+			public const int helperText = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int helperTextTextAppearance = 2130903266;
+			public const int helperTextEnabled = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int hideMotionSpec = 2130903267;
+			public const int helperTextTextAppearance = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int hideOnContentScroll = 2130903268;
+			public const int hideMotionSpec = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int hideOnScroll = 2130903269;
+			public const int hideOnContentScroll = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int hintAnimationEnabled = 2130903270;
+			public const int hideOnScroll = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int hintEnabled = 2130903271;
+			public const int hintAnimationEnabled = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int hintTextAppearance = 2130903272;
+			public const int hintEnabled = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int homeAsUpIndicator = 2130903273;
+			public const int hintTextAppearance = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int homeLayout = 2130903274;
+			public const int homeAsUpIndicator = 2130903274;
 			
 			// aapt resource value: 0x7F0300EB
-			public const int hoveredFocusedTranslationZ = 2130903275;
+			public const int homeLayout = 2130903275;
 			
 			// aapt resource value: 0x7F0300EC
-			public const int icon = 2130903276;
+			public const int hoveredFocusedTranslationZ = 2130903276;
 			
 			// aapt resource value: 0x7F0300ED
-			public const int iconEndPadding = 2130903277;
+			public const int icon = 2130903277;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int iconGravity = 2130903278;
-			
-			// aapt resource value: 0x7F0300F4
-			public const int iconifiedByDefault = 2130903284;
+			public const int iconEndPadding = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int iconPadding = 2130903279;
-			
-			// aapt resource value: 0x7F0300F0
-			public const int iconSize = 2130903280;
-			
-			// aapt resource value: 0x7F0300F1
-			public const int iconStartPadding = 2130903281;
-			
-			// aapt resource value: 0x7F0300F2
-			public const int iconTint = 2130903282;
-			
-			// aapt resource value: 0x7F0300F3
-			public const int iconTintMode = 2130903283;
+			public const int iconGravity = 2130903279;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int imageButtonStyle = 2130903285;
+			public const int iconifiedByDefault = 2130903285;
+			
+			// aapt resource value: 0x7F0300F0
+			public const int iconPadding = 2130903280;
+			
+			// aapt resource value: 0x7F0300F1
+			public const int iconSize = 2130903281;
+			
+			// aapt resource value: 0x7F0300F2
+			public const int iconStartPadding = 2130903282;
+			
+			// aapt resource value: 0x7F0300F3
+			public const int iconTint = 2130903283;
+			
+			// aapt resource value: 0x7F0300F4
+			public const int iconTintMode = 2130903284;
 			
 			// aapt resource value: 0x7F0300F6
-			public const int indeterminateProgressStyle = 2130903286;
+			public const int imageButtonStyle = 2130903286;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int initialActivityCount = 2130903287;
+			public const int indeterminateProgressStyle = 2130903287;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int insetForeground = 2130903288;
+			public const int initialActivityCount = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int isLightTheme = 2130903289;
+			public const int insetForeground = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int itemBackground = 2130903290;
+			public const int isLightTheme = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int itemHorizontalPadding = 2130903291;
+			public const int itemBackground = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int itemHorizontalTranslationEnabled = 2130903292;
+			public const int itemHorizontalPadding = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int itemIconPadding = 2130903293;
+			public const int itemHorizontalTranslationEnabled = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int itemIconSize = 2130903294;
+			public const int itemIconPadding = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int itemIconTint = 2130903295;
+			public const int itemIconSize = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int itemPadding = 2130903296;
+			public const int itemIconTint = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int itemSpacing = 2130903297;
+			public const int itemPadding = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int itemTextAppearance = 2130903298;
+			public const int itemSpacing = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int itemTextAppearanceActive = 2130903299;
+			public const int itemTextAppearance = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int itemTextAppearanceInactive = 2130903300;
+			public const int itemTextAppearanceActive = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int itemTextColor = 2130903301;
+			public const int itemTextAppearanceInactive = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int keylines = 2130903302;
+			public const int itemTextColor = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int labelVisibilityMode = 2130903303;
+			public const int keylines = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int lastBaselineToBottomHeight = 2130903304;
+			public const int labelVisibilityMode = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int layout = 2130903305;
+			public const int lastBaselineToBottomHeight = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int layoutManager = 2130903306;
+			public const int layout = 2130903306;
 			
 			// aapt resource value: 0x7F03010B
-			public const int layout_anchor = 2130903307;
+			public const int layoutManager = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int layout_anchorGravity = 2130903308;
+			public const int layout_anchor = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int layout_behavior = 2130903309;
+			public const int layout_anchorGravity = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int layout_collapseMode = 2130903310;
+			public const int layout_behavior = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int layout_collapseParallaxMultiplier = 2130903311;
+			public const int layout_collapseMode = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int layout_dodgeInsetEdges = 2130903312;
+			public const int layout_collapseParallaxMultiplier = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int layout_insetEdge = 2130903313;
+			public const int layout_dodgeInsetEdges = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int layout_keyline = 2130903314;
+			public const int layout_insetEdge = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int layout_scrollFlags = 2130903315;
+			public const int layout_keyline = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int layout_scrollInterpolator = 2130903316;
+			public const int layout_scrollFlags = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int liftOnScroll = 2130903317;
+			public const int layout_scrollInterpolator = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int lineHeight = 2130903318;
+			public const int liftOnScroll = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int lineSpacing = 2130903319;
+			public const int lineHeight = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int listChoiceBackgroundIndicator = 2130903320;
+			public const int lineSpacing = 2130903320;
 			
 			// aapt resource value: 0x7F030119
-			public const int listDividerAlertDialog = 2130903321;
+			public const int listChoiceBackgroundIndicator = 2130903321;
 			
 			// aapt resource value: 0x7F03011A
-			public const int listItemLayout = 2130903322;
+			public const int listDividerAlertDialog = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int listLayout = 2130903323;
+			public const int listItemLayout = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int listMenuViewStyle = 2130903324;
+			public const int listLayout = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int listPopupWindowStyle = 2130903325;
+			public const int listMenuViewStyle = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int listPreferredItemHeight = 2130903326;
+			public const int listPopupWindowStyle = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int listPreferredItemHeightLarge = 2130903327;
+			public const int listPreferredItemHeight = 2130903327;
 			
 			// aapt resource value: 0x7F030120
-			public const int listPreferredItemHeightSmall = 2130903328;
+			public const int listPreferredItemHeightLarge = 2130903328;
 			
 			// aapt resource value: 0x7F030121
-			public const int listPreferredItemPaddingLeft = 2130903329;
+			public const int listPreferredItemHeightSmall = 2130903329;
 			
 			// aapt resource value: 0x7F030122
-			public const int listPreferredItemPaddingRight = 2130903330;
+			public const int listPreferredItemPaddingLeft = 2130903330;
 			
 			// aapt resource value: 0x7F030123
-			public const int logo = 2130903331;
+			public const int listPreferredItemPaddingRight = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int logoDescription = 2130903332;
+			public const int logo = 2130903332;
 			
 			// aapt resource value: 0x7F030125
-			public const int materialButtonStyle = 2130903333;
+			public const int logoDescription = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int materialCardViewStyle = 2130903334;
+			public const int materialButtonStyle = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int maxActionInlineWidth = 2130903335;
+			public const int materialCardViewStyle = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int maxButtonHeight = 2130903336;
+			public const int maxActionInlineWidth = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int maxImageSize = 2130903337;
+			public const int maxButtonHeight = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int measureWithLargestChild = 2130903338;
+			public const int maxImageSize = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int menu = 2130903339;
+			public const int measureWithLargestChild = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int multiChoiceItemLayout = 2130903340;
+			public const int menu = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int navigationContentDescription = 2130903341;
+			public const int multiChoiceItemLayout = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int navigationIcon = 2130903342;
+			public const int navigationContentDescription = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int navigationMode = 2130903343;
+			public const int navigationIcon = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int navigationViewStyle = 2130903344;
+			public const int navigationMode = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int numericModifiers = 2130903345;
+			public const int navigationViewStyle = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int overlapAnchor = 2130903346;
+			public const int numericModifiers = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int paddingBottomNoButtons = 2130903347;
+			public const int overlapAnchor = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int paddingEnd = 2130903348;
+			public const int paddingBottomNoButtons = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int paddingStart = 2130903349;
+			public const int paddingEnd = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int paddingTopNoTitle = 2130903350;
+			public const int paddingStart = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int panelBackground = 2130903351;
+			public const int paddingTopNoTitle = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int panelMenuListTheme = 2130903352;
+			public const int panelBackground = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int panelMenuListWidth = 2130903353;
+			public const int panelMenuListTheme = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int passwordToggleContentDescription = 2130903354;
+			public const int panelMenuListWidth = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int passwordToggleDrawable = 2130903355;
+			public const int passwordToggleContentDescription = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int passwordToggleEnabled = 2130903356;
+			public const int passwordToggleDrawable = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int passwordToggleTint = 2130903357;
+			public const int passwordToggleEnabled = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int passwordToggleTintMode = 2130903358;
+			public const int passwordToggleTint = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int popupMenuStyle = 2130903359;
+			public const int passwordToggleTintMode = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int popupTheme = 2130903360;
+			public const int popupMenuStyle = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int popupWindowStyle = 2130903361;
+			public const int popupTheme = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int preserveIconSpacing = 2130903362;
+			public const int popupWindowStyle = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int pressedTranslationZ = 2130903363;
+			public const int preserveIconSpacing = 2130903363;
 			
 			// aapt resource value: 0x7F030144
-			public const int progressBarPadding = 2130903364;
+			public const int pressedTranslationZ = 2130903364;
 			
 			// aapt resource value: 0x7F030145
-			public const int progressBarStyle = 2130903365;
+			public const int progressBarPadding = 2130903365;
 			
 			// aapt resource value: 0x7F030146
-			public const int queryBackground = 2130903366;
+			public const int progressBarStyle = 2130903366;
 			
 			// aapt resource value: 0x7F030147
-			public const int queryHint = 2130903367;
+			public const int queryBackground = 2130903367;
 			
 			// aapt resource value: 0x7F030148
-			public const int radioButtonStyle = 2130903368;
+			public const int queryHint = 2130903368;
 			
 			// aapt resource value: 0x7F030149
-			public const int ratingBarStyle = 2130903369;
+			public const int radioButtonStyle = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int ratingBarStyleIndicator = 2130903370;
+			public const int ratingBarStyle = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int ratingBarStyleSmall = 2130903371;
+			public const int ratingBarStyleIndicator = 2130903371;
 			
 			// aapt resource value: 0x7F03014C
-			public const int reverseLayout = 2130903372;
+			public const int ratingBarStyleSmall = 2130903372;
 			
 			// aapt resource value: 0x7F03014D
-			public const int rippleColor = 2130903373;
+			public const int reverseLayout = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int scrimAnimationDuration = 2130903374;
+			public const int rippleColor = 2130903374;
 			
 			// aapt resource value: 0x7F03014F
-			public const int scrimBackground = 2130903375;
+			public const int scrimAnimationDuration = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int scrimVisibleHeightTrigger = 2130903376;
+			public const int scrimBackground = 2130903376;
 			
 			// aapt resource value: 0x7F030151
-			public const int searchHintIcon = 2130903377;
+			public const int scrimVisibleHeightTrigger = 2130903377;
 			
 			// aapt resource value: 0x7F030152
-			public const int searchIcon = 2130903378;
+			public const int searchHintIcon = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int searchViewStyle = 2130903379;
+			public const int searchIcon = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int seekBarStyle = 2130903380;
+			public const int searchViewStyle = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int selectableItemBackground = 2130903381;
+			public const int seekBarStyle = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int selectableItemBackgroundBorderless = 2130903382;
+			public const int selectableItemBackground = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int showAsAction = 2130903383;
+			public const int selectableItemBackgroundBorderless = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int showDividers = 2130903384;
+			public const int showAsAction = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int showMotionSpec = 2130903385;
+			public const int showDividers = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int showText = 2130903386;
+			public const int showMotionSpec = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int showTitle = 2130903387;
+			public const int showText = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int singleChoiceItemLayout = 2130903388;
+			public const int showTitle = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int singleLine = 2130903389;
+			public const int singleChoiceItemLayout = 2130903389;
 			
 			// aapt resource value: 0x7F03015E
-			public const int singleSelection = 2130903390;
+			public const int singleLine = 2130903390;
 			
 			// aapt resource value: 0x7F03015F
-			public const int snackbarButtonStyle = 2130903391;
+			public const int singleSelection = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int snackbarStyle = 2130903392;
+			public const int snackbarButtonStyle = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int spanCount = 2130903393;
+			public const int snackbarStyle = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int spinBars = 2130903394;
+			public const int spanCount = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int spinnerDropDownItemStyle = 2130903395;
+			public const int spinBars = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int spinnerStyle = 2130903396;
+			public const int spinnerDropDownItemStyle = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int splitTrack = 2130903397;
+			public const int spinnerStyle = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int srcCompat = 2130903398;
+			public const int splitTrack = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int stackFromEnd = 2130903399;
+			public const int srcCompat = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int state_above_anchor = 2130903400;
+			public const int stackFromEnd = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int state_collapsed = 2130903401;
+			public const int state_above_anchor = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int state_collapsible = 2130903402;
+			public const int state_collapsed = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int state_liftable = 2130903403;
+			public const int state_collapsible = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int state_lifted = 2130903404;
+			public const int state_liftable = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int statusBarBackground = 2130903405;
+			public const int state_lifted = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int statusBarScrim = 2130903406;
+			public const int statusBarBackground = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int strokeColor = 2130903407;
+			public const int statusBarScrim = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int strokeWidth = 2130903408;
+			public const int strokeColor = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int subMenuArrow = 2130903409;
+			public const int strokeWidth = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int submitBackground = 2130903410;
+			public const int subMenuArrow = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int subtitle = 2130903411;
+			public const int submitBackground = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int subtitleTextAppearance = 2130903412;
+			public const int subtitle = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int subtitleTextColor = 2130903413;
+			public const int subtitleTextAppearance = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int subtitleTextStyle = 2130903414;
+			public const int subtitleTextColor = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int suggestionRowLayout = 2130903415;
+			public const int subtitleTextStyle = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int switchMinWidth = 2130903416;
+			public const int suggestionRowLayout = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int switchPadding = 2130903417;
+			public const int switchMinWidth = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int switchStyle = 2130903418;
+			public const int switchPadding = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int switchTextAppearance = 2130903419;
+			public const int switchStyle = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int tabBackground = 2130903420;
+			public const int switchTextAppearance = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int tabContentStart = 2130903421;
+			public const int tabBackground = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int tabGravity = 2130903422;
+			public const int tabContentStart = 2130903422;
 			
 			// aapt resource value: 0x7F03017F
-			public const int tabIconTint = 2130903423;
+			public const int tabGravity = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int tabIconTintMode = 2130903424;
+			public const int tabIconTint = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int tabIndicator = 2130903425;
+			public const int tabIconTintMode = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int tabIndicatorAnimationDuration = 2130903426;
+			public const int tabIndicator = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int tabIndicatorColor = 2130903427;
+			public const int tabIndicatorAnimationDuration = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int tabIndicatorFullWidth = 2130903428;
+			public const int tabIndicatorColor = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int tabIndicatorGravity = 2130903429;
+			public const int tabIndicatorFullWidth = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int tabIndicatorHeight = 2130903430;
+			public const int tabIndicatorGravity = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int tabInlineLabel = 2130903431;
+			public const int tabIndicatorHeight = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int tabMaxWidth = 2130903432;
+			public const int tabInlineLabel = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int tabMinWidth = 2130903433;
+			public const int tabMaxWidth = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int tabMode = 2130903434;
+			public const int tabMinWidth = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int tabPadding = 2130903435;
+			public const int tabMode = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int tabPaddingBottom = 2130903436;
+			public const int tabPadding = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int tabPaddingEnd = 2130903437;
+			public const int tabPaddingBottom = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int tabPaddingStart = 2130903438;
+			public const int tabPaddingEnd = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int tabPaddingTop = 2130903439;
+			public const int tabPaddingStart = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int tabRippleColor = 2130903440;
+			public const int tabPaddingTop = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int tabSelectedTextColor = 2130903441;
+			public const int tabRippleColor = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int tabStyle = 2130903442;
+			public const int tabSelectedTextColor = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int tabTextAppearance = 2130903443;
+			public const int tabStyle = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int tabTextColor = 2130903444;
+			public const int tabTextAppearance = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int tabUnboundedRipple = 2130903445;
+			public const int tabTextColor = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int textAllCaps = 2130903446;
+			public const int tabUnboundedRipple = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int textAppearanceBody1 = 2130903447;
+			public const int textAllCaps = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int textAppearanceBody2 = 2130903448;
+			public const int textAppearanceBody1 = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int textAppearanceButton = 2130903449;
+			public const int textAppearanceBody2 = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int textAppearanceCaption = 2130903450;
+			public const int textAppearanceButton = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int textAppearanceHeadline1 = 2130903451;
+			public const int textAppearanceCaption = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int textAppearanceHeadline2 = 2130903452;
+			public const int textAppearanceHeadline1 = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int textAppearanceHeadline3 = 2130903453;
+			public const int textAppearanceHeadline2 = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int textAppearanceHeadline4 = 2130903454;
+			public const int textAppearanceHeadline3 = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int textAppearanceHeadline5 = 2130903455;
+			public const int textAppearanceHeadline4 = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int textAppearanceHeadline6 = 2130903456;
+			public const int textAppearanceHeadline5 = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int textAppearanceLargePopupMenu = 2130903457;
+			public const int textAppearanceHeadline6 = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int textAppearanceListItem = 2130903458;
+			public const int textAppearanceLargePopupMenu = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int textAppearanceListItemSecondary = 2130903459;
+			public const int textAppearanceListItem = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int textAppearanceListItemSmall = 2130903460;
+			public const int textAppearanceListItemSecondary = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int textAppearanceOverline = 2130903461;
+			public const int textAppearanceListItemSmall = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int textAppearancePopupMenuHeader = 2130903462;
+			public const int textAppearanceOverline = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int textAppearanceSearchResultSubtitle = 2130903463;
+			public const int textAppearancePopupMenuHeader = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int textAppearanceSearchResultTitle = 2130903464;
+			public const int textAppearanceSearchResultSubtitle = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int textAppearanceSmallPopupMenu = 2130903465;
+			public const int textAppearanceSearchResultTitle = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int textAppearanceSubtitle1 = 2130903466;
+			public const int textAppearanceSmallPopupMenu = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int textAppearanceSubtitle2 = 2130903467;
+			public const int textAppearanceSubtitle1 = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int textColorAlertDialogListItem = 2130903468;
+			public const int textAppearanceSubtitle2 = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int textColorSearchUrl = 2130903469;
+			public const int textColorAlertDialogListItem = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int textEndPadding = 2130903470;
+			public const int textColorSearchUrl = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int textInputStyle = 2130903471;
+			public const int textEndPadding = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int textStartPadding = 2130903472;
+			public const int textInputStyle = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int theme = 2130903473;
+			public const int textStartPadding = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int thickness = 2130903474;
+			public const int theme = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int thumbTextPadding = 2130903475;
+			public const int thickness = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int thumbTint = 2130903476;
+			public const int thumbTextPadding = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int thumbTintMode = 2130903477;
+			public const int thumbTint = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int tickMark = 2130903478;
+			public const int thumbTintMode = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int tickMarkTint = 2130903479;
+			public const int tickMark = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int tickMarkTintMode = 2130903480;
+			public const int tickMarkTint = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int tint = 2130903481;
+			public const int tickMarkTintMode = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int tintMode = 2130903482;
+			public const int tint = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int title = 2130903483;
+			public const int tintMode = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int titleEnabled = 2130903484;
+			public const int title = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int titleMargin = 2130903485;
+			public const int titleEnabled = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int titleMarginBottom = 2130903486;
+			public const int titleMargin = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int titleMarginEnd = 2130903487;
-			
-			// aapt resource value: 0x7F0301C2
-			public const int titleMargins = 2130903490;
+			public const int titleMarginBottom = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int titleMarginStart = 2130903488;
-			
-			// aapt resource value: 0x7F0301C1
-			public const int titleMarginTop = 2130903489;
+			public const int titleMarginEnd = 2130903488;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int titleTextAppearance = 2130903491;
+			public const int titleMargins = 2130903491;
+			
+			// aapt resource value: 0x7F0301C1
+			public const int titleMarginStart = 2130903489;
+			
+			// aapt resource value: 0x7F0301C2
+			public const int titleMarginTop = 2130903490;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int titleTextColor = 2130903492;
+			public const int titleTextAppearance = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int titleTextStyle = 2130903493;
+			public const int titleTextColor = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int toolbarId = 2130903494;
+			public const int titleTextStyle = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int toolbarNavigationButtonStyle = 2130903495;
+			public const int toolbarId = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int toolbarStyle = 2130903496;
+			public const int toolbarNavigationButtonStyle = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int tooltipForegroundColor = 2130903497;
+			public const int toolbarStyle = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int tooltipFrameBackground = 2130903498;
+			public const int tooltipForegroundColor = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int tooltipText = 2130903499;
+			public const int tooltipFrameBackground = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int track = 2130903500;
+			public const int tooltipText = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int trackTint = 2130903501;
+			public const int track = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int trackTintMode = 2130903502;
+			public const int trackTint = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int ttcIndex = 2130903503;
+			public const int trackTintMode = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int useCompatPadding = 2130903504;
+			public const int ttcIndex = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int viewInflaterClass = 2130903505;
+			public const int useCompatPadding = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int voiceIcon = 2130903506;
+			public const int viewInflaterClass = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int windowActionBar = 2130903507;
+			public const int voiceIcon = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int windowActionBarOverlay = 2130903508;
+			public const int windowActionBar = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int windowActionModeOverlay = 2130903509;
+			public const int windowActionBarOverlay = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int windowFixedHeightMajor = 2130903510;
+			public const int windowActionModeOverlay = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int windowFixedHeightMinor = 2130903511;
+			public const int windowFixedHeightMajor = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int windowFixedWidthMajor = 2130903512;
+			public const int windowFixedHeightMinor = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int windowFixedWidthMinor = 2130903513;
+			public const int windowFixedWidthMajor = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int windowMinWidthMajor = 2130903514;
+			public const int windowFixedWidthMinor = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int windowMinWidthMinor = 2130903515;
+			public const int windowMinWidthMajor = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int windowNoTitle = 2130903516;
+			public const int windowMinWidthMinor = 2130903516;
+			
+			// aapt resource value: 0x7F0301DD
+			public const int windowNoTitle = 2130903517;
 			
 			static Attribute()
 			{
@@ -8297,67 +10898,70 @@ namespace HowdyHack2020.Droid
 			public const int design_snackbar_background = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int ic_mtrl_chip_checked_black = 2131165282;
+			public const int esri = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int ic_mtrl_chip_checked_circle = 2131165283;
+			public const int ic_mtrl_chip_checked_black = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int ic_mtrl_chip_close_circle = 2131165284;
+			public const int ic_mtrl_chip_checked_circle = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int mtrl_snackbar_background = 2131165285;
+			public const int ic_mtrl_chip_close_circle = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int mtrl_tabs_default_indicator = 2131165286;
+			public const int mtrl_snackbar_background = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int navigation_empty_icon = 2131165287;
+			public const int mtrl_tabs_default_indicator = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int notification_action_background = 2131165288;
+			public const int navigation_empty_icon = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int notification_bg = 2131165289;
+			public const int notification_action_background = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int notification_bg_low = 2131165290;
+			public const int notification_bg = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int notification_bg_low_normal = 2131165291;
+			public const int notification_bg_low = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int notification_bg_low_pressed = 2131165292;
+			public const int notification_bg_low_normal = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int notification_bg_normal = 2131165293;
+			public const int notification_bg_low_pressed = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int notification_bg_normal_pressed = 2131165294;
+			public const int notification_bg_normal = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int notification_icon_background = 2131165295;
+			public const int notification_bg_normal_pressed = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int notification_template_icon_bg = 2131165296;
+			public const int notification_icon_background = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int notification_template_icon_low_bg = 2131165297;
+			public const int notification_template_icon_bg = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int notification_tile_bg = 2131165298;
+			public const int notification_template_icon_low_bg = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int notify_panel_notification_icon_bg = 2131165299;
+			public const int notification_tile_bg = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int tooltip_frame_dark = 2131165300;
+			public const int notify_panel_notification_icon_bg = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int tooltip_frame_light = 2131165301;
+			public const int tooltip_frame_dark = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int xamarin_logo = 2131165302;
+			public const int tooltip_frame_light = 2131165302;
+			
+			// aapt resource value: 0x7F070077
+			public const int xamarin_logo = 2131165303;
 			
 			static Drawable()
 			{
@@ -9479,25 +12083,28 @@ namespace HowdyHack2020.Droid
 			public const int mtrl_chip_close_icon_content_description = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int password_toggle_content_description = 2131558447;
+			public const int overflow_tab_title = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int path_password_eye = 2131558448;
+			public const int password_toggle_content_description = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int path_password_eye_mask_strike_through = 2131558449;
+			public const int path_password_eye = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int path_password_eye_mask_visible = 2131558450;
+			public const int path_password_eye_mask_strike_through = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int path_password_strike_through = 2131558451;
+			public const int path_password_eye_mask_visible = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int search_menu_title = 2131558452;
+			public const int path_password_strike_through = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int status_bar_notification_info_overflow = 2131558453;
+			public const int search_menu_title = 2131558453;
+			
+			// aapt resource value: 0x7F0D0036
+			public const int status_bar_notification_info_overflow = 2131558454;
 			
 			static String()
 			{
@@ -10106,8 +12713,11 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 0x7F0E00C5
 			public const int CardView_Light = 2131624133;
 			
+			// aapt resource value: 0x7F0E01F7
+			public const int collectionViewScrollBars = 2131624439;
+			
 			// aapt resource value: 0x7F0E01F8
-			public const int collectionViewStyle = 2131624440;
+			public const int collectionViewTheme = 2131624440;
 			
 			// aapt resource value: 0x7F0E00C6
 			public const int MainTheme = 2131624134;
@@ -10116,916 +12726,913 @@ namespace HowdyHack2020.Droid
 			public const int MainTheme_Base = 2131624135;
 			
 			// aapt resource value: 0x7F0E00C8
-			public const int NestedScrollBarStyle = 2131624136;
+			public const int Platform_AppCompat = 2131624136;
 			
 			// aapt resource value: 0x7F0E00C9
-			public const int Platform_AppCompat = 2131624137;
+			public const int Platform_AppCompat_Light = 2131624137;
 			
 			// aapt resource value: 0x7F0E00CA
-			public const int Platform_AppCompat_Light = 2131624138;
+			public const int Platform_MaterialComponents = 2131624138;
 			
 			// aapt resource value: 0x7F0E00CB
-			public const int Platform_MaterialComponents = 2131624139;
+			public const int Platform_MaterialComponents_Dialog = 2131624139;
 			
 			// aapt resource value: 0x7F0E00CC
-			public const int Platform_MaterialComponents_Dialog = 2131624140;
+			public const int Platform_MaterialComponents_Light = 2131624140;
 			
 			// aapt resource value: 0x7F0E00CD
-			public const int Platform_MaterialComponents_Light = 2131624141;
+			public const int Platform_MaterialComponents_Light_Dialog = 2131624141;
 			
 			// aapt resource value: 0x7F0E00CE
-			public const int Platform_MaterialComponents_Light_Dialog = 2131624142;
+			public const int Platform_ThemeOverlay_AppCompat = 2131624142;
 			
 			// aapt resource value: 0x7F0E00CF
-			public const int Platform_ThemeOverlay_AppCompat = 2131624143;
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624143;
 			
 			// aapt resource value: 0x7F0E00D0
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624144;
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624144;
 			
 			// aapt resource value: 0x7F0E00D1
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624145;
+			public const int Platform_V21_AppCompat = 2131624145;
 			
 			// aapt resource value: 0x7F0E00D2
-			public const int Platform_V21_AppCompat = 2131624146;
+			public const int Platform_V21_AppCompat_Light = 2131624146;
 			
 			// aapt resource value: 0x7F0E00D3
-			public const int Platform_V21_AppCompat_Light = 2131624147;
+			public const int Platform_V25_AppCompat = 2131624147;
 			
 			// aapt resource value: 0x7F0E00D4
-			public const int Platform_V25_AppCompat = 2131624148;
+			public const int Platform_V25_AppCompat_Light = 2131624148;
 			
 			// aapt resource value: 0x7F0E00D5
-			public const int Platform_V25_AppCompat_Light = 2131624149;
+			public const int Platform_Widget_AppCompat_Spinner = 2131624149;
 			
 			// aapt resource value: 0x7F0E00D6
-			public const int Platform_Widget_AppCompat_Spinner = 2131624150;
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624150;
 			
 			// aapt resource value: 0x7F0E00D7
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624151;
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624151;
 			
 			// aapt resource value: 0x7F0E00D8
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624152;
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624152;
 			
 			// aapt resource value: 0x7F0E00D9
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624153;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624153;
 			
 			// aapt resource value: 0x7F0E00DA
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624154;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624154;
 			
 			// aapt resource value: 0x7F0E00DB
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624155;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624155;
 			
 			// aapt resource value: 0x7F0E00DC
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624156;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624156;
 			
 			// aapt resource value: 0x7F0E00DD
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624157;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624157;
 			
 			// aapt resource value: 0x7F0E00DE
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624158;
-			
-			// aapt resource value: 0x7F0E00DF
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624159;
-			
-			// aapt resource value: 0x7F0E00E5
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624165;
-			
-			// aapt resource value: 0x7F0E00E0
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624160;
-			
-			// aapt resource value: 0x7F0E00E1
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624161;
-			
-			// aapt resource value: 0x7F0E00E2
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624162;
-			
-			// aapt resource value: 0x7F0E00E3
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624163;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624158;
 			
 			// aapt resource value: 0x7F0E00E4
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624164;
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624164;
+			
+			// aapt resource value: 0x7F0E00DF
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624159;
+			
+			// aapt resource value: 0x7F0E00E0
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624160;
+			
+			// aapt resource value: 0x7F0E00E1
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624161;
+			
+			// aapt resource value: 0x7F0E00E2
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624162;
+			
+			// aapt resource value: 0x7F0E00E3
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624163;
+			
+			// aapt resource value: 0x7F0E00E5
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624165;
 			
 			// aapt resource value: 0x7F0E00E6
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624166;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624166;
 			
 			// aapt resource value: 0x7F0E00E7
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624167;
+			public const int TextAppearance_AppCompat = 2131624167;
 			
 			// aapt resource value: 0x7F0E00E8
-			public const int TextAppearance_AppCompat = 2131624168;
+			public const int TextAppearance_AppCompat_Body1 = 2131624168;
 			
 			// aapt resource value: 0x7F0E00E9
-			public const int TextAppearance_AppCompat_Body1 = 2131624169;
+			public const int TextAppearance_AppCompat_Body2 = 2131624169;
 			
 			// aapt resource value: 0x7F0E00EA
-			public const int TextAppearance_AppCompat_Body2 = 2131624170;
+			public const int TextAppearance_AppCompat_Button = 2131624170;
 			
 			// aapt resource value: 0x7F0E00EB
-			public const int TextAppearance_AppCompat_Button = 2131624171;
+			public const int TextAppearance_AppCompat_Caption = 2131624171;
 			
 			// aapt resource value: 0x7F0E00EC
-			public const int TextAppearance_AppCompat_Caption = 2131624172;
+			public const int TextAppearance_AppCompat_Display1 = 2131624172;
 			
 			// aapt resource value: 0x7F0E00ED
-			public const int TextAppearance_AppCompat_Display1 = 2131624173;
+			public const int TextAppearance_AppCompat_Display2 = 2131624173;
 			
 			// aapt resource value: 0x7F0E00EE
-			public const int TextAppearance_AppCompat_Display2 = 2131624174;
+			public const int TextAppearance_AppCompat_Display3 = 2131624174;
 			
 			// aapt resource value: 0x7F0E00EF
-			public const int TextAppearance_AppCompat_Display3 = 2131624175;
+			public const int TextAppearance_AppCompat_Display4 = 2131624175;
 			
 			// aapt resource value: 0x7F0E00F0
-			public const int TextAppearance_AppCompat_Display4 = 2131624176;
+			public const int TextAppearance_AppCompat_Headline = 2131624176;
 			
 			// aapt resource value: 0x7F0E00F1
-			public const int TextAppearance_AppCompat_Headline = 2131624177;
+			public const int TextAppearance_AppCompat_Inverse = 2131624177;
 			
 			// aapt resource value: 0x7F0E00F2
-			public const int TextAppearance_AppCompat_Inverse = 2131624178;
+			public const int TextAppearance_AppCompat_Large = 2131624178;
 			
 			// aapt resource value: 0x7F0E00F3
-			public const int TextAppearance_AppCompat_Large = 2131624179;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131624179;
 			
 			// aapt resource value: 0x7F0E00F4
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131624180;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624180;
 			
 			// aapt resource value: 0x7F0E00F5
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624181;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624181;
 			
 			// aapt resource value: 0x7F0E00F6
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624182;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624182;
 			
 			// aapt resource value: 0x7F0E00F7
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624183;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624183;
 			
 			// aapt resource value: 0x7F0E00F8
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624184;
+			public const int TextAppearance_AppCompat_Medium = 2131624184;
 			
 			// aapt resource value: 0x7F0E00F9
-			public const int TextAppearance_AppCompat_Medium = 2131624185;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624185;
 			
 			// aapt resource value: 0x7F0E00FA
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624186;
+			public const int TextAppearance_AppCompat_Menu = 2131624186;
 			
 			// aapt resource value: 0x7F0E00FB
-			public const int TextAppearance_AppCompat_Menu = 2131624187;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624187;
 			
 			// aapt resource value: 0x7F0E00FC
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624188;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624188;
 			
 			// aapt resource value: 0x7F0E00FD
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624189;
+			public const int TextAppearance_AppCompat_Small = 2131624189;
 			
 			// aapt resource value: 0x7F0E00FE
-			public const int TextAppearance_AppCompat_Small = 2131624190;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131624190;
 			
 			// aapt resource value: 0x7F0E00FF
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131624191;
+			public const int TextAppearance_AppCompat_Subhead = 2131624191;
 			
 			// aapt resource value: 0x7F0E0100
-			public const int TextAppearance_AppCompat_Subhead = 2131624192;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624192;
 			
 			// aapt resource value: 0x7F0E0101
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624193;
+			public const int TextAppearance_AppCompat_Title = 2131624193;
 			
 			// aapt resource value: 0x7F0E0102
-			public const int TextAppearance_AppCompat_Title = 2131624194;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131624194;
 			
 			// aapt resource value: 0x7F0E0103
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131624195;
+			public const int TextAppearance_AppCompat_Tooltip = 2131624195;
 			
 			// aapt resource value: 0x7F0E0104
-			public const int TextAppearance_AppCompat_Tooltip = 2131624196;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624196;
 			
 			// aapt resource value: 0x7F0E0105
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624197;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624197;
 			
 			// aapt resource value: 0x7F0E0106
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624198;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624198;
 			
 			// aapt resource value: 0x7F0E0107
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624199;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624199;
 			
 			// aapt resource value: 0x7F0E0108
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624200;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624200;
 			
 			// aapt resource value: 0x7F0E0109
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624201;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624201;
 			
 			// aapt resource value: 0x7F0E010A
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624202;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624202;
 			
 			// aapt resource value: 0x7F0E010B
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624203;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624203;
 			
 			// aapt resource value: 0x7F0E010C
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624204;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624204;
 			
 			// aapt resource value: 0x7F0E010D
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624205;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131624205;
 			
 			// aapt resource value: 0x7F0E010E
-			public const int TextAppearance_AppCompat_Widget_Button = 2131624206;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624206;
 			
 			// aapt resource value: 0x7F0E010F
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624207;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624207;
 			
 			// aapt resource value: 0x7F0E0110
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624208;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624208;
 			
 			// aapt resource value: 0x7F0E0111
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624209;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624209;
 			
 			// aapt resource value: 0x7F0E0112
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624210;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624210;
 			
 			// aapt resource value: 0x7F0E0113
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624211;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624211;
 			
 			// aapt resource value: 0x7F0E0114
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624212;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624212;
 			
 			// aapt resource value: 0x7F0E0115
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624213;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131624213;
 			
 			// aapt resource value: 0x7F0E0116
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131624214;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624214;
 			
 			// aapt resource value: 0x7F0E0117
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624215;
+			public const int TextAppearance_Compat_Notification = 2131624215;
 			
 			// aapt resource value: 0x7F0E0118
-			public const int TextAppearance_Compat_Notification = 2131624216;
+			public const int TextAppearance_Compat_Notification_Info = 2131624216;
 			
 			// aapt resource value: 0x7F0E0119
-			public const int TextAppearance_Compat_Notification_Info = 2131624217;
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131624217;
 			
 			// aapt resource value: 0x7F0E011A
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131624218;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131624218;
 			
 			// aapt resource value: 0x7F0E011B
-			public const int TextAppearance_Compat_Notification_Line2 = 2131624219;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624219;
 			
 			// aapt resource value: 0x7F0E011C
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624220;
+			public const int TextAppearance_Compat_Notification_Media = 2131624220;
 			
 			// aapt resource value: 0x7F0E011D
-			public const int TextAppearance_Compat_Notification_Media = 2131624221;
+			public const int TextAppearance_Compat_Notification_Time = 2131624221;
 			
 			// aapt resource value: 0x7F0E011E
-			public const int TextAppearance_Compat_Notification_Time = 2131624222;
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131624222;
 			
 			// aapt resource value: 0x7F0E011F
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131624223;
+			public const int TextAppearance_Compat_Notification_Title = 2131624223;
 			
 			// aapt resource value: 0x7F0E0120
-			public const int TextAppearance_Compat_Notification_Title = 2131624224;
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131624224;
 			
 			// aapt resource value: 0x7F0E0121
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131624225;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624225;
 			
 			// aapt resource value: 0x7F0E0122
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624226;
+			public const int TextAppearance_Design_Counter = 2131624226;
 			
 			// aapt resource value: 0x7F0E0123
-			public const int TextAppearance_Design_Counter = 2131624227;
+			public const int TextAppearance_Design_Counter_Overflow = 2131624227;
 			
 			// aapt resource value: 0x7F0E0124
-			public const int TextAppearance_Design_Counter_Overflow = 2131624228;
+			public const int TextAppearance_Design_Error = 2131624228;
 			
 			// aapt resource value: 0x7F0E0125
-			public const int TextAppearance_Design_Error = 2131624229;
+			public const int TextAppearance_Design_HelperText = 2131624229;
 			
 			// aapt resource value: 0x7F0E0126
-			public const int TextAppearance_Design_HelperText = 2131624230;
+			public const int TextAppearance_Design_Hint = 2131624230;
 			
 			// aapt resource value: 0x7F0E0127
-			public const int TextAppearance_Design_Hint = 2131624231;
+			public const int TextAppearance_Design_Snackbar_Message = 2131624231;
 			
 			// aapt resource value: 0x7F0E0128
-			public const int TextAppearance_Design_Snackbar_Message = 2131624232;
+			public const int TextAppearance_Design_Tab = 2131624232;
 			
 			// aapt resource value: 0x7F0E0129
-			public const int TextAppearance_Design_Tab = 2131624233;
+			public const int TextAppearance_MaterialComponents_Body1 = 2131624233;
 			
 			// aapt resource value: 0x7F0E012A
-			public const int TextAppearance_MaterialComponents_Body1 = 2131624234;
+			public const int TextAppearance_MaterialComponents_Body2 = 2131624234;
 			
 			// aapt resource value: 0x7F0E012B
-			public const int TextAppearance_MaterialComponents_Body2 = 2131624235;
+			public const int TextAppearance_MaterialComponents_Button = 2131624235;
 			
 			// aapt resource value: 0x7F0E012C
-			public const int TextAppearance_MaterialComponents_Button = 2131624236;
+			public const int TextAppearance_MaterialComponents_Caption = 2131624236;
 			
 			// aapt resource value: 0x7F0E012D
-			public const int TextAppearance_MaterialComponents_Caption = 2131624237;
+			public const int TextAppearance_MaterialComponents_Chip = 2131624237;
 			
 			// aapt resource value: 0x7F0E012E
-			public const int TextAppearance_MaterialComponents_Chip = 2131624238;
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131624238;
 			
 			// aapt resource value: 0x7F0E012F
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131624239;
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131624239;
 			
 			// aapt resource value: 0x7F0E0130
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131624240;
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131624240;
 			
 			// aapt resource value: 0x7F0E0131
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131624241;
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131624241;
 			
 			// aapt resource value: 0x7F0E0132
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131624242;
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131624242;
 			
 			// aapt resource value: 0x7F0E0133
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131624243;
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131624243;
 			
 			// aapt resource value: 0x7F0E0134
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131624244;
+			public const int TextAppearance_MaterialComponents_Overline = 2131624244;
 			
 			// aapt resource value: 0x7F0E0135
-			public const int TextAppearance_MaterialComponents_Overline = 2131624245;
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624245;
 			
 			// aapt resource value: 0x7F0E0136
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624246;
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624246;
 			
 			// aapt resource value: 0x7F0E0137
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624247;
+			public const int TextAppearance_MaterialComponents_Tab = 2131624247;
 			
 			// aapt resource value: 0x7F0E0138
-			public const int TextAppearance_MaterialComponents_Tab = 2131624248;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624248;
 			
 			// aapt resource value: 0x7F0E0139
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624249;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624249;
 			
 			// aapt resource value: 0x7F0E013A
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624250;
-			
-			// aapt resource value: 0x7F0E013B
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624251;
-			
-			// aapt resource value: 0x7F0E016C
-			public const int ThemeOverlay_AppCompat = 2131624300;
-			
-			// aapt resource value: 0x7F0E016D
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624301;
-			
-			// aapt resource value: 0x7F0E016E
-			public const int ThemeOverlay_AppCompat_Dark = 2131624302;
-			
-			// aapt resource value: 0x7F0E016F
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624303;
-			
-			// aapt resource value: 0x7F0E0170
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624304;
-			
-			// aapt resource value: 0x7F0E0171
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624305;
-			
-			// aapt resource value: 0x7F0E0172
-			public const int ThemeOverlay_AppCompat_Light = 2131624306;
-			
-			// aapt resource value: 0x7F0E0173
-			public const int ThemeOverlay_MaterialComponents = 2131624307;
-			
-			// aapt resource value: 0x7F0E0174
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624308;
-			
-			// aapt resource value: 0x7F0E0175
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624309;
-			
-			// aapt resource value: 0x7F0E0176
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624310;
-			
-			// aapt resource value: 0x7F0E0177
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624311;
-			
-			// aapt resource value: 0x7F0E0178
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624312;
-			
-			// aapt resource value: 0x7F0E0179
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624313;
-			
-			// aapt resource value: 0x7F0E017A
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624314;
-			
-			// aapt resource value: 0x7F0E017B
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624315;
-			
-			// aapt resource value: 0x7F0E017C
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624316;
-			
-			// aapt resource value: 0x7F0E017D
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624317;
-			
-			// aapt resource value: 0x7F0E017E
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624318;
-			
-			// aapt resource value: 0x7F0E013C
-			public const int Theme_AppCompat = 2131624252;
-			
-			// aapt resource value: 0x7F0E013D
-			public const int Theme_AppCompat_CompactMenu = 2131624253;
-			
-			// aapt resource value: 0x7F0E013E
-			public const int Theme_AppCompat_DayNight = 2131624254;
-			
-			// aapt resource value: 0x7F0E013F
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624255;
-			
-			// aapt resource value: 0x7F0E0140
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624256;
-			
-			// aapt resource value: 0x7F0E0143
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624259;
-			
-			// aapt resource value: 0x7F0E0141
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624257;
-			
-			// aapt resource value: 0x7F0E0142
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624258;
-			
-			// aapt resource value: 0x7F0E0144
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624260;
-			
-			// aapt resource value: 0x7F0E0145
-			public const int Theme_AppCompat_Dialog = 2131624261;
-			
-			// aapt resource value: 0x7F0E0148
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624264;
-			
-			// aapt resource value: 0x7F0E0146
-			public const int Theme_AppCompat_Dialog_Alert = 2131624262;
-			
-			// aapt resource value: 0x7F0E0147
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624263;
-			
-			// aapt resource value: 0x7F0E0149
-			public const int Theme_AppCompat_Light = 2131624265;
-			
-			// aapt resource value: 0x7F0E014A
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624266;
-			
-			// aapt resource value: 0x7F0E014B
-			public const int Theme_AppCompat_Light_Dialog = 2131624267;
-			
-			// aapt resource value: 0x7F0E014E
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624270;
-			
-			// aapt resource value: 0x7F0E014C
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624268;
-			
-			// aapt resource value: 0x7F0E014D
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624269;
-			
-			// aapt resource value: 0x7F0E014F
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624271;
-			
-			// aapt resource value: 0x7F0E0150
-			public const int Theme_AppCompat_NoActionBar = 2131624272;
-			
-			// aapt resource value: 0x7F0E0151
-			public const int Theme_Design = 2131624273;
-			
-			// aapt resource value: 0x7F0E0152
-			public const int Theme_Design_BottomSheetDialog = 2131624274;
-			
-			// aapt resource value: 0x7F0E0153
-			public const int Theme_Design_Light = 2131624275;
-			
-			// aapt resource value: 0x7F0E0154
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624276;
-			
-			// aapt resource value: 0x7F0E0155
-			public const int Theme_Design_Light_NoActionBar = 2131624277;
-			
-			// aapt resource value: 0x7F0E0156
-			public const int Theme_Design_NoActionBar = 2131624278;
-			
-			// aapt resource value: 0x7F0E0157
-			public const int Theme_MaterialComponents = 2131624279;
-			
-			// aapt resource value: 0x7F0E0158
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624280;
-			
-			// aapt resource value: 0x7F0E0159
-			public const int Theme_MaterialComponents_Bridge = 2131624281;
-			
-			// aapt resource value: 0x7F0E015A
-			public const int Theme_MaterialComponents_CompactMenu = 2131624282;
-			
-			// aapt resource value: 0x7F0E015B
-			public const int Theme_MaterialComponents_Dialog = 2131624283;
-			
-			// aapt resource value: 0x7F0E015E
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624286;
-			
-			// aapt resource value: 0x7F0E015C
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624284;
-			
-			// aapt resource value: 0x7F0E015D
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624285;
-			
-			// aapt resource value: 0x7F0E015F
-			public const int Theme_MaterialComponents_Light = 2131624287;
-			
-			// aapt resource value: 0x7F0E0160
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624288;
-			
-			// aapt resource value: 0x7F0E0161
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624289;
-			
-			// aapt resource value: 0x7F0E0162
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624290;
-			
-			// aapt resource value: 0x7F0E0163
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624291;
-			
-			// aapt resource value: 0x7F0E0164
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624292;
-			
-			// aapt resource value: 0x7F0E0167
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624295;
-			
-			// aapt resource value: 0x7F0E0165
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624293;
-			
-			// aapt resource value: 0x7F0E0166
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624294;
-			
-			// aapt resource value: 0x7F0E0168
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624296;
-			
-			// aapt resource value: 0x7F0E0169
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624297;
-			
-			// aapt resource value: 0x7F0E016A
-			public const int Theme_MaterialComponents_NoActionBar = 2131624298;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624250;
 			
 			// aapt resource value: 0x7F0E016B
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624299;
+			public const int ThemeOverlay_AppCompat = 2131624299;
+			
+			// aapt resource value: 0x7F0E016C
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624300;
+			
+			// aapt resource value: 0x7F0E016D
+			public const int ThemeOverlay_AppCompat_Dark = 2131624301;
+			
+			// aapt resource value: 0x7F0E016E
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624302;
+			
+			// aapt resource value: 0x7F0E016F
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624303;
+			
+			// aapt resource value: 0x7F0E0170
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624304;
+			
+			// aapt resource value: 0x7F0E0171
+			public const int ThemeOverlay_AppCompat_Light = 2131624305;
+			
+			// aapt resource value: 0x7F0E0172
+			public const int ThemeOverlay_MaterialComponents = 2131624306;
+			
+			// aapt resource value: 0x7F0E0173
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624307;
+			
+			// aapt resource value: 0x7F0E0174
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131624308;
+			
+			// aapt resource value: 0x7F0E0175
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624309;
+			
+			// aapt resource value: 0x7F0E0176
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624310;
+			
+			// aapt resource value: 0x7F0E0177
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624311;
+			
+			// aapt resource value: 0x7F0E0178
+			public const int ThemeOverlay_MaterialComponents_Light = 2131624312;
+			
+			// aapt resource value: 0x7F0E0179
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624313;
+			
+			// aapt resource value: 0x7F0E017A
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624314;
+			
+			// aapt resource value: 0x7F0E017B
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624315;
+			
+			// aapt resource value: 0x7F0E017C
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624316;
+			
+			// aapt resource value: 0x7F0E017D
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624317;
+			
+			// aapt resource value: 0x7F0E013B
+			public const int Theme_AppCompat = 2131624251;
+			
+			// aapt resource value: 0x7F0E013C
+			public const int Theme_AppCompat_CompactMenu = 2131624252;
+			
+			// aapt resource value: 0x7F0E013D
+			public const int Theme_AppCompat_DayNight = 2131624253;
+			
+			// aapt resource value: 0x7F0E013E
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624254;
+			
+			// aapt resource value: 0x7F0E013F
+			public const int Theme_AppCompat_DayNight_Dialog = 2131624255;
+			
+			// aapt resource value: 0x7F0E0142
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624258;
+			
+			// aapt resource value: 0x7F0E0140
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624256;
+			
+			// aapt resource value: 0x7F0E0141
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624257;
+			
+			// aapt resource value: 0x7F0E0143
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624259;
+			
+			// aapt resource value: 0x7F0E0144
+			public const int Theme_AppCompat_Dialog = 2131624260;
+			
+			// aapt resource value: 0x7F0E0147
+			public const int Theme_AppCompat_DialogWhenLarge = 2131624263;
+			
+			// aapt resource value: 0x7F0E0145
+			public const int Theme_AppCompat_Dialog_Alert = 2131624261;
+			
+			// aapt resource value: 0x7F0E0146
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131624262;
+			
+			// aapt resource value: 0x7F0E0148
+			public const int Theme_AppCompat_Light = 2131624264;
+			
+			// aapt resource value: 0x7F0E0149
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131624265;
+			
+			// aapt resource value: 0x7F0E014A
+			public const int Theme_AppCompat_Light_Dialog = 2131624266;
+			
+			// aapt resource value: 0x7F0E014D
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624269;
+			
+			// aapt resource value: 0x7F0E014B
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624267;
+			
+			// aapt resource value: 0x7F0E014C
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624268;
+			
+			// aapt resource value: 0x7F0E014E
+			public const int Theme_AppCompat_Light_NoActionBar = 2131624270;
+			
+			// aapt resource value: 0x7F0E014F
+			public const int Theme_AppCompat_NoActionBar = 2131624271;
+			
+			// aapt resource value: 0x7F0E0150
+			public const int Theme_Design = 2131624272;
+			
+			// aapt resource value: 0x7F0E0151
+			public const int Theme_Design_BottomSheetDialog = 2131624273;
+			
+			// aapt resource value: 0x7F0E0152
+			public const int Theme_Design_Light = 2131624274;
+			
+			// aapt resource value: 0x7F0E0153
+			public const int Theme_Design_Light_BottomSheetDialog = 2131624275;
+			
+			// aapt resource value: 0x7F0E0154
+			public const int Theme_Design_Light_NoActionBar = 2131624276;
+			
+			// aapt resource value: 0x7F0E0155
+			public const int Theme_Design_NoActionBar = 2131624277;
+			
+			// aapt resource value: 0x7F0E0156
+			public const int Theme_MaterialComponents = 2131624278;
+			
+			// aapt resource value: 0x7F0E0157
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624279;
+			
+			// aapt resource value: 0x7F0E0158
+			public const int Theme_MaterialComponents_Bridge = 2131624280;
+			
+			// aapt resource value: 0x7F0E0159
+			public const int Theme_MaterialComponents_CompactMenu = 2131624281;
+			
+			// aapt resource value: 0x7F0E015A
+			public const int Theme_MaterialComponents_Dialog = 2131624282;
+			
+			// aapt resource value: 0x7F0E015D
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624285;
+			
+			// aapt resource value: 0x7F0E015B
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131624283;
+			
+			// aapt resource value: 0x7F0E015C
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624284;
+			
+			// aapt resource value: 0x7F0E015E
+			public const int Theme_MaterialComponents_Light = 2131624286;
+			
+			// aapt resource value: 0x7F0E015F
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624287;
+			
+			// aapt resource value: 0x7F0E0160
+			public const int Theme_MaterialComponents_Light_Bridge = 2131624288;
+			
+			// aapt resource value: 0x7F0E0161
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624289;
+			
+			// aapt resource value: 0x7F0E0162
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624290;
+			
+			// aapt resource value: 0x7F0E0163
+			public const int Theme_MaterialComponents_Light_Dialog = 2131624291;
+			
+			// aapt resource value: 0x7F0E0166
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624294;
+			
+			// aapt resource value: 0x7F0E0164
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624292;
+			
+			// aapt resource value: 0x7F0E0165
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624293;
+			
+			// aapt resource value: 0x7F0E0167
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624295;
+			
+			// aapt resource value: 0x7F0E0168
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624296;
+			
+			// aapt resource value: 0x7F0E0169
+			public const int Theme_MaterialComponents_NoActionBar = 2131624297;
+			
+			// aapt resource value: 0x7F0E016A
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624298;
+			
+			// aapt resource value: 0x7F0E017E
+			public const int Widget_AppCompat_ActionBar = 2131624318;
 			
 			// aapt resource value: 0x7F0E017F
-			public const int Widget_AppCompat_ActionBar = 2131624319;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131624319;
 			
 			// aapt resource value: 0x7F0E0180
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624320;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131624320;
 			
 			// aapt resource value: 0x7F0E0181
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624321;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131624321;
 			
 			// aapt resource value: 0x7F0E0182
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624322;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131624322;
 			
 			// aapt resource value: 0x7F0E0183
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624323;
+			public const int Widget_AppCompat_ActionButton = 2131624323;
 			
 			// aapt resource value: 0x7F0E0184
-			public const int Widget_AppCompat_ActionButton = 2131624324;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624324;
 			
 			// aapt resource value: 0x7F0E0185
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624325;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131624325;
 			
 			// aapt resource value: 0x7F0E0186
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624326;
+			public const int Widget_AppCompat_ActionMode = 2131624326;
 			
 			// aapt resource value: 0x7F0E0187
-			public const int Widget_AppCompat_ActionMode = 2131624327;
+			public const int Widget_AppCompat_ActivityChooserView = 2131624327;
 			
 			// aapt resource value: 0x7F0E0188
-			public const int Widget_AppCompat_ActivityChooserView = 2131624328;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131624328;
 			
 			// aapt resource value: 0x7F0E0189
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624329;
-			
-			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_Button = 2131624330;
-			
-			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_ButtonBar = 2131624336;
-			
-			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624337;
-			
-			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_Button_Borderless = 2131624331;
-			
-			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624332;
-			
-			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624333;
-			
-			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_Button_Colored = 2131624334;
+			public const int Widget_AppCompat_Button = 2131624329;
 			
 			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_Button_Small = 2131624335;
+			public const int Widget_AppCompat_ButtonBar = 2131624335;
+			
+			// aapt resource value: 0x7F0E0190
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624336;
+			
+			// aapt resource value: 0x7F0E018A
+			public const int Widget_AppCompat_Button_Borderless = 2131624330;
+			
+			// aapt resource value: 0x7F0E018B
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624331;
+			
+			// aapt resource value: 0x7F0E018C
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624332;
+			
+			// aapt resource value: 0x7F0E018D
+			public const int Widget_AppCompat_Button_Colored = 2131624333;
+			
+			// aapt resource value: 0x7F0E018E
+			public const int Widget_AppCompat_Button_Small = 2131624334;
+			
+			// aapt resource value: 0x7F0E0191
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624337;
 			
 			// aapt resource value: 0x7F0E0192
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624338;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624338;
 			
 			// aapt resource value: 0x7F0E0193
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624339;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131624339;
 			
 			// aapt resource value: 0x7F0E0194
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624340;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131624340;
 			
 			// aapt resource value: 0x7F0E0195
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624341;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624341;
 			
 			// aapt resource value: 0x7F0E0196
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624342;
+			public const int Widget_AppCompat_EditText = 2131624342;
 			
 			// aapt resource value: 0x7F0E0197
-			public const int Widget_AppCompat_EditText = 2131624343;
+			public const int Widget_AppCompat_ImageButton = 2131624343;
 			
 			// aapt resource value: 0x7F0E0198
-			public const int Widget_AppCompat_ImageButton = 2131624344;
+			public const int Widget_AppCompat_Light_ActionBar = 2131624344;
 			
 			// aapt resource value: 0x7F0E0199
-			public const int Widget_AppCompat_Light_ActionBar = 2131624345;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624345;
 			
 			// aapt resource value: 0x7F0E019A
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624346;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624346;
 			
 			// aapt resource value: 0x7F0E019B
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624347;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624347;
 			
 			// aapt resource value: 0x7F0E019C
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624348;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624348;
 			
 			// aapt resource value: 0x7F0E019D
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624349;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624349;
 			
 			// aapt resource value: 0x7F0E019E
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624350;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624350;
 			
 			// aapt resource value: 0x7F0E019F
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624351;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624351;
 			
 			// aapt resource value: 0x7F0E01A0
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624352;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624352;
 			
 			// aapt resource value: 0x7F0E01A1
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624353;
+			public const int Widget_AppCompat_Light_ActionButton = 2131624353;
 			
 			// aapt resource value: 0x7F0E01A2
-			public const int Widget_AppCompat_Light_ActionButton = 2131624354;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624354;
 			
 			// aapt resource value: 0x7F0E01A3
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624355;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624355;
 			
 			// aapt resource value: 0x7F0E01A4
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624356;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624356;
 			
 			// aapt resource value: 0x7F0E01A5
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624357;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624357;
 			
 			// aapt resource value: 0x7F0E01A6
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624358;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624358;
 			
 			// aapt resource value: 0x7F0E01A7
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624359;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624359;
 			
 			// aapt resource value: 0x7F0E01A8
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624360;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624360;
 			
 			// aapt resource value: 0x7F0E01A9
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624361;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624361;
 			
 			// aapt resource value: 0x7F0E01AA
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624362;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131624362;
 			
 			// aapt resource value: 0x7F0E01AB
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624363;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624363;
 			
 			// aapt resource value: 0x7F0E01AC
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624364;
+			public const int Widget_AppCompat_Light_SearchView = 2131624364;
 			
 			// aapt resource value: 0x7F0E01AD
-			public const int Widget_AppCompat_Light_SearchView = 2131624365;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624365;
 			
 			// aapt resource value: 0x7F0E01AE
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624366;
+			public const int Widget_AppCompat_ListMenuView = 2131624366;
 			
 			// aapt resource value: 0x7F0E01AF
-			public const int Widget_AppCompat_ListMenuView = 2131624367;
+			public const int Widget_AppCompat_ListPopupWindow = 2131624367;
 			
 			// aapt resource value: 0x7F0E01B0
-			public const int Widget_AppCompat_ListPopupWindow = 2131624368;
+			public const int Widget_AppCompat_ListView = 2131624368;
 			
 			// aapt resource value: 0x7F0E01B1
-			public const int Widget_AppCompat_ListView = 2131624369;
+			public const int Widget_AppCompat_ListView_DropDown = 2131624369;
 			
 			// aapt resource value: 0x7F0E01B2
-			public const int Widget_AppCompat_ListView_DropDown = 2131624370;
+			public const int Widget_AppCompat_ListView_Menu = 2131624370;
 			
 			// aapt resource value: 0x7F0E01B3
-			public const int Widget_AppCompat_ListView_Menu = 2131624371;
+			public const int Widget_AppCompat_PopupMenu = 2131624371;
 			
 			// aapt resource value: 0x7F0E01B4
-			public const int Widget_AppCompat_PopupMenu = 2131624372;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624372;
 			
 			// aapt resource value: 0x7F0E01B5
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624373;
+			public const int Widget_AppCompat_PopupWindow = 2131624373;
 			
 			// aapt resource value: 0x7F0E01B6
-			public const int Widget_AppCompat_PopupWindow = 2131624374;
+			public const int Widget_AppCompat_ProgressBar = 2131624374;
 			
 			// aapt resource value: 0x7F0E01B7
-			public const int Widget_AppCompat_ProgressBar = 2131624375;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624375;
 			
 			// aapt resource value: 0x7F0E01B8
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624376;
+			public const int Widget_AppCompat_RatingBar = 2131624376;
 			
 			// aapt resource value: 0x7F0E01B9
-			public const int Widget_AppCompat_RatingBar = 2131624377;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131624377;
 			
 			// aapt resource value: 0x7F0E01BA
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624378;
+			public const int Widget_AppCompat_RatingBar_Small = 2131624378;
 			
 			// aapt resource value: 0x7F0E01BB
-			public const int Widget_AppCompat_RatingBar_Small = 2131624379;
+			public const int Widget_AppCompat_SearchView = 2131624379;
 			
 			// aapt resource value: 0x7F0E01BC
-			public const int Widget_AppCompat_SearchView = 2131624380;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131624380;
 			
 			// aapt resource value: 0x7F0E01BD
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624381;
+			public const int Widget_AppCompat_SeekBar = 2131624381;
 			
 			// aapt resource value: 0x7F0E01BE
-			public const int Widget_AppCompat_SeekBar = 2131624382;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131624382;
 			
 			// aapt resource value: 0x7F0E01BF
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624383;
+			public const int Widget_AppCompat_Spinner = 2131624383;
 			
 			// aapt resource value: 0x7F0E01C0
-			public const int Widget_AppCompat_Spinner = 2131624384;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131624384;
 			
 			// aapt resource value: 0x7F0E01C1
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624385;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624385;
 			
 			// aapt resource value: 0x7F0E01C2
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624386;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131624386;
 			
 			// aapt resource value: 0x7F0E01C3
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624387;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624387;
 			
 			// aapt resource value: 0x7F0E01C4
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624388;
+			public const int Widget_AppCompat_Toolbar = 2131624388;
 			
 			// aapt resource value: 0x7F0E01C5
-			public const int Widget_AppCompat_Toolbar = 2131624389;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624389;
 			
 			// aapt resource value: 0x7F0E01C6
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624390;
+			public const int Widget_Compat_NotificationActionContainer = 2131624390;
 			
 			// aapt resource value: 0x7F0E01C7
-			public const int Widget_Compat_NotificationActionContainer = 2131624391;
+			public const int Widget_Compat_NotificationActionText = 2131624391;
 			
 			// aapt resource value: 0x7F0E01C8
-			public const int Widget_Compat_NotificationActionText = 2131624392;
+			public const int Widget_Design_AppBarLayout = 2131624392;
 			
 			// aapt resource value: 0x7F0E01C9
-			public const int Widget_Design_AppBarLayout = 2131624393;
+			public const int Widget_Design_BottomNavigationView = 2131624393;
 			
 			// aapt resource value: 0x7F0E01CA
-			public const int Widget_Design_BottomNavigationView = 2131624394;
+			public const int Widget_Design_BottomSheet_Modal = 2131624394;
 			
 			// aapt resource value: 0x7F0E01CB
-			public const int Widget_Design_BottomSheet_Modal = 2131624395;
+			public const int Widget_Design_CollapsingToolbar = 2131624395;
 			
 			// aapt resource value: 0x7F0E01CC
-			public const int Widget_Design_CollapsingToolbar = 2131624396;
+			public const int Widget_Design_FloatingActionButton = 2131624396;
 			
 			// aapt resource value: 0x7F0E01CD
-			public const int Widget_Design_FloatingActionButton = 2131624397;
+			public const int Widget_Design_NavigationView = 2131624397;
 			
 			// aapt resource value: 0x7F0E01CE
-			public const int Widget_Design_NavigationView = 2131624398;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624398;
 			
 			// aapt resource value: 0x7F0E01CF
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624399;
+			public const int Widget_Design_Snackbar = 2131624399;
 			
 			// aapt resource value: 0x7F0E01D0
-			public const int Widget_Design_Snackbar = 2131624400;
+			public const int Widget_Design_TabLayout = 2131624400;
 			
 			// aapt resource value: 0x7F0E01D1
-			public const int Widget_Design_TabLayout = 2131624401;
+			public const int Widget_Design_TextInputLayout = 2131624401;
 			
 			// aapt resource value: 0x7F0E01D2
-			public const int Widget_Design_TextInputLayout = 2131624402;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131624402;
 			
 			// aapt resource value: 0x7F0E01D3
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624403;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624403;
 			
 			// aapt resource value: 0x7F0E01D4
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624404;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131624404;
 			
 			// aapt resource value: 0x7F0E01D5
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624405;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624405;
 			
 			// aapt resource value: 0x7F0E01D6
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624406;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624406;
 			
 			// aapt resource value: 0x7F0E01D7
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624407;
+			public const int Widget_MaterialComponents_Button = 2131624407;
 			
 			// aapt resource value: 0x7F0E01D8
-			public const int Widget_MaterialComponents_Button = 2131624408;
+			public const int Widget_MaterialComponents_Button_Icon = 2131624408;
 			
 			// aapt resource value: 0x7F0E01D9
-			public const int Widget_MaterialComponents_Button_Icon = 2131624409;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624409;
 			
 			// aapt resource value: 0x7F0E01DA
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624410;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624410;
 			
 			// aapt resource value: 0x7F0E01DB
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624411;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131624411;
 			
 			// aapt resource value: 0x7F0E01DC
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624412;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624412;
 			
 			// aapt resource value: 0x7F0E01DD
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624413;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624413;
 			
 			// aapt resource value: 0x7F0E01DE
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624414;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624414;
 			
 			// aapt resource value: 0x7F0E01DF
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624415;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624415;
 			
 			// aapt resource value: 0x7F0E01E0
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624416;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624416;
 			
 			// aapt resource value: 0x7F0E01E1
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624417;
-			
-			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_CardView = 2131624418;
-			
-			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_ChipGroup = 2131624423;
-			
-			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Chip_Action = 2131624419;
-			
-			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624420;
-			
-			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624421;
+			public const int Widget_MaterialComponents_CardView = 2131624417;
 			
 			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624422;
+			public const int Widget_MaterialComponents_ChipGroup = 2131624422;
+			
+			// aapt resource value: 0x7F0E01E2
+			public const int Widget_MaterialComponents_Chip_Action = 2131624418;
+			
+			// aapt resource value: 0x7F0E01E3
+			public const int Widget_MaterialComponents_Chip_Choice = 2131624419;
+			
+			// aapt resource value: 0x7F0E01E4
+			public const int Widget_MaterialComponents_Chip_Entry = 2131624420;
+			
+			// aapt resource value: 0x7F0E01E5
+			public const int Widget_MaterialComponents_Chip_Filter = 2131624421;
+			
+			// aapt resource value: 0x7F0E01E7
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131624423;
 			
 			// aapt resource value: 0x7F0E01E8
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624424;
+			public const int Widget_MaterialComponents_NavigationView = 2131624424;
 			
 			// aapt resource value: 0x7F0E01E9
-			public const int Widget_MaterialComponents_NavigationView = 2131624425;
+			public const int Widget_MaterialComponents_Snackbar = 2131624425;
 			
 			// aapt resource value: 0x7F0E01EA
-			public const int Widget_MaterialComponents_Snackbar = 2131624426;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624426;
 			
 			// aapt resource value: 0x7F0E01EB
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624427;
+			public const int Widget_MaterialComponents_TabLayout = 2131624427;
 			
 			// aapt resource value: 0x7F0E01EC
-			public const int Widget_MaterialComponents_TabLayout = 2131624428;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624428;
 			
 			// aapt resource value: 0x7F0E01ED
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624429;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624429;
 			
 			// aapt resource value: 0x7F0E01EE
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624430;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624430;
 			
 			// aapt resource value: 0x7F0E01EF
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624431;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624431;
 			
 			// aapt resource value: 0x7F0E01F0
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624432;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624432;
 			
 			// aapt resource value: 0x7F0E01F1
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624433;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624433;
 			
 			// aapt resource value: 0x7F0E01F2
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624434;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624434;
 			
 			// aapt resource value: 0x7F0E01F3
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624435;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624435;
 			
 			// aapt resource value: 0x7F0E01F4
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624436;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624436;
 			
 			// aapt resource value: 0x7F0E01F5
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624437;
+			public const int Widget_MaterialComponents_Toolbar = 2131624437;
 			
 			// aapt resource value: 0x7F0E01F6
-			public const int Widget_MaterialComponents_Toolbar = 2131624438;
-			
-			// aapt resource value: 0x7F0E01F7
-			public const int Widget_Support_CoordinatorLayout = 2131624439;
+			public const int Widget_Support_CoordinatorLayout = 2131624438;
 			
 			static Style()
 			{
@@ -11040,37 +13647,37 @@ namespace HowdyHack2020.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F030033,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F0300A4,0x7F0300A9,0x7F0300AA,0x7F0300B5,0x7F0300DF,0x7F0300E4,0x7F0300E9,0x7F0300EA,0x7F0300EC,0x7F0300F6,0x7F030100,0x7F030123,0x7F03012F,0x7F030140,0x7F030144,0x7F030145,0x7F030173,0x7F030176,0x7F0301BB,0x7F0301C5 }
+			// aapt resource value: { 0x7F030031,0x7F030032,0x7F030033,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F0300A5,0x7F0300AA,0x7F0300AB,0x7F0300B6,0x7F0300E0,0x7F0300E5,0x7F0300EA,0x7F0300EB,0x7F0300ED,0x7F0300F7,0x7F030101,0x7F030124,0x7F030130,0x7F030141,0x7F030145,0x7F030146,0x7F030174,0x7F030177,0x7F0301BC,0x7F0301C6 }
 			public static int[] ActionBar = new int[] {
 					2130903089,
 					2130903090,
 					2130903091,
-					2130903185,
 					2130903186,
 					2130903187,
 					2130903188,
 					2130903189,
 					2130903190,
-					2130903204,
-					2130903209,
+					2130903191,
+					2130903205,
 					2130903210,
-					2130903221,
-					2130903263,
-					2130903268,
-					2130903273,
+					2130903211,
+					2130903222,
+					2130903264,
+					2130903269,
 					2130903274,
-					2130903276,
-					2130903286,
-					2130903296,
-					2130903331,
-					2130903343,
-					2130903360,
-					2130903364,
+					2130903275,
+					2130903277,
+					2130903287,
+					2130903297,
+					2130903332,
+					2130903344,
+					2130903361,
 					2130903365,
-					2130903411,
-					2130903414,
-					2130903483,
-					2130903493};
+					2130903366,
+					2130903412,
+					2130903415,
+					2130903484,
+					2130903494};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -11177,14 +13784,14 @@ namespace HowdyHack2020.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F03007E,0x7F0300DF,0x7F030176,0x7F0301C5 }
+			// aapt resource value: { 0x7F030031,0x7F030032,0x7F03007E,0x7F0300E0,0x7F030177,0x7F0301C6 }
 			public static int[] ActionMode = new int[] {
 					2130903089,
 					2130903090,
 					2130903166,
-					2130903263,
-					2130903414,
-					2130903493};
+					2130903264,
+					2130903415,
+					2130903494};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -11204,10 +13811,10 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F0300BA,0x7F0300F7 }
+			// aapt resource value: { 0x7F0300BB,0x7F0300F8 }
 			public static int[] ActivityChooserView = new int[] {
-					2130903226,
-					2130903287};
+					2130903227,
+					2130903288};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -11215,16 +13822,16 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030052,0x7F030053,0x7F03011A,0x7F03011B,0x7F03012C,0x7F03015B,0x7F03015C }
+			// aapt resource value: { 0x10100F2,0x7F030052,0x7F030053,0x7F03011B,0x7F03011C,0x7F03012D,0x7F03015C,0x7F03015D }
 			public static int[] AlertDialog = new int[] {
 					16842994,
 					2130903122,
 					2130903123,
-					2130903322,
 					2130903323,
-					2130903340,
-					2130903387,
-					2130903388};
+					2130903324,
+					2130903341,
+					2130903388,
+					2130903389};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -11307,21 +13914,21 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300B5,0x7F0300BB,0x7F030115 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300B6,0x7F0300BC,0x7F030116 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903221,
-					2130903227,
-					2130903317};
+					2130903222,
+					2130903228,
+					2130903318};
 			
-			// aapt resource value: { 0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C }
+			// aapt resource value: { 0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903401,
 					2130903402,
 					2130903403,
-					2130903404};
+					2130903404,
+					2130903405};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -11350,10 +13957,10 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F030113,0x7F030114 }
+			// aapt resource value: { 0x7F030114,0x7F030115 }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903315,
-					2130903316};
+					2130903316,
+					2130903317};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -11364,12 +13971,12 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: { 0x1010119,0x7F030166,0x7F0301B9,0x7F0301BA }
+			// aapt resource value: { 0x1010119,0x7F030167,0x7F0301BA,0x7F0301BB }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903398,
-					2130903481,
-					2130903482};
+					2130903399,
+					2130903482,
+					2130903483};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -11383,12 +13990,12 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0301B6,0x7F0301B7,0x7F0301B8 }
+			// aapt resource value: { 0x1010142,0x7F0301B7,0x7F0301B8,0x7F0301B9 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903478,
 					2130903479,
-					2130903480};
+					2130903480,
+					2130903481};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -11433,7 +14040,7 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F0300CE,0x7F0300D1,0x7F030108,0x7F030116,0x7F030196 }
+			// aapt resource value: { 0x1010034,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F0300CF,0x7F0300D2,0x7F030109,0x7F030117,0x7F030197 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130903084,
@@ -11441,11 +14048,11 @@ namespace HowdyHack2020.Droid
 					2130903086,
 					2130903087,
 					2130903088,
-					2130903246,
-					2130903249,
-					2130903304,
-					2130903318,
-					2130903446};
+					2130903247,
+					2130903250,
+					2130903305,
+					2130903319,
+					2130903447};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -11480,7 +14087,7 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 10
 			public const int AppCompatTextView_textAllCaps = 10;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002B,0x7F03003E,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030054,0x7F030055,0x7F03005F,0x7F030064,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008E,0x7F03009D,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300AB,0x7F0300AD,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F0300E9,0x7F0300F5,0x7F030118,0x7F030119,0x7F03011C,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030120,0x7F030121,0x7F030122,0x7F030137,0x7F030138,0x7F030139,0x7F03013F,0x7F030141,0x7F030148,0x7F030149,0x7F03014A,0x7F03014B,0x7F030153,0x7F030154,0x7F030155,0x7F030156,0x7F030163,0x7F030164,0x7F03017A,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AC,0x7F0301AD,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301D1,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002B,0x7F03003E,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030054,0x7F030055,0x7F03005F,0x7F030064,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008F,0x7F03009E,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AC,0x7F0300AE,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F0300B5,0x7F0300EA,0x7F0300F6,0x7F030119,0x7F03011A,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030120,0x7F030121,0x7F030122,0x7F030123,0x7F030138,0x7F030139,0x7F03013A,0x7F030140,0x7F030142,0x7F030149,0x7F03014A,0x7F03014B,0x7F03014C,0x7F030154,0x7F030155,0x7F030156,0x7F030157,0x7F030164,0x7F030165,0x7F03017B,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AA,0x7F0301AD,0x7F0301AE,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CB,0x7F0301D2,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -11530,7 +14137,6 @@ namespace HowdyHack2020.Droid
 					2130903125,
 					2130903135,
 					2130903140,
-					2130903172,
 					2130903173,
 					2130903174,
 					2130903175,
@@ -11539,61 +14145,61 @@ namespace HowdyHack2020.Droid
 					2130903178,
 					2130903179,
 					2130903180,
-					2130903182,
-					2130903197,
-					2130903206,
+					2130903181,
+					2130903183,
+					2130903198,
 					2130903207,
 					2130903208,
-					2130903211,
-					2130903213,
-					2130903216,
+					2130903209,
+					2130903212,
+					2130903214,
 					2130903217,
 					2130903218,
 					2130903219,
 					2130903220,
-					2130903273,
-					2130903285,
-					2130903320,
+					2130903221,
+					2130903274,
+					2130903286,
 					2130903321,
-					2130903324,
+					2130903322,
 					2130903325,
 					2130903326,
 					2130903327,
 					2130903328,
 					2130903329,
 					2130903330,
-					2130903351,
+					2130903331,
 					2130903352,
 					2130903353,
-					2130903359,
-					2130903361,
-					2130903368,
+					2130903354,
+					2130903360,
+					2130903362,
 					2130903369,
 					2130903370,
 					2130903371,
-					2130903379,
+					2130903372,
 					2130903380,
 					2130903381,
 					2130903382,
-					2130903395,
+					2130903383,
 					2130903396,
-					2130903418,
-					2130903457,
+					2130903397,
+					2130903419,
 					2130903458,
 					2130903459,
 					2130903460,
-					2130903462,
+					2130903461,
 					2130903463,
 					2130903464,
 					2130903465,
-					2130903468,
+					2130903466,
 					2130903469,
-					2130903495,
+					2130903470,
 					2130903496,
 					2130903497,
 					2130903498,
-					2130903505,
-					2130903507,
+					2130903499,
+					2130903506,
 					2130903508,
 					2130903509,
 					2130903510,
@@ -11602,7 +14208,8 @@ namespace HowdyHack2020.Droid
 					2130903513,
 					2130903514,
 					2130903515,
-					2130903516};
+					2130903516,
+					2130903517};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -11967,14 +14574,14 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 120
 			public const int AppCompatTheme_windowNoTitle = 120;
 			
-			// aapt resource value: { 0x7F030034,0x7F0300C3,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F0300E5 }
+			// aapt resource value: { 0x7F030034,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300E6 }
 			public static int[] BottomAppBar = new int[] {
 					2130903092,
-					2130903235,
 					2130903236,
 					2130903237,
 					2130903238,
-					2130903269};
+					2130903239,
+					2130903270};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -11994,18 +14601,18 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 5
 			public const int BottomAppBar_hideOnScroll = 5;
 			
-			// aapt resource value: { 0x7F0300B5,0x7F0300FA,0x7F0300FC,0x7F0300FE,0x7F0300FF,0x7F030103,0x7F030104,0x7F030105,0x7F030107,0x7F03012B }
+			// aapt resource value: { 0x7F0300B6,0x7F0300FB,0x7F0300FD,0x7F0300FF,0x7F030100,0x7F030104,0x7F030105,0x7F030106,0x7F030108,0x7F03012C }
 			public static int[] BottomNavigationView = new int[] {
-					2130903221,
-					2130903290,
-					2130903292,
-					2130903294,
+					2130903222,
+					2130903291,
+					2130903293,
 					2130903295,
-					2130903299,
+					2130903296,
 					2130903300,
 					2130903301,
-					2130903303,
-					2130903339};
+					2130903302,
+					2130903304,
+					2130903340};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_elevation = 0;
@@ -12063,7 +14670,7 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F030097,0x7F030098,0x7F030099,0x7F03009A,0x7F03009B }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F030098,0x7F030099,0x7F03009A,0x7F03009B,0x7F03009C }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
@@ -12073,11 +14680,11 @@ namespace HowdyHack2020.Droid
 					2130903131,
 					2130903132,
 					2130903133,
-					2130903191,
 					2130903192,
 					2130903193,
 					2130903194,
-					2130903195};
+					2130903195,
+					2130903196};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -12118,7 +14725,7 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030061,0x7F030062,0x7F030063,0x7F030065,0x7F030066,0x7F030067,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03006E,0x7F030073,0x7F030074,0x7F030075,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F0300E3,0x7F0300ED,0x7F0300F1,0x7F03014D,0x7F030159,0x7F0301AE,0x7F0301B0 }
+			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030061,0x7F030062,0x7F030063,0x7F030065,0x7F030066,0x7F030067,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03006E,0x7F030073,0x7F030074,0x7F030075,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F0300E4,0x7F0300EE,0x7F0300F2,0x7F03014E,0x7F03015A,0x7F0301AF,0x7F0301B1 }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842923,
@@ -12147,22 +14754,22 @@ namespace HowdyHack2020.Droid
 					2130903163,
 					2130903164,
 					2130903165,
-					2130903267,
-					2130903277,
-					2130903281,
-					2130903373,
-					2130903385,
-					2130903470,
-					2130903472};
+					2130903268,
+					2130903278,
+					2130903282,
+					2130903374,
+					2130903386,
+					2130903471,
+					2130903473};
 			
-			// aapt resource value: { 0x7F030060,0x7F03006F,0x7F030070,0x7F030071,0x7F03015D,0x7F03015E }
+			// aapt resource value: { 0x7F030060,0x7F03006F,0x7F030070,0x7F030071,0x7F03015E,0x7F03015F }
 			public static int[] ChipGroup = new int[] {
 					2130903136,
 					2130903151,
 					2130903152,
 					2130903153,
-					2130903389,
-					2130903390};
+					2130903390,
+					2130903391};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -12284,24 +14891,24 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 33
 			public const int Chip_textStartPadding = 33;
 			
-			// aapt resource value: { 0x7F030081,0x7F030082,0x7F03009C,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C1,0x7F0300C2,0x7F03014E,0x7F030150,0x7F03016E,0x7F0301BB,0x7F0301BC,0x7F0301C6 }
+			// aapt resource value: { 0x7F030081,0x7F030082,0x7F03009D,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C1,0x7F0300C2,0x7F0300C3,0x7F03014F,0x7F030151,0x7F03016F,0x7F0301BC,0x7F0301BD,0x7F0301C7 }
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130903169,
 					2130903170,
-					2130903196,
-					2130903228,
+					2130903197,
 					2130903229,
 					2130903230,
 					2130903231,
 					2130903232,
 					2130903233,
 					2130903234,
-					2130903374,
-					2130903376,
-					2130903406,
-					2130903483,
+					2130903235,
+					2130903375,
+					2130903377,
+					2130903407,
 					2130903484,
-					2130903494};
+					2130903485,
+					2130903495};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -12333,10 +14940,10 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F03010E,0x7F03010F }
+			// aapt resource value: { 0x7F03010F,0x7F030110 }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903310,
-					2130903311};
+					2130903311,
+					2130903312};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -12392,23 +14999,23 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 2
 			public const int CompoundButton_buttonTintMode = 2;
 			
-			// aapt resource value: { 0x7F030106,0x7F03016D }
+			// aapt resource value: { 0x7F030107,0x7F03016E }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903302,
-					2130903405};
+					2130903303,
+					2130903406};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F03010B,0x7F03010C,0x7F03010D,0x7F030110,0x7F030111,0x7F030112 }
+			// aapt resource value: { 0x10100B3,0x7F03010C,0x7F03010D,0x7F03010E,0x7F030111,0x7F030112,0x7F030113 }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903307,
 					2130903308,
 					2130903309,
-					2130903312,
+					2130903310,
 					2130903313,
-					2130903314};
+					2130903314,
+					2130903315};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -12445,16 +15052,16 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: { 0x7F030029,0x7F03002A,0x7F030036,0x7F030083,0x7F0300AE,0x7F0300DC,0x7F030162,0x7F0301B2 }
+			// aapt resource value: { 0x7F030029,0x7F03002A,0x7F030036,0x7F030084,0x7F0300AF,0x7F0300DD,0x7F030163,0x7F0301B3 }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130903081,
 					2130903082,
 					2130903094,
-					2130903171,
-					2130903214,
-					2130903260,
-					2130903394,
-					2130903474};
+					2130903172,
+					2130903215,
+					2130903261,
+					2130903395,
+					2130903475};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -12480,21 +15087,21 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030034,0x7F030035,0x7F03003D,0x7F0300B5,0x7F0300C7,0x7F0300C8,0x7F0300E3,0x7F0300EB,0x7F030129,0x7F030143,0x7F03014D,0x7F030159,0x7F0301D0 }
+			// aapt resource value: { 0x7F030034,0x7F030035,0x7F03003D,0x7F0300B6,0x7F0300C8,0x7F0300C9,0x7F0300E4,0x7F0300EC,0x7F03012A,0x7F030144,0x7F03014E,0x7F03015A,0x7F0301D1 }
 			public static int[] FloatingActionButton = new int[] {
 					2130903092,
 					2130903093,
 					2130903101,
-					2130903221,
-					2130903239,
+					2130903222,
 					2130903240,
-					2130903267,
-					2130903275,
-					2130903337,
-					2130903363,
-					2130903373,
-					2130903385,
-					2130903504};
+					2130903241,
+					2130903268,
+					2130903276,
+					2130903338,
+					2130903364,
+					2130903374,
+					2130903386,
+					2130903505};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -12542,10 +15149,10 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 12
 			public const int FloatingActionButton_useCompatPadding = 12;
 			
-			// aapt resource value: { 0x7F030101,0x7F030117 }
+			// aapt resource value: { 0x7F030102,0x7F030118 }
 			public static int[] FlowLayout = new int[] {
-					2130903297,
-					2130903319};
+					2130903298,
+					2130903320};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -12553,27 +15160,27 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F0300D2,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7 }
+			// aapt resource value: { 0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8 }
 			public static int[] FontFamily = new int[] {
-					2130903250,
 					2130903251,
 					2130903252,
 					2130903253,
 					2130903254,
-					2130903255};
+					2130903255,
+					2130903256};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300D0,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0301CF }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300D1,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0301D0 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903248,
-					2130903256,
+					2130903249,
 					2130903257,
 					2130903258,
-					2130903503};
+					2130903259,
+					2130903504};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -12623,11 +15230,11 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0300DB }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F0300DC }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903259};
+					2130903260};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -12700,17 +15307,24 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300AA,0x7F0300AC,0x7F03012A,0x7F030158 }
+			// aapt resource value: { 0x7F030083 }
+			public static int[] ItemsViewRendererTheme = new int[] {
+					2130903171};
+			
+			// aapt resource value: 0
+			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
+			
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300AB,0x7F0300AD,0x7F03012B,0x7F030159 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903210,
-					2130903212,
-					2130903338,
-					2130903384};
+					2130903211,
+					2130903213,
+					2130903339,
+					2130903385};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -12769,7 +15383,7 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030034,0x7F030035,0x7F03009F,0x7F0300EC,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F0300F2,0x7F0300F3,0x7F03014D,0x7F03016F,0x7F030170 }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030034,0x7F030035,0x7F0300A0,0x7F0300ED,0x7F0300EF,0x7F0300F0,0x7F0300F1,0x7F0300F3,0x7F0300F4,0x7F03014E,0x7F030170,0x7F030171 }
 			public static int[] MaterialButton = new int[] {
 					16843191,
 					16843192,
@@ -12777,16 +15391,16 @@ namespace HowdyHack2020.Droid
 					16843194,
 					2130903092,
 					2130903093,
-					2130903199,
-					2130903276,
-					2130903278,
+					2130903200,
+					2130903277,
 					2130903279,
 					2130903280,
-					2130903282,
+					2130903281,
 					2130903283,
-					2130903373,
-					2130903407,
-					2130903408};
+					2130903284,
+					2130903374,
+					2130903408,
+					2130903409};
 			
 			// aapt resource value: 3
 			public const int MaterialButton_android_insetBottom = 3;
@@ -12836,10 +15450,10 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 15
 			public const int MaterialButton_strokeWidth = 15;
 			
-			// aapt resource value: { 0x7F03016F,0x7F030170 }
+			// aapt resource value: { 0x7F030170,0x7F030171 }
 			public static int[] MaterialCardView = new int[] {
-					2130903407,
-					2130903408};
+					2130903408,
+					2130903409};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_strokeColor = 0;
@@ -12847,27 +15461,26 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 1
 			public const int MaterialCardView_strokeWidth = 1;
 			
-			// aapt resource value: { 0x7F030041,0x7F030042,0x7F030068,0x7F030072,0x7F030076,0x7F030084,0x7F030085,0x7F03008B,0x7F03008C,0x7F03008D,0x7F0300B4,0x7F0300CF,0x7F030125,0x7F030126,0x7F030130,0x7F03014F,0x7F03015F,0x7F030192,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A5,0x7F0301AA,0x7F0301AB,0x7F0301AF }
+			// aapt resource value: { 0x7F030041,0x7F030042,0x7F030068,0x7F030072,0x7F030076,0x7F030085,0x7F030086,0x7F03008C,0x7F03008D,0x7F03008E,0x7F0300B5,0x7F0300D0,0x7F030126,0x7F030127,0x7F030131,0x7F030150,0x7F030160,0x7F030193,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A6,0x7F0301AB,0x7F0301AC,0x7F0301B0 }
 			public static int[] MaterialComponentsTheme = new int[] {
 					2130903105,
 					2130903106,
 					2130903144,
 					2130903154,
 					2130903158,
-					2130903172,
 					2130903173,
-					2130903179,
+					2130903174,
 					2130903180,
 					2130903181,
-					2130903220,
-					2130903247,
-					2130903333,
+					2130903182,
+					2130903221,
+					2130903248,
 					2130903334,
-					2130903344,
-					2130903375,
-					2130903391,
-					2130903442,
-					2130903447,
+					2130903335,
+					2130903345,
+					2130903376,
+					2130903392,
+					2130903443,
 					2130903448,
 					2130903449,
 					2130903450,
@@ -12877,10 +15490,11 @@ namespace HowdyHack2020.Droid
 					2130903454,
 					2130903455,
 					2130903456,
-					2130903461,
-					2130903466,
+					2130903457,
+					2130903462,
 					2130903467,
-					2130903471};
+					2130903468,
+					2130903472};
 			
 			// aapt resource value: 0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
@@ -13005,7 +15619,7 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F030090,0x7F0300F2,0x7F0300F3,0x7F030131,0x7F030157,0x7F0301CB }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F030091,0x7F0300F3,0x7F0300F4,0x7F030132,0x7F030158,0x7F0301CC }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -13024,12 +15638,12 @@ namespace HowdyHack2020.Droid
 					2130903071,
 					2130903072,
 					2130903080,
-					2130903184,
-					2130903282,
+					2130903185,
 					2130903283,
-					2130903345,
-					2130903383,
-					2130903499};
+					2130903284,
+					2130903346,
+					2130903384,
+					2130903500};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -13100,7 +15714,7 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030142,0x7F030171 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030143,0x7F030172 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -13109,8 +15723,8 @@ namespace HowdyHack2020.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903362,
-					2130903409};
+					2130903363,
+					2130903410};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -13139,20 +15753,20 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300B5,0x7F0300DE,0x7F0300FA,0x7F0300FB,0x7F0300FD,0x7F0300FF,0x7F030102,0x7F030105,0x7F03012B }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300B6,0x7F0300DF,0x7F0300FB,0x7F0300FC,0x7F0300FE,0x7F030100,0x7F030103,0x7F030106,0x7F03012C }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903221,
-					2130903262,
-					2130903290,
+					2130903222,
+					2130903263,
 					2130903291,
-					2130903293,
-					2130903295,
-					2130903298,
-					2130903301,
-					2130903339};
+					2130903292,
+					2130903294,
+					2130903296,
+					2130903299,
+					2130903302,
+					2130903340};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -13190,15 +15804,15 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 11
 			public const int NavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F030132 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F030133 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903346};
+					2130903347};
 			
-			// aapt resource value: { 0x7F030168 }
+			// aapt resource value: { 0x7F030169 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903400};
+					2130903401};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -13212,10 +15826,10 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F030133,0x7F030136 }
+			// aapt resource value: { 0x7F030134,0x7F030137 }
 			public static int[] RecycleListView = new int[] {
-					2130903347,
-					2130903350};
+					2130903348,
+					2130903351};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -13223,19 +15837,19 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD,0x7F03010A,0x7F03014C,0x7F030161,0x7F030167 }
+			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD,0x7F0300CE,0x7F03010B,0x7F03014D,0x7F030162,0x7F030168 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842993,
-					2130903241,
 					2130903242,
 					2130903243,
 					2130903244,
 					2130903245,
-					2130903306,
-					2130903372,
-					2130903393,
-					2130903399};
+					2130903246,
+					2130903307,
+					2130903373,
+					2130903394,
+					2130903400};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_descendantFocusability = 1;
@@ -13270,9 +15884,9 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 10
 			public const int RecyclerView_stackFromEnd = 10;
 			
-			// aapt resource value: { 0x7F0300F8 }
+			// aapt resource value: { 0x7F0300F9 }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903288};
+					2130903289};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
@@ -13284,25 +15898,25 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030077,0x7F03008F,0x7F0300A5,0x7F0300DD,0x7F0300F4,0x7F030109,0x7F030146,0x7F030147,0x7F030151,0x7F030152,0x7F030172,0x7F030177,0x7F0301D2 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030077,0x7F030090,0x7F0300A6,0x7F0300DE,0x7F0300F5,0x7F03010A,0x7F030147,0x7F030148,0x7F030152,0x7F030153,0x7F030173,0x7F030178,0x7F0301D3 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
 					2130903159,
-					2130903183,
-					2130903205,
-					2130903261,
-					2130903284,
-					2130903305,
-					2130903366,
+					2130903184,
+					2130903206,
+					2130903262,
+					2130903285,
+					2130903306,
 					2130903367,
-					2130903377,
+					2130903368,
 					2130903378,
-					2130903410,
-					2130903415,
-					2130903506};
+					2130903379,
+					2130903411,
+					2130903416,
+					2130903507};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -13355,16 +15969,16 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F03015F,0x7F030160 }
+			// aapt resource value: { 0x7F030160,0x7F030161 }
 			public static int[] Snackbar = new int[] {
-					2130903391,
-					2130903392};
+					2130903392,
+					2130903393};
 			
-			// aapt resource value: { 0x101011F,0x7F0300B5,0x7F030127 }
+			// aapt resource value: { 0x101011F,0x7F0300B6,0x7F030128 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
-					2130903221,
-					2130903335};
+					2130903222,
+					2130903336};
 			
 			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -13381,13 +15995,13 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 1
 			public const int Snackbar_snackbarStyle = 1;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030140 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030141 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903360};
+					2130903361};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -13438,22 +16052,22 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F03015A,0x7F030165,0x7F030178,0x7F030179,0x7F03017B,0x7F0301B3,0x7F0301B4,0x7F0301B5,0x7F0301CC,0x7F0301CD,0x7F0301CE }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F03015B,0x7F030166,0x7F030179,0x7F03017A,0x7F03017C,0x7F0301B4,0x7F0301B5,0x7F0301B6,0x7F0301CD,0x7F0301CE,0x7F0301CF }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903386,
-					2130903397,
-					2130903416,
+					2130903387,
+					2130903398,
 					2130903417,
-					2130903419,
-					2130903475,
+					2130903418,
+					2130903420,
 					2130903476,
 					2130903477,
-					2130903500,
+					2130903478,
 					2130903501,
-					2130903502};
+					2130903502,
+					2130903503};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -13512,9 +16126,8 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030193,0x7F030194,0x7F030195 }
+			// aapt resource value: { 0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030194,0x7F030195,0x7F030196 }
 			public static int[] TabLayout = new int[] {
-					2130903420,
 					2130903421,
 					2130903422,
 					2130903423,
@@ -13536,9 +16149,10 @@ namespace HowdyHack2020.Droid
 					2130903439,
 					2130903440,
 					2130903441,
-					2130903443,
+					2130903442,
 					2130903444,
-					2130903445};
+					2130903445,
+					2130903446};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -13615,7 +16229,7 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300D1,0x7F030196 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300D2,0x7F030197 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -13628,8 +16242,8 @@ namespace HowdyHack2020.Droid
 					16843107,
 					16843108,
 					16843692,
-					2130903249,
-					2130903446};
+					2130903250,
+					2130903447};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -13670,7 +16284,7 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 12
 			public const int TextAppearance_textAllCaps = 12;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F030043,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004A,0x7F03004B,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300B8,0x7F0300B9,0x7F0300E0,0x7F0300E1,0x7F0300E2,0x7F0300E6,0x7F0300E7,0x7F0300E8,0x7F03013A,0x7F03013B,0x7F03013C,0x7F03013D,0x7F03013E }
+			// aapt resource value: { 0x101009A,0x1010150,0x7F030043,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004A,0x7F03004B,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300B9,0x7F0300BA,0x7F0300E1,0x7F0300E2,0x7F0300E3,0x7F0300E7,0x7F0300E8,0x7F0300E9,0x7F03013B,0x7F03013C,0x7F03013D,0x7F03013E,0x7F03013F }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
@@ -13683,23 +16297,23 @@ namespace HowdyHack2020.Droid
 					2130903113,
 					2130903114,
 					2130903115,
-					2130903200,
 					2130903201,
 					2130903202,
 					2130903203,
-					2130903224,
+					2130903204,
 					2130903225,
-					2130903264,
+					2130903226,
 					2130903265,
 					2130903266,
-					2130903270,
+					2130903267,
 					2130903271,
 					2130903272,
-					2130903354,
+					2130903273,
 					2130903355,
 					2130903356,
 					2130903357,
-					2130903358};
+					2130903358,
+					2130903359};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -13785,11 +16399,11 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 27
 			public const int TextInputLayout_passwordToggleTintMode = 27;
 			
-			// aapt resource value: { 0x1010034,0x7F0300B6,0x7F0300B7 }
+			// aapt resource value: { 0x1010034,0x7F0300B7,0x7F0300B8 }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903222,
-					2130903223};
+					2130903223,
+					2130903224};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -13800,37 +16414,37 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030051,0x7F03007F,0x7F030080,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030123,0x7F030124,0x7F030128,0x7F03012D,0x7F03012E,0x7F030140,0x7F030173,0x7F030174,0x7F030175,0x7F0301BB,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4 }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F030051,0x7F03007F,0x7F030080,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F030124,0x7F030125,0x7F030129,0x7F03012E,0x7F03012F,0x7F030141,0x7F030174,0x7F030175,0x7F030176,0x7F0301BC,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
 					2130903121,
 					2130903167,
 					2130903168,
-					2130903185,
 					2130903186,
 					2130903187,
 					2130903188,
 					2130903189,
 					2130903190,
-					2130903331,
+					2130903191,
 					2130903332,
-					2130903336,
-					2130903341,
+					2130903333,
+					2130903337,
 					2130903342,
-					2130903360,
-					2130903411,
+					2130903343,
+					2130903361,
 					2130903412,
 					2130903413,
-					2130903483,
-					2130903485,
+					2130903414,
+					2130903484,
 					2130903486,
 					2130903487,
 					2130903488,
 					2130903489,
 					2130903490,
 					2130903491,
-					2130903492};
+					2130903492,
+					2130903493};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -13919,13 +16533,13 @@ namespace HowdyHack2020.Droid
 			// aapt resource value: 28
 			public const int Toolbar_titleTextColor = 28;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F030134,0x7F030135,0x7F0301B1 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F030135,0x7F030136,0x7F0301B2 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903348,
 					2130903349,
-					2130903473};
+					2130903350,
+					2130903474};
 			
 			// aapt resource value: { 0x10100D4,0x7F030034,0x7F030035 }
 			public static int[] ViewBackgroundHelper = new int[] {
